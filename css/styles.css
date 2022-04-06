@@ -595,7 +595,7 @@ progress {
   color: #6c757d;
 }
 .blockquote-footer::before {
-  content: "— ";
+  content: "— ";
 }
 
 .img-fluid {
@@ -11221,6 +11221,15 @@ header.masthead .site-heading .h1 {
   margin: 0;
   padding: 0.625rem;
   text-align: center;
+}
+
+.image-holder {
+  vertical-align: middle; 
+  display: table-cell; 
+  height: 18%; 
+  width: 18%; 
+  padding-right: 25px; 
+  padding-left: 27px;
 }
 
 .post-preview > a {
