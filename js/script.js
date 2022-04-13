@@ -44,15 +44,6 @@ A format for the post list array items.
 
 const Post_List = [
     {
-        title: "Reflex Response to Sleep Apnea",
-        subtitle: "If you have a problem with loud snoring, this is for you. Check out the Risks you take while ignoring it.",
-        author: "McKenzie Mote",
-        author_contact: "",
-        publish_date: "April 12, 2022",
-        image_source: "https://images.unsplash.com/photo-1594045399342-a3d85fc1ccdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2066&q=80",
-        post_destination: "/Posts/Reflex-response-to-sleep-apnea"
-    },
-    {
         title: "Alteration of Memories",
         subtitle: "Each time you recall your memories, you change them.",
         author: "Amna Eisa",
