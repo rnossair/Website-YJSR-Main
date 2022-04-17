@@ -7,20 +7,22 @@ window.addEventListener("resize", Resize_Handler, false);
 function Resize_Handler(event) {
     Win_Width = window.innerWidth || document.body.clientWidth;
     if (Win_Width < 992) {
-        var Post_List = document.getElementsByClassName("image-holder") || document.getElementsByClassName("post-preview-holder");
-        var len = Post_List.length;
+        var Post_List_HTML = document.getElementsByClassName("image-holder") || document.getElementsByClassName("post-preview-holder");
+        var len = Post_List_HTML.length;
         for (var i = 0; i < len; i++) {
             document.getElementsByClassName("image-holder")[i].style = "display: table-row";
             document.getElementsByClassName("preview-image")[i].style = "width: 100%; border-radius: 18px";
+            document.getElementsByClassName("preview-image")[i].src = "/assets/thumbnails/portrait/" + Post_List[i].image_source;
             document.getElementsByClassName("post-preview-holder")[i].style = "display: table-row";
         }
     }
     else {
-        var Post_List = document.getElementsByClassName("image-holder") || document.getElementsByClassName("post-preview-holder");
-        var len = Post_List.length;
+        var Post_List_HTML = document.getElementsByClassName("image-holder") || document.getElementsByClassName("post-preview-holder");
+        var len = Post_List_HTML.length;
         for (var i = 0; i < len; i++) {
             document.getElementsByClassName("image-holder")[i].style = "display: table-cell";
             document.getElementsByClassName("preview-image")[i].style = "height: 138px; width: 138px; border-radius: 18px";
+            document.getElementsByClassName("preview-image")[i].src = "/assets/thumbnails/landscape/" + Post_List[i].image_source;
             document.getElementsByClassName("post-preview-holder")[i].style = "display: table-cell";
         }
     }
@@ -44,12 +46,39 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Short Bowel Syndrome",
+        subtitle: "There's no Cure for it yet, so it's better to be aware of it to avoid it.",
+        author: "Ayana Samantray",
+        author_contact: "",
+        publish_date: "April 17, 2022",
+        image_source: "short_bowel_syndrome.png",
+        post_destination: "/Posts/Short-Bowel-Syndrome"
+    },
+    {
+        title: "Researchers are Worried About the Microplastics Found in the Human Body",
+        subtitle: "The biggest enemy of the environment has entered out bodies and it now the biggest threat to us!",
+        author: "John Aloyzeus Reotutar",
+        author_contact: "", 
+        publish_date: "April 14, 2022",
+        image_source: "microplastics_in_human_body.png",
+        post_destination: "/Posts/Microplastics-in-human-body"
+    },
+    {
+        title: "Reflex Response to Sleep Apnea",
+        subtitle: "If you have a problem with loud snoring, this is for you. Check out the Risks you take if you Ignore it and the Science behind it.",
+        author: "McKenzie Mote",
+        author_contact: "",
+        publish_date: "April 12, 2022",
+        image_source: "reflex_response_to_sleep_apnea.png",
+        post_destination: "/Posts/Reflex-response-to-sleep-apnea"
+    },
+    {
         title: "Alteration of Memories",
         subtitle: "Each time you recall your memories, you change them.",
         author: "Amna Eisa",
         author_contact: "",
         publish_date: "April 11, 2022",
-        image_source: "https://images.unsplash.com/photo-1598623549917-a38dc6cd19b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+        image_source: "alteration_of_memories.png",
         post_destination: "/Posts/Alteration-of-Memories"
     },
     {
@@ -58,7 +87,7 @@ const Post_List = [
         author: "İdil Doğa Türkmen",
         author_contact: "",
         publish_date: "April 11, 2022",
-        image_source: "https://images.unsplash.com/photo-1509228468518-180dd4864904?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bWF0aHMlMjB0cmlnb25vbWV0cnl8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60",
+        image_source: "fermats_last_theorem.png",
         post_destination: "/Posts/Proof-of-Fermats-Last-Theorem"
     },
     {
@@ -67,7 +96,7 @@ const Post_List = [
         author: "Jared Ortiz-Luis",
         author_contact: "",
         publish_date: "April 6, 2022",
-        image_source: "https://images.unsplash.com/photo-1530973428-5bf2db2e4d71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8aHVtYW4lMjBwaHlzaW9sb2d5fGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+        image_source: "viruses_give_insight_to_human_physiology.png",
         post_destination: "/Posts/How-viruses-give-insight-to-human-physiology"
     },
     {
@@ -76,7 +105,7 @@ const Post_List = [
         author: "Vanya Sahi",
         author_contact: "",
         publish_date: "April 6, 2022",
-        image_source: "https://images.unsplash.com/photo-1613758947307-f3b8f5d80711?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        image_source: "artificial_intelligence_and_vaccines.png",
         post_destination: "/Posts/Artificial-intelligence-and-vaccines"
     },
     {
@@ -85,7 +114,7 @@ const Post_List = [
         author: "Rohini Vummadi",
         author_contact: "",
         publish_date: "31 March, 2022",
-        image_source: "https://images.unsplash.com/photo-1629431136420-23bbe56141a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        image_source: "chewing_gun_and_human_brain.png",
         post_destination: "/Posts/Chewing-Gum-In-Regards-To-The-Human-Brain"
     },
     {
@@ -94,7 +123,7 @@ const Post_List = [
         author: "Ngoc Tran Bui",
         author_contact: "",
         publish_date: "31 March 2022",
-        image_source: "https://images.unsplash.com/photo-1633493702341-4d04841df53b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80",
+        image_source: "misinterpretation_of_quantum_physics.png",
         post_destination: "/Posts/THE-MISINTERPRETATION-OF-QUANTUM-PHYSICS"
     },
     {
@@ -103,7 +132,7 @@ const Post_List = [
         author: "Emily Jia",
         author_contact: "",
         publish_date: "28 March 2022",
-        image_source: "https://images.unsplash.com/photo-1605289982774-9a6fef564df8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1364&q=80",
+        image_source: "covid_vaccine_not_a_miracle_cure.png",
         post_destination: "/Posts/The-COVID-19-Vaccine-Is-Not-a-Miracle-Cure"
     },
     {
@@ -112,7 +141,7 @@ const Post_List = [
         author: "Juliana Russell",
         author_contact: "",
         publish_date: "March 18, 2022",
-        image_source: "https://images.unsplash.com/photo-1517643070288-f6b3933ad727?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+        image_source: "antikythera_mechanism.png",
         post_destination: "/Posts/Antikythera-mechanism"
     },
     {
@@ -121,7 +150,7 @@ const Post_List = [
         author: "Anay Naik",
         author_contact: "https://www.instagram.com/anay_1288_/",
         publish_date: "January 22, 2022",
-        image_source: "https://images.unsplash.com/photo-1617791160536-598cf32026fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80",
+        image_source: "science_behind_phobia.png",
         post_destination: "/Posts/science-behind-phobia"
     }
 ];
