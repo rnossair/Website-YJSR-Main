@@ -55,22 +55,13 @@ const Post_List = [
         post_destination: "/Posts/Short-Bowel-Syndrome"
     },
     {
-        title: "Microplastics Found in the Human Body",
+        title: "Microplastics in Human Body",
         subtitle: "The biggest enemy of the environment has entered out bodies and it now the biggest threat to us!",
         author: "John Aloyzeus Reotutar",
         author_contact: "", 
         publish_date: "April 14, 2022",
         image_source: "microplastics_in_human_body.png",
         post_destination: "/Posts/Microplastics-in-human-body"
-    },
-    {
-        title: "Reflex Response to Sleep Apnea",
-        subtitle: "If you have a problem with loud snoring, this is for you. Check out the Risks you take if you Ignore it and the Science behind it.",
-        author: "McKenzie Mote",
-        author_contact: "",
-        publish_date: "April 12, 2022",
-        image_source: "reflex_response_to_sleep_apnea.png",
-        post_destination: "/Posts/Reflex-response-to-sleep-apnea"
     },
     {
         title: "Alteration of Memories",
