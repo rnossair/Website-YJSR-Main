@@ -47,7 +47,7 @@ A format for the post list array items.
 const Post_List = [
     {
         title: "Short Bowel Syndrome",
-        subtitle: "There's no Cure for it yet, so it's better to be aware of it to avoid it.",
+        subtitle: "There's no Cure for it yet, so it's better to be aware of it than to avoid it.",
         author: "Ayana Samantray",
         author_contact: "",
         publish_date: "April 17, 2022",
@@ -55,7 +55,7 @@ const Post_List = [
         post_destination: "/Posts/Short-Bowel-Syndrome"
     },
     {
-        title: "Researchers are Worried About the Microplastics Found in the Human Body",
+        title: "Microplastics Found in the Human Body",
         subtitle: "The biggest enemy of the environment has entered out bodies and it now the biggest threat to us!",
         author: "John Aloyzeus Reotutar",
         author_contact: "", 
