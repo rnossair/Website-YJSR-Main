@@ -156,7 +156,7 @@ const Post_List = [
 ];
 
 /* A bit chunk of random stuffs... */
-const default_post_number = 10;
+const default_post_number = 6;
 const Number_of_Posts = Post_List.length;
 const Post_Container = document.getElementsByClassName("post-list")[0];
 var rendered_posts = 0;
