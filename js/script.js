@@ -46,6 +46,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Stoichiometry and its Examples",
+        subtitle: "Introduction to Stoichiometry with some basic examples.",
+        author: "Edward Calzia",
+        author_contact: "",
+        publish_date: "April 18, 2022",
+        image_source: "stoichiometry.png",
+        post_destination: "/Posts/Stoichiometry"
+    },
+    {
         title: "Short Bowel Syndrome",
         subtitle: "There's no Cure for it yet, so it's better to be aware of it than to avoid it.",
         author: "Ayana Samantray",
@@ -147,7 +156,7 @@ const Post_List = [
 ];
 
 /* A bit chunk of random stuffs... */
-const default_post_number = 10;
+const default_post_number = 6;
 const Number_of_Posts = Post_List.length;
 const Post_Container = document.getElementsByClassName("post-list")[0];
 var rendered_posts = 0;
