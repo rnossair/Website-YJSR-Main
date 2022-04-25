@@ -52,7 +52,7 @@ const Post_List = [
         author_contact: "",
         publish_date: "April 25, 2022",
         image_source: "scientific_ways_to_reduce_stress.png",
-        post_destination: "/Posts/Scientific_ways_to_reduce_stress"
+        post_destination: "/Posts/Scientific-ways-to-reduce-stress"
     },
     {
         title: "Reflex Response to Sleep Apnea",
