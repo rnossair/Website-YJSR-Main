@@ -46,6 +46,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Scientific Ways To Reduce Stress",
+        subtitle: "Maybe it's time to leave this world of stress and listen to our inner selves...",
+        author: "Sophia Zheng",
+        author_contact: "",
+        publish_date: "April 25, 2022",
+        image_source: "scientific_ways_to_reduce_stress.png",
+        post_destination: "/Posts/Scientific_ways_to_reduce_stress"
+    },
+    {
         title: "Reflex Response to Sleep Apnea",
         subtitle: "Dangerous oxygen deprivation, there’s more to know!",
         author: "McKenzie Mote",
