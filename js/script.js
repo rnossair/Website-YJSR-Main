@@ -46,6 +46,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Music & The Brain: How do they Correlate and Why is it important?",
+        subtitle: "",
+        author: "Alexa Cuvilly",
+        author_contact: "",
+        publish_date: "May 18, 2022",
+        image_source: "music_and_brain_correlation_and_importance.png",
+        post_destination: "/Posts/Music-and-the-brain-correlation-and-importance.html"
+    },
+    {
         title: "Scientific Ways To Reduce Stress",
         subtitle: "Maybe it's time to leave this world of stress and listen to our inner selves...",
         author: "Sophia Zheng",
