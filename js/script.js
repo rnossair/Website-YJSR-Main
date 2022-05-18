@@ -46,6 +46,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Alice in Wonderland Syndrome",
+        subtitle: "Appearances can be deceiving. Although there is no cure, it is one of the rarest diseases in the world.",
+        author: "Anisha Patel",
+        author_contact: "", 
+        publish_date: "18 May, 2022",
+        image_source: "alice_in_wonderland_syndrome.png",
+        post_destination: "/Posts/Alice-in-wonderland-syndrome.html"
+    },
+    {
         title: "Music & The Brain: How do they Correlate and Why is it important?",
         subtitle: "",
         author: "Alexa Cuvilly",
