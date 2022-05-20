@@ -46,6 +46,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "The Unfolding of Liver Regeneration",
+        subtitle: "Flesh regrown second by second right in front of our eyes.",
+        author: "Ngoc Tran Bui",
+        author_contact: "", 
+        publish_date: "20 May, 2022",
+        image_source: "the_unfolding_of_liver_regeneration.png",
+        post_destination: "/Posts/The-unfolding-of-liver-regeneration.html"
+    },
+    {
         title: "CRISPR Gene Editing: A Potential Treatment?",
         subtitle: "",
         author: "Arsa Satheeskumar",
