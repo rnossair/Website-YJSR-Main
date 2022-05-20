@@ -46,6 +46,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "“Addiction: Our body loves an escape!”",
+        subtitle: "Would you risk your family for a euphoric moment? My story with addiction and also the science behind it.",
+        author: "McKenzie Mote",
+        author_contact: "",
+        publish_date: "20 May, 2022",
+        image_source: "addiction_our_body_loves_an_escape.png",
+        post_destination: "/Posts/Addiction-our-body-loves-an-escape.html"
+    },
+    {
         title: "Alice in Wonderland Syndrome",
         subtitle: "Appearances can be deceiving. Although there is no cure, it is one of the rarest diseases in the world.",
         author: "Anisha Patel",
