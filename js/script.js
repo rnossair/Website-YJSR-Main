@@ -65,7 +65,7 @@ const Post_List = [
     },
     {
         title: "Music & The Brain: How do they Correlate and Why is it important?",
-        subtitle: "",
+        subtitle: "Music is more than just a simple pastime. Check out how!",
         author: "Alexa Cuvilly",
         author_contact: "",
         publish_date: "May 18, 2022",
