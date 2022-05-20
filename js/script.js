@@ -46,6 +46,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "CRISPR Gene Editing: A Potential Treatment?",
+        subtitle: "",
+        author: "Arsa Satheeskumar",
+        author_contact: "", 
+        publish_date: "20 May, 2022",
+        image_source: "crispr_gene_editing_a_potential_treatment.png",
+        post_destination: "/Posts/CRISPR-gene-editing-a-potential-treatment.html"
+    },
+    {
         title: "“Addiction: Our body loves an escape!”",
         subtitle: "Would you risk your family for a euphoric moment? My story with addiction and also the science behind it.",
         author: "McKenzie Mote",
