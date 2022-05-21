@@ -46,6 +46,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Inclusion in STEM: What’s Changed and What Hasn’t",
+        subtitle: "“Girls aren’t built for engineering jobs. You can't do that.”<br><b>“Yes, I can!</b>”",
+        author: "Asher Segun-Olasanmi",
+        author_contact: "",
+        publish_date: "21 May, 2022",
+        image_source: "inclusion_in_stem_whats_changed_and_what_hasnt.png",
+        post_destination: "/Posts/Inclusion-in-STEM-whats-changed-and-what-hasnt.html"
+    },
+    {
         title: "The Unfolding of Liver Regeneration",
         subtitle: "Flesh regrown second by second right in front of our eyes.",
         author: "Ngoc Tran Bui",
