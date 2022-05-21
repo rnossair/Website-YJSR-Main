@@ -46,6 +46,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Progress In Diaster",
+        subtitle: "Faults in Engineering Sector somethimes lead to Disasters, but should we simply blame engineering for that?",
+        author: "Juliana Russell",
+        author_contact: "",
+        publish_date: "21 May, 2022",
+        image_source: "progress_in_disaster.png",
+        post_destination: "/Posts/Progress-in-disaster.html"
+    },
+    {
         title: "Inclusion in STEM: What’s Changed and What Hasn’t",
         subtitle: "“Girls aren’t built for engineering jobs. You can't do that.”<br><b>“Yes, I can!</b>”",
         author: "Asher Segun-Olasanmi",
