@@ -46,6 +46,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Angioplasty VS Stents",
+        subtitle: "When combined, they have saved many lives. But how are they different from each other?",
+        author: "Priya Bongu",
+        author_contact: "",
+        publish_date: "May 21, 2022",
+        image_source: "angioplasty_vs_stents.png",
+        post_destination: "/Posts/Angioplasty-vs-stents.html"
+    },
+    {
         title: "Alcoholism Drug Restores Vision Loss from Macular Degeneration and Retinitis Pigmentosa",
         subtitle: "A promising solution to these chronic, age-related eye diseases",
         author: "Viniya Kannangnatt",
