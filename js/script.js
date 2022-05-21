@@ -46,11 +46,20 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Alcoholism Drug Restores Vision Loss from Macular Degeneration and Retinitis Pigmentosa",
+        subtitle: "A promising solution to these chronic, age-related eye diseases",
+        author: "Viniya Kannangnatt",
+        author_contact: "",
+        publish_date: "May 21, 2022",
+        image_source: "alcoholism_drug_restores_vision_loss.png",
+        post_destination: "/Posts/Alcoholism-drug-restores-vision-loss.html"
+    },
+    {
         title: "Progress In Diaster",
         subtitle: "Faults in Engineering Sector somethimes lead to Disasters, but should we simply blame engineering for that?",
         author: "Juliana Russell",
         author_contact: "",
-        publish_date: "21 May, 2022",
+        publish_date: "May 21, 2022",
         image_source: "progress_in_disaster.png",
         post_destination: "/Posts/Progress-in-disaster.html"
     },
@@ -59,7 +68,7 @@ const Post_List = [
         subtitle: "“Girls aren’t built for engineering jobs. You can't do that.”<br><b>“Yes, I can!</b>”",
         author: "Asher Segun-Olasanmi",
         author_contact: "",
-        publish_date: "21 May, 2022",
+        publish_date: "May 21, 2022",
         image_source: "inclusion_in_stem_whats_changed_and_what_hasnt.png",
         post_destination: "/Posts/Inclusion-in-STEM-whats-changed-and-what-hasnt.html"
     },
@@ -68,7 +77,7 @@ const Post_List = [
         subtitle: "Flesh regrown second by second right in front of our eyes.",
         author: "Ngoc Tran Bui",
         author_contact: "", 
-        publish_date: "20 May, 2022",
+        publish_date: "May 20, 2022",
         image_source: "the_unfolding_of_liver_regeneration.png",
         post_destination: "/Posts/The-unfolding-of-liver-regeneration.html"
     },
@@ -77,7 +86,7 @@ const Post_List = [
         subtitle: "",
         author: "Arsa Satheeskumar",
         author_contact: "", 
-        publish_date: "20 May, 2022",
+        publish_date: "May 20, 2022",
         image_source: "crispr_gene_editing_a_potential_treatment.png",
         post_destination: "/Posts/CRISPR-gene-editing-a-potential-treatment.html"
     },
@@ -86,7 +95,7 @@ const Post_List = [
         subtitle: "Would you risk your family for a euphoric moment? My story with addiction and also the science behind it.",
         author: "McKenzie Mote",
         author_contact: "",
-        publish_date: "20 May, 2022",
+        publish_date: "May 20, 2022",
         image_source: "addiction_our_body_loves_an_escape.png",
         post_destination: "/Posts/Addiction-our-body-loves-an-escape.html"
     },
@@ -95,7 +104,7 @@ const Post_List = [
         subtitle: "Appearances can be deceiving. Although there is no cure, it is one of the rarest diseases in the world.",
         author: "Anisha Patel",
         author_contact: "", 
-        publish_date: "18 May, 2022",
+        publish_date: "May 18, 2022",
         image_source: "alice_in_wonderland_syndrome.png",
         post_destination: "/Posts/Alice-in-wonderland-syndrome.html"
     },
