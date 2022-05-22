@@ -46,6 +46,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Can Trauma Affect Our Genetics?",
+        subtitle: "",
+        author: "Almaas Ghafoor",
+        author_contact: "",
+        publish_date: "May 22, 2022",
+        image_source: "can_trauma_affect_our_genetics.png",
+        post_destination: "/Posts/Can-trauma-affect-our-genetics.html"
+    },
+    {
         title: "Angioplasty VS Stents",
         subtitle: "When combined, they have saved many lives. But how are they different from each other?",
         author: "Priya Bongu",
