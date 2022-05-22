@@ -46,6 +46,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "How butterflies use jet propulsion for quick getaways",
+        subtitle: "",
+        author: "Satinder Bamrah",
+        author_contact: "",
+        publish_date: "May 22, 2022",
+        image_source: "how_butterflies_use_jet_propulsion_for_quick_getaways.png",
+        post_destination: "/Posts/How-butterflies-use-jet-propulsion-for-quick-getaways.html"
+    },
+    {
         title: "Can Trauma Affect Our Genetics?",
         subtitle: "",
         author: "Almaas Ghafoor",
