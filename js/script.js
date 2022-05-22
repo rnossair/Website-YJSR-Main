@@ -101,7 +101,7 @@ const Post_List = [
     },
     {
         title: "CRISPR Gene Editing: A Potential Treatment?",
-        subtitle: "",
+        subtitle: "Is it a promising cure for genetic diseases or is it the beginning of unnatural selection?",
         author: "Arsa Satheeskumar",
         author_contact: "", 
         publish_date: "May 20, 2022",
