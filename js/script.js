@@ -46,6 +46,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "The Relationship between Data Science and Childhood Obesity Cure",
+        subtitle: "Say bye-bye to fat through these features of big data!",
+        author: "Arushi Jain",
+        author_contact: "", 
+        publish_date: "May 25, 2022",
+        image_source: "the_relationship_between_data_science_childhood_obesity_cure.png",
+        post_destination: "/Posts/The-relationship-between-data-science-and-childhood-obesity-cure.html"
+    },
+    {
         title: "How butterflies use jet propulsion for quick getaways",
         subtitle: "",
         author: "Satinder Bamrah",
