@@ -46,6 +46,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Health Effects of Mercury Poisoning",
+        subtitle: "",
+        author: "Min Khant Oakkar",
+        author_contact: "", 
+        publish_date: "May 27, 2022",
+        image_source: "health_effects_of_mercury_poisoning.png",
+        post_destination: "/Posts/Health-effects-of-mercury-poisoning.html"
+    },
+    {
         title: "The Relationship between Data Science and Childhood Obesity Cure",
         subtitle: "Say bye-bye to fat through these features of big data!",
         author: "Arushi Jain",
