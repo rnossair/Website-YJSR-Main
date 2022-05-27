@@ -14,6 +14,198 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="../css/styles.css" rel="stylesheet" />
+        <style>
+            .card-container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .card {
+                width: 30%;
+                height: 300px;
+                border-radius: 27px;
+                box-shadow: 0 0 6px #000000;
+                transition: box-shadow 0.5s, background-color 0.5s;
+                margin-left: 1.5%;
+                margin-right: 1.5%;
+                margin-bottom: 27px;   
+            }
+            @media (max-width: 992px) {
+                .card {
+                    width: 81%;
+                    height: 333px;
+                    margin: 12px auto;
+                }
+            }
+            .card:hover {
+                /*
+                background-color: rgb(0, 255, 200);
+                box-shadow: 0 0 12px #00ffdd, 0 0 18px #00ffb3, 0 0 27px #2cfff4;
+                */
+                box-shadow: 0 0 12px #000000, 0 0 18px #000000, 0 0 27px #424242;
+            }
+            .card-content {
+                width: 72%;
+                margin-left: 14%;
+                margin-right: 14%;
+                transition: transform 0.5s;
+            }
+            .profile-pic {
+                --pic-width: 120px;
+                --pic-height: 120px;
+                width: var(--pic-width);
+                height: var(--pic-height);
+                border-radius: 100%;
+                margin-left: calc(50% - (var(--pic-width)/2));
+                margin-right: calc(50% - (var(--pic-width)/2));
+                margin-top: 27px;
+            }
+            .member-name {
+                font-size: 24px;
+                text-align: center;
+                margin-bottom: 0;
+            }
+            .member-role {
+                font-size: 18px;
+                text-align: center;
+                line-height: 18px;
+                margin-top: 0px;
+                margin-bottom: 9px;
+            }
+            .insta {
+                font-size: 27px;
+                color: #ffffff;
+                background-image: linear-gradient(#F1B937, #E84C5A, #9A2BB7);
+                border-radius: 6px;
+                height: 24px;
+                transform: rotateZ(0deg);
+                box-shadow: none;
+                transition: transform 0.6s, box-shadow 0.6s;
+            }
+            .linkedin {
+                font-size: 27px;
+                border-radius: 6px;
+                color: #0077B5;
+                height: 24px;
+                transform: rotateZ(0deg);
+                transition: transform 0.6s;
+                box-shadow: none;
+                transition: transform 0.6s, box-shadow 0.6s;
+            }
+            .insta:hover, .linkedin:hover {
+                box-shadow: 3px 3px 9px #000000;
+            }
+            .media-links {
+                text-align: center;
+            }
+            .member-desc {
+                width: 90%;
+                height: 96%;
+                position: relative;
+                left: 5%;
+                top: 2%;
+                font-size: 18px;
+                overflow-y: scroll;
+                scroll-behavior: smooth;
+            }
+            .member-desc::-webkit-scrollbar {display: none;}
+            .member-desc {overflow: -moz-scrollbars-none;}
+            .member-desc {-ms-overflow-style: none;}
+            .popup-bg {
+                width: 100%;
+                height: 100%;
+                position: fixed;
+                left: 0;
+                top: 0;
+                background-color: #00000044;
+                backdrop-filter: blur(3px);
+                -webkit-backdrop-filter: blur(3px);
+            }
+            .popup-win {
+                background-color: #FFFFFF;
+                border-radius: 9px;
+                width: 72%;
+                height: 72%;
+                position: fixed;
+                left: 14%;
+                top: 14%;
+                box-shadow: 0 0 9px #000000;
+            }
+            @media (max-width: 992px) {
+                .popup-win {
+                    width: 90%;
+                    left: 5%;
+                }
+            }
+            .member-text {
+                transition: color 0.3s;
+            }
+            .member-text:hover {
+                color: rgb(20, 161, 161);
+                cursor: pointer;
+            }
+        </style>
+        <script>
+            const some_var = {
+                'anay_naik': {
+                    'name': "Anay Naik",
+                    'role': "Chief Executive Officer <br>Co-Founder",
+                    'description': `<p>Hello everyone, my name is Anay Naik, and I am the founder and CEO of the Youth Journal Of STEM Research. I am in charge of YJSR's operations and supervise all departments. I'm interested in healthcare and intend to study medicine in the near future. I've participated in a variety of STEM-related activities and competitions, and through YJSR, I hope to raise STEM awareness.</p>`
+                },
+                'naitik_majumdar': {
+                    'name': "Naitik Majumdar",
+                    'role': "IT Head <br>Co-Founder",
+                    'description': `
+                        <p>Hello, everyone! My name is Naitik Majumdar, and I am the co-founder and IT head of our organization. I am really interested in computer science and aerospace engineering, and I intend to pursue these fields as a career in the future.</p>
+                        <p>I have extensive Python, Java, HTML, and JS experience. I've competed in numerous programming competitions and attended robotics camps. I've always wanted to be an astronaut and do great things in the field of STEM, and I believe I'm about to enter the vast world of science. I want to expand my STEM expertise and knowledge through YJSR, and want to make it a resource that anybody in the world can access.</p>
+                    `
+                },
+                'jared_ortiz': {
+                    'name': "Jared Ortiz",
+                    'role': "Chief Writer",
+                    'description': `<p>Hello, I’m Jared and I’m the chief writer for YJSR. I’m currently studying Public Health with plans to pursue a concentration in Global Health. In high school, I discovered my love & niche for studying the biological and medical sciences through a regional sports medicine program offered at my school. In addition to my high school diploma, I hold a sports medicine career pathway certificate from the North Orange County Regional Occupational Program. In the career pathway, I received a foundational education in human anatomy and physiology while learning how to prevent sports injuries and illnesses, provide emergency care, examination, clinical diagnosis, therapeutic intervention, and rehabilitation of injuries & medical conditions. Through the pathway, I also completed a medical innovation internship with UCI & CHOC hospital in which I along with a group of students addressed medical noncompliance in pediatric, and epileptic patients among other unmet clinical needs. This helped solidify my passion and desire to serve humanity through the science of medicine and medical education. In the future, I aspire to earn a doctoral degree, teach at the undergraduate level, and offer my services in the public health sector to help advance global health and address the systemic issues in healthcare involving inequality and discrimination.</p>`
+                },
+                'ananya_s_menon': {
+                    'name': "Ananya Sunil Menon",
+                    'role': "Editor In Chief",
+                    'description': `<p>Hey, my name is Ananya and I work as the Editor in Chief for YJSR. I'm a high school sophomore. I live in India. My hobbies besides writing include Dancing, Skating, and any Art-related stuff in general. As Editor in Chief, I am responsible for assigning articles to editors along with ensuring that all writing material presented is accurate and comprehensible. I'm looking forward to all of the promising opportunities that will arise from working with such a promising and intellectual group of people. I hope that YJSR would successfully provide a platform and environment to everyone where all points of view and mindsets are accepted and respected. My enthusiasm for writing has always been a running theme in my life, and I sure wish that by working as an Editor in Chief for YJSR, I will be able to learn new skills from all the other members while also providing useful support and encouragement to all budding STEM students.</p>`
+                },
+                'sophia_zheng': {
+                    'name': "Sophia Zheng",
+                    'role': "Chief Operating Officer",
+                    'description': `<p>My name is Sophia, and I am the COO. I am passionate about STEM topics and Public Health. My favorite food is pasta as well. I live in Virginia. I hope to spread the vast wealth of STEM knowledge that is out there on this planet. I am also excited to work with like-minded team members and forge a connection between us all. Lastly, I wish to provide a place for students to submit their work while expressing their own views. YJSR is a great opportunity to get work published and also participate in scientific writing.</p>`
+                },
+                'krishna_rathi': {
+                    'name': "Krishna Rathi",
+                    'role': "Graphic Designer",
+                    'description': `<p>Hello, I'm Krishna and I'm the graphic designer for YJSR. I have been inclined towards art and related stuff since forever, be it physical or digital. I'm responsible for designing the posts for YJSR's social media accounts. STEM topics have always been appealing to me and working on these posts opens up a whole new opportunity to get to know as well as explore new topics. My hobbies include reading, journaling and painting. To conclude, YJSR is just like a cherry on top for all the aspiring STEM students!</p>`
+                },
+                'yasmina': {
+                    'name': "Yasmina",
+                    'role': "Marketing Director",
+                    'description': `<p>Hello everyone, I am Yasmina the Marketing Director at Youth Journal of STEM Research. My role is to manage the YJSR social media accounts and boost their visibility of the accounts. In addition to that, I am in charge of publicizing the campaign and developing marketing ideas to improve readership. I am also a junior in high school and on the path to graduating. My goal after high school is to attend a 4-year university and pursue a degree in the STEM field. During my free time, I like to crochet, play sports, and read.</p>`
+                },
+                'akshat_jain': {
+                    'name': "Akshat Jain",
+                    'role': "Administrator",
+                    'description': `<p>Hello Readers, Myself Akshat. <br>I Work in YJSR as an Administrator managing records and Data regarding Our community. I am very passionate and interested in the STEM field and love to discuss challenging ideas. My Favorite area is related to Space and AI. My motive is to Create a Great community for YJSR and make it possible to get access easily for every student who has an aim in the STEM field. HobbiesReading Sci-fi, Debating.</p>`
+                },
+                'ansh_malviya': {
+                    'name': "Ansh Malviya",
+                    'role': "IT Developer",
+                    'description': `
+                        <p>Hey there! <br>I am Ansh Malviya and I work as the web developer for our organisation. I like exploring new stuffs and trying out new ideas and projects. The innumerous stuffs in the fields of STEM has always attracted me from the past.</p>
+                        <p>I'm experienced in working with Python, HTML, CSS, JavaScript and a 'bit' of Java and C++. I always try to do the best of myself with full potential for any task.  There is always something new to learn and through YJSR, I want to explore more about the fields of STEM and create a platform to share it with everybody in this world.</p>
+                    `
+                }
+            }
+
+            function show_team_desc(member) {
+                document.getElementById("team-mem-name").innerHTML = some_var[member]["name"];
+                document.getElementById("team-mem-role").innerHTML = some_var[member]["role"];
+                document.getElementById("team-mem-desc").innerHTML = some_var[member]["description"];
+                document.getElementById('popup').style.display = 'block';
+            }
+        </script>
     </head>
     <body>
         <!-- Navigation-->
@@ -51,12 +243,131 @@
         <article class="mb-4">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
+                    <div class="col-md-10 col-lg-8 col-xl-7" style="width: 90%;">
                         <h2 class="section-heading">Welcome to the Youth Journal of STEM Research.</h2>
                         <p>This is an international student-led publication, which is brought to you by students for students.</p>
                         <p>We aim to provide a platform for aspiring students in Science, Technology, Engineering, and Mathematics to spread awareness on such fields.</p>
                         <p>The YJSR further allows students to pursue their own publications. Our goal is to educate, inform, and advocate the latest developments in STEM by promoting deep exploration of various topics in a professional manner using credible sources with data.</p>
                         <p>If you are a student interested in STEM or Medicine, this is the place for you.</p>
+                    </div>
+                    <hr>
+                    <h1 style="text-align: center; margin-bottom: 36px;">Our Team</h1>
+                    <div class="card-container">
+                        <div class="card" id="card">
+                            <div class="card-content">
+                                <img src="assets/team/anay_naik.png" class="profile-pic"></img>
+                                <hr>
+                                <span onclick="show_team_desc('anay_naik')" class="member-text">
+                                    <h2 class="member-name">Anay Naik</h2>
+                                    <p class="member-role">Chief Executive Officer<br>Co-Founder</p>
+                                </span>
+                                <div class="media-links">
+                                    <a href="https://instagram.com/anay_1288_?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram insta"></i></a>
+                                    <a href="https://www.linkedin.com/in/anay-naik-9529a322a"><i class="fab fa-linkedin linkedin"></i></a>
+                                    <!--<i class="fa fa-info-circle info"></i>-->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" id="card">
+                            <div class="card-content">
+                                <img src="assets/team/naitik_majumdar.png" class="profile-pic"></img>
+                                <hr>
+                                <span onclick="show_team_desc('naitik_majumdar')" class="member-text">
+                                    <h2 class="member-name">Naitik Majumdar</h2>
+                                    <p class="member-role">IT Head<br>Co-Founder</p>
+                                </span>
+                                <div class="media-links">
+                                    <a href="https://www.instagram.com/naitik_1542/"><i class="fab fa-instagram insta"></i></a>
+                                    <a href="https://www.linkedin.com/in/naitik-majumdar-a17463234/"><i class="fab fa-linkedin linkedin"></i></a>
+                                    <!--<i class="fa fa-info-circle info"></i>-->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" id="card">
+                            <div class="card-content">
+                                <img src="assets/team/jared_ortiz.png" class="profile-pic"></img>
+                                <hr>
+                                <span onclick="show_team_desc('jared_ortiz')" class="member-text">
+                                    <h2 class="member-name">Jared Ortiz</h2>
+                                    <p class="member-role">Chief Writer</p>
+                                </span>
+                                <div class="media-links">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" id="card">
+                            <div class="card-content">
+                                <img src="assets/team/ananya_s_menon.png" class="profile-pic"></img>
+                                <hr>
+                                <span onclick="show_team_desc('ananya_s_menon')" class="member-text">
+                                    <h2 class="member-name">Ananya Sunil Menon</h2>
+                                    <p class="member-role">Editor In Chief</p>
+                                </span>
+                                <div class="media-links">
+                                    <a href="https://www.instagram.com/ananya_tia/"><i class="fab fa-instagram insta"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" id="card">
+                            <div class="card-content">
+                                <img src="assets/team/sophia_zheng.png" class="profile-pic"></img>
+                                <hr>
+                                <span onclick="show_team_desc('sophia_zheng')" class="member-text">
+                                    <h2 class="member-name">Sophia Zheng</h2>
+                                    <p class="member-role">Chief Operating Officer</p>
+                                </span>
+                                <div class="media-links">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" id="card">
+                            <div class="card-content">
+                                <img src="assets/team/krishna_rathi.png" class="profile-pic"></img>
+                                <hr>
+                                <span onclick="show_team_desc('krishna_rathi')" class="member-text">
+                                    <h2 class="member-name">Krishna Rathi</h2>
+                                    <p class="member-role">Graphic Designer</p>
+                                </span>
+                                <div class="media-links">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" id="card">
+                            <div class="card-content">
+                                <img src="assets/team/akshat_jain.png" class="profile-pic"></img>
+                                <hr>
+                                <span onclick="show_team_desc('akshat_jain')" class="member-text">
+                                    <h2 class="member-name">Akshat Jain</h2>
+                                    <p class="member-role">Administrator</p>
+                                </span>
+                                <div class="media-links">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" id="card">
+                            <div class="card-content">
+                                <img src="assets/team/default.png" class="profile-pic"></img>
+                                <hr>
+                                <span onclick="show_team_desc('ansh_malviya')" class="member-text">
+                                    <h2 class="member-name">Ansh Malviya</h2>
+                                    <p class="member-role">IT Developer</p>
+                                </span>
+                                <div class="media-links">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" id="card">
+                            <div class="card-content">
+                                <img src="assets/team/default.png" class="profile-pic"></img>
+                                <hr>
+                                <span onclick="show_team_desc('yasmina')" class="member-text">
+                                    <h2 class="member-name">Yasmina</h2>
+                                    <p class="member-role">Marketing Director</p>
+                                </span>
+                                <div class="media-links">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -92,11 +403,21 @@
                                 </a>
                             </li>
                         </ul>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; YJSR 2022</div>
+                        <div class="small text-center text-muted fst-italic">Copyright &copy; YJRS 2022</div>
                     </div>
                 </div>
             </div>
         </footer>
+        <div id="popup" style="display: none">
+            <div class="popup-bg" onclick="document.getElementById('popup').style.display = 'none'"></div>
+            <div class="popup-win">
+                <div class="member-desc">
+                    <h2 id="team-mem-name"></h2>
+                    <h6 id="team-mem-role"></h6>
+                    <div id="team-mem-desc"></div>
+                </div>
+            </div>
+        </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
