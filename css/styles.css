@@ -11009,7 +11009,7 @@ hr {
 p {
   margin: 2rem 0;
 }
-p a, li a {
+p a {
   text-decoration: underline;
 }
 
