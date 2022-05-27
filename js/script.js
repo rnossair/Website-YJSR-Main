@@ -52,7 +52,7 @@ const Post_List = [
         author_contact: "", 
         publish_date: "May 27, 2022",
         image_source: "health_effects_of_mercury_poisoning.png",
-        post_destination: "/Posts/Health-effects-of-mercury-poisoning.html"
+        post_destination: "/Posts/Health-effects-of-mercury-poisoning"
     },
     {
         title: "The Relationship between Data Science and Childhood Obesity Cure",
@@ -61,7 +61,7 @@ const Post_List = [
         author_contact: "", 
         publish_date: "May 25, 2022",
         image_source: "the_relationship_between_data_science_childhood_obesity_cure.png",
-        post_destination: "/Posts/The-relationship-between-data-science-and-childhood-obesity-cure.html"
+        post_destination: "/Posts/The-relationship-between-data-science-and-childhood-obesity-cure"
     },
     {
         title: "How butterflies use jet propulsion for quick getaways",
@@ -70,7 +70,7 @@ const Post_List = [
         author_contact: "",
         publish_date: "May 22, 2022",
         image_source: "how_butterflies_use_jet_propulsion_for_quick_getaways.png",
-        post_destination: "/Posts/How-butterflies-use-jet-propulsion-for-quick-getaways.html"
+        post_destination: "/Posts/How-butterflies-use-jet-propulsion-for-quick-getaways"
     },
     {
         title: "Can Trauma Affect Our Genetics?",
@@ -79,7 +79,7 @@ const Post_List = [
         author_contact: "",
         publish_date: "May 22, 2022",
         image_source: "can_trauma_affect_our_genetics.png",
-        post_destination: "/Posts/Can-trauma-affect-our-genetics.html"
+        post_destination: "/Posts/Can-trauma-affect-our-genetics"
     },
     {
         title: "Angioplasty VS Stents",
@@ -88,7 +88,7 @@ const Post_List = [
         author_contact: "",
         publish_date: "May 21, 2022",
         image_source: "angioplasty_vs_stents.png",
-        post_destination: "/Posts/Angioplasty-vs-stents.html"
+        post_destination: "/Posts/Angioplasty-vs-stents"
     },
     {
         title: "Alcoholism Drug Restores Vision Loss from Macular Degeneration and Retinitis Pigmentosa",
@@ -97,7 +97,7 @@ const Post_List = [
         author_contact: "",
         publish_date: "May 21, 2022",
         image_source: "alcoholism_drug_restores_vision_loss.png",
-        post_destination: "/Posts/Alcoholism-drug-restores-vision-loss.html"
+        post_destination: "/Posts/Alcoholism-drug-restores-vision-loss"
     },
     {
         title: "Progress In Diaster",
@@ -106,7 +106,7 @@ const Post_List = [
         author_contact: "",
         publish_date: "May 21, 2022",
         image_source: "progress_in_disaster.png",
-        post_destination: "/Posts/Progress-in-disaster.html"
+        post_destination: "/Posts/Progress-in-disaster"
     },
     {
         title: "Inclusion in STEM: What’s Changed and What Hasn’t",
@@ -115,7 +115,7 @@ const Post_List = [
         author_contact: "",
         publish_date: "May 21, 2022",
         image_source: "inclusion_in_stem_whats_changed_and_what_hasnt.png",
-        post_destination: "/Posts/Inclusion-in-STEM-whats-changed-and-what-hasnt.html"
+        post_destination: "/Posts/Inclusion-in-STEM-whats-changed-and-what-hasnt"
     },
     {
         title: "The Unfolding of Liver Regeneration",
@@ -124,7 +124,7 @@ const Post_List = [
         author_contact: "", 
         publish_date: "May 20, 2022",
         image_source: "the_unfolding_of_liver_regeneration.png",
-        post_destination: "/Posts/The-unfolding-of-liver-regeneration.html"
+        post_destination: "/Posts/The-unfolding-of-liver-regeneration"
     },
     {
         title: "CRISPR Gene Editing: A Potential Treatment?",
@@ -133,7 +133,7 @@ const Post_List = [
         author_contact: "", 
         publish_date: "May 20, 2022",
         image_source: "crispr_gene_editing_a_potential_treatment.png",
-        post_destination: "/Posts/CRISPR-gene-editing-a-potential-treatment.html"
+        post_destination: "/Posts/CRISPR-gene-editing-a-potential-treatment"
     },
     {
         title: "“Addiction: Our body loves an escape!”",
@@ -142,7 +142,7 @@ const Post_List = [
         author_contact: "",
         publish_date: "May 20, 2022",
         image_source: "addiction_our_body_loves_an_escape.png",
-        post_destination: "/Posts/Addiction-our-body-loves-an-escape.html"
+        post_destination: "/Posts/Addiction-our-body-loves-an-escape"
     },
     {
         title: "Alice in Wonderland Syndrome",
@@ -151,7 +151,7 @@ const Post_List = [
         author_contact: "", 
         publish_date: "May 18, 2022",
         image_source: "alice_in_wonderland_syndrome.png",
-        post_destination: "/Posts/Alice-in-wonderland-syndrome.html"
+        post_destination: "/Posts/Alice-in-wonderland-syndrome"
     },
     {
         title: "Music & The Brain: How do they Correlate and Why is it important?",
@@ -160,7 +160,7 @@ const Post_List = [
         author_contact: "",
         publish_date: "May 18, 2022",
         image_source: "music_and_brain_correlation_and_importance.png",
-        post_destination: "/Posts/Music-and-the-brain-correlation-and-importance.html"
+        post_destination: "/Posts/Music-and-the-brain-correlation-and-importance"
     },
     {
         title: "Scientific Ways To Reduce Stress",
