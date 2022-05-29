@@ -74,7 +74,7 @@ const Post_List = [
     },
     {
         title: "Can Trauma Affect Our Genetics?",
-        subtitle: "",
+        subtitle: "did you know you can pass down trauma to your kids?",
         author: "Almaas Ghafoor",
         author_contact: "",
         publish_date: "May 22, 2022",
