@@ -46,6 +46,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Peto’s paradox: A cure for cancer?",
+        subtitle: "“History repeats, but science reverberates.”",
+        author: "Sathya ",
+        author_contact: "",
+        publish_date: "May 30, 2022",
+        image_source: "petos_paradox_a_cure_for_cancer.png",
+        post_destination: "/Posts/Petos-paradox-a-cure-for-cancer"
+    },
+    {
         title: "Health Effects of Mercury Poisoning",
         subtitle: "",
         author: "Min Khant Oakkar",
