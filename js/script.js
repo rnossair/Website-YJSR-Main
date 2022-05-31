@@ -46,6 +46,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "The Concerning Effect the Omicron Variant Has on the COVID-19 Vaccine",
+        subtitle: "The sequel to ‘The COVID-19 Vaccine is Not a Miracle Cure’",
+        author: "Emily Jia",
+        author_contact: "",
+        publish_date: "May 31, 2022",
+        image_source: "the_concerning_effect_the_omicron_variant_has_on_the_covid_19_vaccine.png",
+        post_destination: "/Posts/The-concerning-effect-the-omicron-variant-has-on-the-covid-19-vaccine.html"
+    },
+    {
         title: "Peto’s paradox: A cure for cancer?",
         subtitle: "“History repeats, but science reverberates.”",
         author: "Sathya ",
