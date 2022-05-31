@@ -74,7 +74,7 @@ const Post_List = [
     },
     {
         title: "How butterflies use jet propulsion for quick getaways",
-        subtitle: "",
+        subtitle: "Have you ever wondered what role physics play in something as simple as a butterfly’s flight?",
         author: "Satinder Bamrah",
         author_contact: "",
         publish_date: "May 22, 2022",
