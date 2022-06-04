@@ -15,6 +15,14 @@ function Resize_Handler(event) {
             document.getElementsByClassName("preview-image")[i].src = "/assets/thumbnails/portrait/" + Post_List[i].image_source;
             document.getElementsByClassName("post-preview-holder")[i].style = "display: table-row";
         }
+        if (typeof matches_found !== 'undefined') {
+            for (post_index in matches_found) {          
+                document.getElementsByClassName("res-image-holder")[post_index].style = "display: table-row";
+                document.getElementsByClassName("res-preview-image")[post_index].style = "width: 100%; border-radius: 18px";
+                document.getElementsByClassName("res-preview-image")[post_index].src = "/assets/thumbnails/portrait/" + Post_List[matches_found[post_index]].image_source;
+                document.getElementsByClassName("res-post-preview-holder")[post_index].style = "display: table-row";
+            }
+        }
     }
     else {
         var Post_List_HTML = document.getElementsByClassName("image-holder") || document.getElementsByClassName("post-preview-holder");
@@ -24,6 +32,14 @@ function Resize_Handler(event) {
             document.getElementsByClassName("preview-image")[i].style = "height: 138px; width: 138px; border-radius: 18px";
             document.getElementsByClassName("preview-image")[i].src = "/assets/thumbnails/landscape/" + Post_List[i].image_source;
             document.getElementsByClassName("post-preview-holder")[i].style = "display: table-cell";
+        }
+        if (typeof matches_found !== 'undefined') {
+            for (post_index in matches_found) {          
+                document.getElementsByClassName("res-image-holder")[post_index].style = "display: table-cell";
+                document.getElementsByClassName("res-preview-image")[post_index].style = "height: 138px; width: 138px; border-radius: 18px";
+                document.getElementsByClassName("res-preview-image")[post_index].src = "/assets/thumbnails/landscape/" + Post_List[matches_found[post_index]].image_source;
+                document.getElementsByClassName("res-post-preview-holder")[post_index].style = "display: table-cell";
+            }
         }
     }
 }
@@ -347,5 +363,50 @@ function post_render(number) {
 };
 
 post_render(default_post_number);
+
+function search_posts(query) {
+    
+    document.getElementById("search-results").innerHTML = "<p style='position-relative; left: 5%; margin: 9px 0;'><b>Results Found:</b> <span id='no-of-search-found'></span></p>";
+    matches_found = []
+
+    if (query != 0) {
+        for (post_index in Post_List) {
+            for (keyword in Post_List[post_index]) {
+                if (!["image_source", "author_contact", "post_destination"].includes(keyword)) {
+                    if (Post_List[post_index][keyword].toLowerCase().includes(query.toLowerCase())) {
+                        if (!matches_found.includes(post_index)) {matches_found.push(post_index)}
+                    }
+                }
+            }
+        }
+    }
+    for (post_index in matches_found) {
+        document.getElementById("search-results").innerHTML += `
+            <div style="width: 100%; display: table;  border-radius: 18px;">
+                <div style="display: table-row;">
+                    <div class="res-image-holder">
+                        <img src="../assets/thumbnails/landscape/${Post_List[matches_found[post_index]].image_source}" class="res-preview-image" style="height: 138px; width: 138px; border-radius: 18px; position: relative; left: 0;"> <!--Image link to be pasted-->
+                    </div>
+                    <div class="res-post-preview-holder" style="display: table-row">
+                        <div class="post-preview">
+                            <a href="${Post_List[matches_found[post_index]].post_destination}"> <!--Redirect link source (to the destination post)-->
+                                <h2 class="post-title result-title">${Post_List[matches_found[post_index]].title}</h2> <!--Title of post-->
+                                <h3 class="post-subtitle">${Post_List[matches_found[post_index]].subtitle}</h3> <!--Subtitle of post-->
+                            </a>
+                            <p class="post-meta">
+                                Posted by
+                                <a href="${Post_List[matches_found[post_index]].author_contact}">${Post_List[matches_found[post_index]].author}</a> <!--Author's Name-->
+                                on ${Post_List[matches_found[post_index]].publish_date}<!--Date of publish-->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+    document.getElementById("search-results").innerHTML += "<hr>";
+    document.getElementById("no-of-search-found").innerHTML = matches_found.length;
+    Resize_Handler(null);
+}
 
 Resize_Handler(null);
