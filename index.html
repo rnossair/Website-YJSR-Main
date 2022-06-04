@@ -51,6 +51,13 @@
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7" style="width: 90%;">
+                    <div class="search-container">
+                        <div style="animation: anime-bg 5s infinite; width: 81%; margin: 36px auto; box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.15), -6px -6px 10px #f0f3ff; border-radius: 36px;">
+                            <input id="search-bar" class="search-bar" type="text" placeholder="Search" onchange="search_posts(document.getElementById('search-bar').value)">
+                            <button class="search-button" onclick="search_posts(document.getElementById('search-bar').value)" style="border: none; background: #FFFFFF; position: relative; float: right; top: 10px; margin-right: 7px;"><i class="fa fa-search search-icon"></i></button>
+                        </div>
+                        <div id="search-results"></div>
+                    </div>
                     <!-- Post preview-->
                     <div class="post-list"></div>
                     <button class="bob" onclick="post_render(5)" id="load_more">Load More</button>
