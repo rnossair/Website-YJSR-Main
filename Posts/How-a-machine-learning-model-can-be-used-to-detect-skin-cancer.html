@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>YJSR</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../css/styles.css" rel="stylesheet" />
+        <style>
+            .img-desc {
+                font-style: italic;
+                text-align: center;
+                margin: 0 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="../">YJSR</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../">Home</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../about">About</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../publish">Publish</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../join">Join</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="post-heading">
+                            <h1>How a Machine Learning Model Can Be Used to Detect Skin Cancer</h1>
+                            <h2 class="subheading"></h2>
+                            <span class="meta">
+                                Posted by
+                                <a href="">Julia Huang</a>
+                                on June 5, 2022
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Post Content-->
+        <article class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <h2 class="section-heading">Introduction</h2>
+                        <p>In the US, 9,500 patients are diagnosed with skin cancer daily, making it the most common form of cancer in the country. If left untreated, it can be fatal, as it can spread to tissues and bones. But in low-income and rural communities, where access to healthcare can be limited, there is a risk of not receiving detection and treatment in time. Fortunately, recent developments have led to a new application of the convolutional neural network (CNN), a machine learning model that can process image data, to provide a more efficient and affordable mechanism to identify types of skin cancer. By identifying and extracting distinctive features in each skin condition, a CNN model efficiently learns features from skin cancer images; therefore, it provides an early, efficient, and accurate detection of skin cancer.</p>
+                        <h2 class="section-heading">What are CNNs?</h2>
+                        <p>Invented in the 80s by Yann LeCun, a computer science researcher, CNNs, a popular model used in machine learning, can be used to classify images. For example, if shown cat and dog images, a CNN can learn each animal’s distinctive traits and classify a new image into the correct category. In the healthcare field, CNNs can serve as early detection devices for people who may have skin cancer.</p>
+                        <h2 class="section-heading">How do CNNs work to detect skin cancer?</h2>
+                        <p>When CNNs encounter fed-in data of skin cancer images, their kernels, or matrices of numbers that serve as weights, can help determine which parts of the data are important. A kernel scans over the skin cancer image, and the kernel’s numbers are multiplied with the inputted data (each part of the image can be transformed into different values) to extract the most important features and patterns to produce an output. In classification tasks, such as detecting the type of skin cancer, that output can be the name of a category of an image, such as <i>melanoma</i>.</p>
+                        <p>As the images are being scanned by the CNN and transformed into matrices of values, they also go through pooling layers to reduce image dimension sizes to reduce the complexity of CNN computations and retain only important features, such as the characteristic brown wavy shape of melanoma. These layers help the CNN model learn distinctive features of each form of skin cancer. Next, a ReLU, or Rectified Linear Unit, is added to introduce nonlinearity in the CNN model since real-life data and patterns are not always linear. Afterward, the flatten layer flattens the matrix of values into a one-dimensional shape and utilizes the fully connected layer to combine all the features the model learned together. Lastly, the softmax activation function produces the output of the model.</p>
+                        <img src="../assets/others/car_scan_by_CNN_architecture.png" style="width: 100%;">
+                        <p class="img-desc">Figure 1: the CNN architecture scans a car image; in this case, the correct output would be a car.</p>
+                        <h2 class="section-heading">How can people use CNNs in real-time?</h2>
+                        <p>When a CNN model is trained on a skin cancer dataset to detect and classify different types of skin cancers with above 90% accuracy, it can be deployed into a web or mobile app, where patients can take a picture of their skin condition and upload it to the app to see the identification and classification output. The app can be accessible and free for patients around the world to receive an early and efficient detection at home.</p>
+                        <h2 class="section-heading">How does the CNN model improve survival rates, save lives, and reduce costs?</h2>
+                        <p>Early detection of cancer is extremely critical for patients’ survival rates. CNNs can be trained and set up easily to help patients detect and keep track of any skin condition that emerges, providing a quick and early detection of potentially dangerous skin conditions that then allows patients to seek subsequent and necessary medical procedures promptly to increase the survival rate. Early detection of cancer also reduces the overall medical cost that would have been incurred if patients were to be treated for later stages of cancer. Thus, CNNs would not only be more affordable to patients but also free up health care resources in communities to focus more on health promotion and disease prevention.</p>
+                        <h2 class="section-heading">Conclusion</h2>
+                        <p>With the advent of machine learning technology and extensive research into its applications, CNNs have become a more convenient and affordable solution to detect skin cancer at home. A recent paper by Telkom University researchers recorded a staggering 99% skin cancer classification accuracy with a CNN (Fu’adah et al., 2020). An accurate CNN model like this can be commercialized to help reduce skin cancer fatality and preserve lives, as it provides a convenient and affordable tool for early detection, especially for people who need it the most in rural and low-income communities, especially during the current COVID pandemic.</p>
+                        <h2 class="section-heading">References</h2>
+                        <p>[1] “Skin Cancer,” American Academy of Dermatology, [Online].Available: <a href="https://www.aad.org/media/stats-skin-cancer#:~:text=Skin%20cancer%20is%20the%20most%20common%20cancer%20in%20the%20United%20States.&text=Current%20estimates%20are%20that%20one,skin%20cancer%20in%20their%20lifetime.&text=It%20is%20estimated%20that%20approximately,with%20skin%20cancer%20every%20day">https://www.aad.org/media/stats-skin-cancer#:~:text=Skin%20cancer%20is%20the%20most%20common%20cancer%20in%20the%20United%20States.&text=Current%20estimates%20are%20that%20one,skin%20cancer%20in%20their%20lifetime.&text=It%20is%20estimated%20that%20approximately,with%20skin%20cancer%20every%20day</a>. [Accessed: 17-Apr-2022].</p>
+                        <p>[2] “Skin Cancer Facts & Statistics,” The Skin Cancer Foundation, March 2022. [Online]. Available: <a href="https://www.skincancer.org/skin-cancer-information/skin-cancer-facts/">https://www.skincancer.org/skin-cancer-information/skin-cancer-facts/</a>. [Accessed 17-April-2022].</p>
+                        <p>[3] “The Dangers of Leaving Skin Cancer Untreated,” Vanguard Dermatology, [Online].Available: <a href="https://www.vanguarddermatology.com/blog/skin-cancer-awareness-month-the-dangers-of-leaving-skin-cancer-untreated">https://www.vanguarddermatology.com/blog/skin-cancer-awareness-month-the-dangers-of-leaving-skin-cancer-untreated</a>. [Accessed: 17-Apr-2022].</p>
+                        <p>[4] Dickson, Ben, et al., “What Are Convolutional Neural Networks (CNN)?” TechTalks, January 2020. [Online]. Available: <a href="https://bdtechtalks.com/2020/01/06/convolutional-neural-networks-cnn-convnets/#:~:text=Convolutional%20neural%20networks%2C%20also%20called,a%20postdoctoral%20computer%20science%20researcher">https://bdtechtalks.com/2020/01/06/convolutional-neural-networks-cnn-convnets/#:~:text=Convolutional%20neural%20networks%2C%20also%20called,a%20postdoctoral%20computer%20science%20researcher</a>. [Accessed 17-April-2022].</p>
+                        <p>[5] Ganesh, Prakhar., “Types of Convolution Kernels: Simplified,” Medium, Towards Data Science, October 2019. Available: <a href="https://towardsdatascience.com/types-of-convolution-kernels-simplified-f040cb307c37">https://towardsdatascience.com/types-of-convolution-kernels-simplified-f040cb307c37</a>. [Accessed:17-Apr-2022].</p>
+                        <p>[6] Raghav, Prabhu, “Understanding of Convolutional Neural Network (CNN) - Deep Learning,” Medium, November 2019. [Online]. Available: <a href="https://medium.com/@RaghavPrabhu/understanding-of-convolutional-neural-network-cnn-deep-learning-99760835f148">https://medium.com/@RaghavPrabhu/understanding-of-convolutional-neural-network-cnn-deep-learning-99760835f148</a>. [Accessed 17-April-2022].</p>
+                        <p>[7] “How Cancer Is Diagnosed,” National Cancer Institute, [Online]. Available: <a href="https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis">https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis</a>. [Accessed 17-April-2022].</p>
+                        <p>[8] Fu’adah, Y. N., Pratiwi, N. C., Pramudito, M. A., & Ibrahim, N. (2020, December). Convolutional Neural Network (CNN) for Automatic Skin Cancer Classification System. In IOP Conference Series: Materials Science and Engineering (Vol. 982, No. 1, p. 012005). IOP Publishing. Available: <a href="https://doi.org/10.1088/1757-899X/982/1/012005">https://doi.org/10.1088/1757-899X/982/1/012005</a>. [Accessed: 17-Apr-2022].</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+<!-- Footer-->
+        <footer class="border-top">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <ul class="list-inline text-center">
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-reddit-alien fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/yjsr.tech/">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/company/youth-journal-of-stem-research">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="small text-center text-muted fst-italic">Copyright &copy; YJSR 2022</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
