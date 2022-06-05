@@ -62,13 +62,22 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "How a Machine Learning Model Can Be Used to Detect Skin Cancer",
+        subtitle: "",
+        author: "Julia Huang",
+        author_contact: "",
+        publish_date: "June 5, 2022",
+        image_source: "how_a_machine_learning_model_can_be_used_to_detect_skin_cancer.png",
+        post_destination: "Posts/How-a-machine-learning-model-can-be-used-to-detect-skin-cancer"
+    },
+    {
         title: "Parasitic Pathogens and Their Inner-workings",
         subtitle: "Bacteria and viruses in action as the immune system goes on high alert.",
         author: "Ngoc Tran Bui",
         author_contact: "",
         publish_date: "June 5, 2022",
         image_source: "parasitic_pathogens_and_their_inner_workings.png",
-        post_destination: "/Posts/Parasitic-pathogens-and-their-inner-workings.html"
+        post_destination: "/Posts/Parasitic-pathogens-and-their-inner-workings"
     },
     {
         title: "The Concerning Effect the Omicron Variant Has on the COVID-19 Vaccine",
