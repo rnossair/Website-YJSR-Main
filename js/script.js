@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Nuclear transmutation and how we can turn lead into gold",
+        subtitle: "",
+        author: "Shikha Bhayani",
+        author_contact: "",
+        publish_date: "June 6, 2022",
+        image_source: "nuclear_transmutation_and_how_we_can_turn_lead_into_gold.png",
+        post_destination: "/Posts/Nuclear-transmutation-and-how-we-can-turn-lead-into-gold"
+    },
+    {
         title: "How a Machine Learning Model Can Be Used to Detect Skin Cancer",
         subtitle: "",
         author: "Julia Huang",
