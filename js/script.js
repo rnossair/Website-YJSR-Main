@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "A Drink Before Final Exams",
+        subtitle: "“Got exam stress? Read this article”",
+        author: "Emily Jia",
+        author_contact: "",
+        publish_date: "June 6, 2022",
+        image_source: "a_drink_before_final_exams.png",
+        post_destination: "/Posts/A-drink-before-final-exams"
+    },
+    {
         title: "The Universe : Infinite or Finite?",
         subtitle: "",
         author: "Yoav Greenberg",
