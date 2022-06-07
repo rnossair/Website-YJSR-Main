@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Dissecting the Brain",
+        subtitle: "Learning about the different parts of the brain and what they are responsible for!",
+        author: "Alexa Cuvilly",
+        author_contact: "",
+        publish_date: "June 7, 2022",
+        image_source: "dissecting_the_brain.png",
+        post_destination: "/Posts/Dissecting-the-brain.html"
+    },
+    {
         title: "Nuclear transmutation and how we can turn lead into gold",
         subtitle: "",
         author: "Shikha Bhayani",
