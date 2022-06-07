@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "The Universe : Infinite or Finite?",
+        subtitle: "",
+        author: "Yoav Greenberg",
+        author_contact: "",
+        publish_date: "June 6, 2022",
+        image_source: "the_universe_finite_or_infinite.png",
+        post_destination: "/Posts/The-universe-infinite-or-finite"
+    },
+    {
         title: "Dissecting the Brain",
         subtitle: "Learning about the different parts of the brain and what they are responsible for!",
         author: "Alexa Cuvilly",
