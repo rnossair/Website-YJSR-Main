@@ -66,7 +66,7 @@ const Post_List = [
         subtitle: "“Got exam stress? Read this article”",
         author: "Emily Jia",
         author_contact: "",
-        publish_date: "June 6, 2022",
+        publish_date: "June 7, 2022",
         image_source: "a_drink_before_final_exams.png",
         post_destination: "/Posts/A-drink-before-final-exams"
     },
@@ -75,7 +75,7 @@ const Post_List = [
         subtitle: "",
         author: "Yoav Greenberg",
         author_contact: "",
-        publish_date: "June 6, 2022",
+        publish_date: "June 7, 2022",
         image_source: "the_universe_finite_or_infinite.png",
         post_destination: "/Posts/The-universe-infinite-or-finite"
     },
