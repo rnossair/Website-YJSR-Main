@@ -68,7 +68,7 @@ const Post_List = [
         author_contact: "",
         publish_date: "June 8, 2022",
         image_source: "exploring_neurodegenerative_disease_in_the_context_of_american_football.png",
-        post_destination: "/Posts/Exploring-neurodegenerative-disease-in-the-context-of-american-football.html"
+        post_destination: "/Posts/Exploring-neurodegenerative-disease-in-the-context-of-american-football"
     },
     {
         title: "A Drink Before Final Exams",
