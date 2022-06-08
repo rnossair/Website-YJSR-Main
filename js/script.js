@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Signs of Liars",
+        subtitle: "Often people lie to us these are a few ways to stop them.",
+        author: "Juliana Russell",
+        author_contact: "",
+        publish_date: "June 8, 2022",
+        image_source: "signs_of_liars.png",
+        post_destination: "/Posts/Signs-of-liars"
+    },
+    {
         title: "Tumor-Hypoxia",
         subtitle: "",
         author: "Justina Lee",
