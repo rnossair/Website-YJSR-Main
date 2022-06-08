@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Tumor-Hypoxia",
+        subtitle: "",
+        author: "Justina Lee",
+        author_contact: "",
+        publish_date: "June 8, 2022",
+        image_source: "tumor_hypoxia.png",
+        post_destination: "/Posts/Tumor-hypoxia.html"
+    },
+    {
         title: "Exploring Neurodegenerative Disease in the Context of American Football",
         subtitle: "Are the numerous severe neurological pathologies associated with this fan-favorite sport enough to convince government officials to set a minimum age requirement?",
         author: "Jared Ortiz-Luis",
