@@ -68,7 +68,7 @@ const Post_List = [
         author_contact: "",
         publish_date: "June 8, 2022",
         image_source: "tumor_hypoxia.png",
-        post_destination: "/Posts/Tumor-hypoxia.html"
+        post_destination: "/Posts/Tumor-hypoxia"
     },
     {
         title: "Exploring Neurodegenerative Disease in the Context of American Football",
