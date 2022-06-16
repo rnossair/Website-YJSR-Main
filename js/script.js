@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "United States Socio-Political Deliberation on Decreasing CO<sub>2</sub> Emissions",
+        subtitle: "",
+        author: "Lakshya Jaikumar",
+        author_contact: "", 
+        publish_date: "June 16, 2022",
+        image_source: "united_states_socio_politiclal_deliberation_on_decreasing_co2_emmisions.png",
+        post_destination: "/Posts/United-states-socio-politiclal-deliberation-on-decreasing-co2-emmisions"
+    },
+    {
         title: "Signs of Liars",
         subtitle: "Often people lie to us these are a few ways to stop them.",
         author: "Juliana Russell",
