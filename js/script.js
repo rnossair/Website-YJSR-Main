@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Gravitational Lensing and its Applications",
+        subtitle: "",
+        author: "Deepthy Ajith K",
+        author_contact: "",
+        publish_date: "June 18, 2022",
+        image_source: "gravitational_lensing_and_its_applications.png",
+        post_destination: "/Posts/Gravitational-lensing-and-its-applications"
+    },
+    {
         title: "United States Socio-Political Deliberation on Decreasing CO<sub>2</sub> Emissions",
         subtitle: "",
         author: "Lakshya Jaikumar",
