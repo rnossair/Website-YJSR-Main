@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Effects of Digital Divide on Education in India Amidst the Pandemic",
+        subtitle: "",
+        author: "Arushi Jain",
+        author_contact: "",
+        publish_date: "June 16, 2022",
+        image_source: "effect_of_digital_divide_on_education.jpg",
+        post_destination: "/Posts/Effects-of-digital-divide-on-education-in-india-amidst-the-pandamic"
+    },
+    {
         title: "Gravitational Lensing and its Applications",
         subtitle: "",
         author: "Deepthy Ajith K",
