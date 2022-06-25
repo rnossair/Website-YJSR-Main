@@ -75,7 +75,7 @@ const Post_List = [
         subtitle: "",
         author: "Deepthy Ajith K",
         author_contact: "",
-        publish_date: "June 18, 2022",
+        publish_date: "June 25, 2022",
         image_source: "gravitational_lensing_and_its_applications.png",
         post_destination: "/Posts/Gravitational-lensing-and-its-applications"
     },
