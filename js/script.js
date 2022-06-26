@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Understanding Network Economics: From Basics to Applications",
+        subtitle: "The era of efficient opportunities, investments, and capacity expansion of network industries has begun with the decision-making behavior in economics!",
+        author: "Arushi Jain",
+        author_contact: "", 
+        publish_date: "June 26, 2022",
+        image_source: "understanding_network_economics_from_basics_to_applications.png",
+        post_destination: "/Posts/Understanding-network-economics-from-basics-to-applications"
+    },
+    {
         title: "Effects of Digital Divide on Education in India Amidst the Pandemic",
         subtitle: "",
         author: "Arushi Jain",
