@@ -62,6 +62,24 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Delving into Black Holes",
+        subtitle: "",
+        author: "Deepthy Ajith K",
+        author_contact: "",
+        publish_date: "June 26, 2022",
+        image_source: "delving_into_black_holes.png",
+        post_destination: "/Posts/Delving-into-black-holes"
+    },
+    {
+        title: "The Fourth Dimension: Beyond Visualization",
+        subtitle: "",
+        author: "Min Khant Oakkar",
+        author_contact: "", 
+        publish_date: "June 26, 2022",
+        image_source: "the_fourth_dimension_beyond_visualization.png",
+        post_destination: "/Posts/The-fourth-dimension-beyond-visualization"
+    },
+    {
         title: "Understanding Network Economics: From Basics to Applications",
         subtitle: "The era of efficient opportunities, investments, and capacity expansion of network industries has begun with the decision-making behavior in economics!",
         author: "Arushi Jain",
