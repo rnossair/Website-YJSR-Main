@@ -62,6 +62,24 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Spina Bifida",
+        subtitle: "",
+        author: "Ayana Samantray",
+        author_contact: "",
+        publish_date: "June 28, 2022",
+        image_source: "spina_bifida.png",
+        post_destination: "/Posts/Spina-bifida"
+    },
+    {
+        title: "Aphantatic Artists: The Paradoxical Relationship Between Lack of Imagination and Artwork",
+        subtitle: "",
+        author: "Amna Eisa",
+        author_contact: "",
+        publish_date: "June 28, 2022",
+        image_source: "aphantatic_artists_the_paradoxal_relation.png",
+        post_destination: "/Posts/Aphantatic-artists-the-paradoxical-relationship-between-lack-of-imagination-and-artwork"
+    },
+    {
         title: "Delving into Black Holes",
         subtitle: "",
         author: "Deepthy Ajith K",
