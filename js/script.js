@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Dostarlimab; a saviour to rectal cancer",
+        subtitle: "",
+        author: "Ayana Samantray",
+        author_contact: "",
+        publish_date: "July 1, 2022",
+        image_source: "dostarlimb_a_saviour_to_rectal_cancer.png",
+        post_destination: "/Posts/Dostarlimab-a-saviour-to-rectal-cancer"
+    },
+    {
         title: "Spina Bifida",
         subtitle: "",
         author: "Ayana Samantray",
