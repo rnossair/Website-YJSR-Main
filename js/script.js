@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Stellar Evolution",
+        subtitle: "",
+        author: "Deepthy Ajith K",
+        author_contact: "",
+        publish_date: "July 6, 2022",
+        image_source: "stellar_evolution.png",
+        post_destination: "/Posts/stellar-evolution"
+    },
+    {
         title: "Artificial Photosynthesis",
         subtitle: "",
         author: "Danika Chan",
