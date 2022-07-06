@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "&OpenCurlyDoubleQuote;From Our Perspective&CloseCurlyDoubleQuote;: The Impact of Recent School Shootings on Mental Health",
+        subtitle: "How the recent school shootings have affected United States students' mental health, from students’ perspective.",
+        author: "Alexa Cuvilly",
+        author_contact: "",
+        publish_date: "July 6, 2022",
+        image_source: "effect_of_school_shooting_on_children.png",
+        post_destination: "/Posts/From-Our-Prespective-the-impact-of-recent-school-shootings-on-mental-health.html"
+    },
+    {
         title: "Stellar Evolution",
         subtitle: "",
         author: "Deepthy Ajith K",
