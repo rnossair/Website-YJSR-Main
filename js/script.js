@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Naked Singularities: Could They Exist in Our Universe?",
+        subtitle: "",
+        author: "Ranica Chawla",
+        author_contact: "", 
+        publish_date: "July 7, 2022",
+        image_source: "naked_singularities.png",
+        post_destination: "/Posts/naked-singularities.html"
+    },
+    {
         title: "Biotechnology in the Recombinant Production of Synthetic Human Growth Hormone",
         subtitle: "",
         author: "Anna Pham",
