@@ -68,7 +68,7 @@ const Post_List = [
         author_contact: "",
         publish_date: "July 6, 2022",
         image_source: "biotech-hormone.jpeg",
-        post_destination: "/Posts/Biotechnology-in-the-Recombinant-Production-of-Synthetic-Human-Growth-Hormone.html"
+        post_destination: "/Posts/Biotechnology-in-the-Recombinant-Production-of-Synthetic-Human-Growth-Hormone"
     },
     {
         title: "&OpenCurlyDoubleQuote;From Our Perspective&CloseCurlyDoubleQuote;: The Impact of Recent School Shootings on Mental Health",
