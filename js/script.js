@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Biotechnology in the Recombinant Production of Synthetic Human Growth Hormone",
+        subtitle: "",
+        author: "Anna Pham",
+        author_contact: "",
+        publish_date: "July 6, 2022",
+        image_source: "biotech-hormone.jpeg",
+        post_destination: "/Posts/Biotechnology-in-the-Recombinant-Production-of-Synthetic-Human-Growth-Hormone.html"
+    },
+    {
         title: "&OpenCurlyDoubleQuote;From Our Perspective&CloseCurlyDoubleQuote;: The Impact of Recent School Shootings on Mental Health",
         subtitle: "How the recent school shootings have affected United States students' mental health, from students’ perspective.",
         author: "Alexa Cuvilly",
