@@ -67,7 +67,7 @@ const Post_List = [
         author: "Rohini Vummadi",
         author_contact: "",
         publish_date: "July 8, 2022",
-        image_source: "anatomy-of-the-human body.jpeg",
+        image_source: "anatomy-of-the-human-body.jpeg",
         post_destination: "/Posts/Anatomy-of-the-Human-Body"
     },
     {
