@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Anatomy of the Human Body",
+        subtitle: "",
+        author: "Rohini Vummadi",
+        author_contact: "",
+        publish_date: "July 8, 2022",
+        image_source: "anatomy-of-the-human body.jpeg",
+        post_destination: "/Posts/Anatomy-of-the-Human-Body"
+    },
+    {
         title: "Naked Singularities: Could They Exist in Our Universe?",
         subtitle: "",
         author: "Ranica Chawla",
