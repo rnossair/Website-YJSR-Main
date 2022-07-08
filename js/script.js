@@ -63,7 +63,7 @@ A format for the post list array items.
 const Post_List = [
     {
         title: "Anatomy of the Human Body",
-        subtitle: "",
+        subtitle: "12 systems: 1 system/article",
         author: "Rohini Vummadi",
         author_contact: "",
         publish_date: "July 8, 2022",
