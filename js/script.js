@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Protein Folding",
+        subtitle: "An often-overlooked procedure that rules our bodies.",
+        author: "Ngoc Tran Bui",
+        author_contact: "", 
+        publish_date: "July 10, 2022",
+        image_source: "protein_folding.avif",
+        post_destination: "/Posts/Protein-folding.html"
+    },
+    {
         title: "Effective Project Management: Potential Cure for Stress and Depression in Construction and Engineering?",
         subtitle: "",
         author: "Asher Segun-Olasanmi",
