@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Effective Project Management: Potential Cure for Stress and Depression in Construction and Engineering?",
+        subtitle: "",
+        author: "Asher Segun-Olasanmi",
+        author_contact: "", 
+        publish_date: "July 10, 2022",
+        image_source: "effective_project_management.avif",
+        post_destination: "/Posts/effective-project-management"
+    },
+    {
         title: "Anatomy of the Human Body",
         subtitle: "12 systems: 1 system/article",
         author: "Rohini Vummadi",
