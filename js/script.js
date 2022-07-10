@@ -68,7 +68,7 @@ const Post_List = [
         author_contact: "", 
         publish_date: "July 10, 2022",
         image_source: "effective_project_management.avif",
-        post_destination: "/Posts/effective-project-management"
+        post_destination: "/Posts/effective-project-management.html"
     },
     {
         title: "Anatomy of the Human Body",
