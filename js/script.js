@@ -582,7 +582,7 @@ function post_render(number) {
         Post_Container.innerHTML += `<div style="width: 100%; display: table;  border-radius: 18px;">
                                         <div style="display: table-row;">
                                             <div class="image-holder">
-                                                <img src="${Post_List[i].image_source}" class="preview-image" style="height: 138px; width: 138px; border-radius: 18px; position: relative; left: 0;"> <!--Image link to be pasted-->
+                                                <img src="../assets/thumbnails/landscape/${Post_List[i].image_source}" class="preview-image" style="height: 138px; width: 138px; border-radius: 18px; position: relative; left: 0;"> <!--Image link to be pasted-->
                                             </div>
                                             <div class="post-preview-holder" style="display: table-cell">
                                                 <div class="post-preview">
