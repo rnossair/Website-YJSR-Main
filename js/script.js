@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Understanding Cancer Biology with The Warburg Effect",
+        subtitle: "Let's delve into how Warburg metabolism benefits cancer cells and fully characterizes their innate greed for glucose.",
+        author: "Jared Ortiz-Luis",
+        author_contact: "",
+        publish_date: "July 17, 2022",
+        image_source: "understanding_cancer_biology.png",
+        post_destination: "/Posts/Understanding-Cancer-Biology"
+    },
+    {
         title: "Protein Folding",
         subtitle: "An often-overlooked procedure that rules our bodies.",
         author: "Ngoc Tran Bui",
