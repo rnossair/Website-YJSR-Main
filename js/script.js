@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "How Does DNA Work",
+        subtitle: "",
+        author: "Rohini Vummadi",
+        author_contact: "",
+        publish_date: "July 17, 2022",
+        image_source: "how-does-dna-work.jpg",
+        post_destination: "/Posts/How-Does-DNA-Work"
+    },
+    {
         title: "Understanding Cancer Biology with The Warburg Effect",
         subtitle: "Let's delve into how Warburg metabolism benefits cancer cells and fully characterizes their innate greed for glucose.",
         author: "Jared Ortiz-Luis",
