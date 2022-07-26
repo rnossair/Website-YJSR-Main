@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "How can Breast Milk Affect the Microbiome?",
+        subtitle: "",
+        author: "Arsa Satheeskumar",
+        author_contact: "",
+        publish_date: "July 26, 2022",
+        image_source: "how_can_breast_milk_affect_the_biome.png",
+        post_destination: "/Posts/How-can-breast-milk-affect-the-microbiome.html"
+    },
+    {
         title: "How Does DNA Work",
         subtitle: "",
         author: "Rohini Vummadi",
