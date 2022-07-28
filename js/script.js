@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Infectious Diseases: Deep Dive into the Body",
+        subtitle: "How do the most infectious diseases invade and alter the body? Let’s dive into the cells!",
+        author: "McKenzie Mote & Shamari Madkins",
+        author_contact: "",
+        publish_date: "July 28, 2022",
+        image_source: "infectious_diseases_deep_dive_into_the_body.png",
+        post_destination: "/Posts/Infectious-diseases-deep-dive-into-the-body"
+    },
+    {
         title: "How can Breast Milk Affect the Microbiome?",
         subtitle: "",
         author: "Arsa Satheeskumar",
