@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "A Guide to Ethical Hacking",
+        subtitle: "",
+        author: "Lighittha.P.R",
+        author_contact: "",
+        publish_date: "30 July, 2022",
+        image_source: "a_guide_to_ethical_hacking.png",
+        post_destination: "/Posts/A-guide-to-ethical-hacking"
+    },
+    {
         title: "An Overview of the Curvy Spine: Scoliosis",
         subtitle: "",
         author: "Lilianne Achiaa Asokwah",
