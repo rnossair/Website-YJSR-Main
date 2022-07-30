@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "An Overview of the Curvy Spine: Scoliosis",
+        subtitle: "",
+        author: "Lilianne Achiaa Asokwah",
+        author_contact: "",
+        publish_date: "30 July, 2022",
+        image_source: "an_overview_of_the_curvy_spine.png",
+        post_destination: "/Posts/An-overview-of-the-curvy-spine-scoliosis"
+    },
+    {
         title: "Infectious Diseases: Deep Dive into the Body",
         subtitle: "How do the most infectious diseases invade and alter the body? Let’s dive into the cells!",
         author: "McKenzie Mote & Shamari Madkins",
