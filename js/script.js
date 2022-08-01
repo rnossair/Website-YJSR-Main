@@ -68,7 +68,7 @@ const Post_List = [
         author_contact: "", 
         publish_date: "August 1, 2022",
         image_source: "alternate_medicine.png",
-        post_destination: "/Posts/alternative-medicine"
+        post_destination: "/Posts/alternative-medicine.html"
     },
     {
         title: "A Guide to Ethical Hacking",
