@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "What is Alternative Medicine?",
+        subtitle: "",
+        author: "Rohini Vummadi",
+        author_contact: "", 
+        publish_date: "August 1, 2022",
+        image_source: "alternate_medicine.png",
+        post_destination: "/Posts/alternative-medicine"
+    },
+    {
         title: "A Guide to Ethical Hacking",
         subtitle: "",
         author: "Lighittha.P.R",
