@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Should We Believe In Darwin's Theory?",
+        subtitle: "",
+        author: "Laiba Ahsan",
+        author_contact: "", 
+        publish_date: "August 1, 2022",
+        image_source: "should-we-believe-in-darwims-theory.jpg",
+        post_destination: "/Posts/Should-We-Believe-In-Darwins-Theory.html"
+    },
+    {
         title: "What is Alternative Medicine?",
         subtitle: "",
         author: "Rohini Vummadi",
