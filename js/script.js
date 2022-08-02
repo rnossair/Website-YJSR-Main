@@ -67,7 +67,7 @@ const Post_List = [
         author: "Laiba Ahsan",
         author_contact: "", 
         publish_date: "August 1, 2022",
-        image_source: "should-we-believe-in-darwims-theory.jpg",
+        image_source: "should-we-believe-in-darwins-theory.jpg",
         post_destination: "/Posts/Should-We-Believe-In-Darwins-Theory.html"
     },
     {
