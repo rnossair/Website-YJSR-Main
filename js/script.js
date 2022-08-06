@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Why safe access to abortion is a necessity",
+        subtitle: "",
+        author: "Swati Singh",
+        author_contact: "",
+        publish_date: "August 6, 2022",
+        image_source: "why_safe_abortion_is_necessity.png",
+        post_destination: "/Posts/Why-safe-access-to-abortion-is-necessity"
+    },
+    {
         title: "Should We Believe In Darwin's Theory?",
         subtitle: "",
         author: "Laiba Ahsan",
