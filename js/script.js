@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Economic and Environmental Impact of Medical Waste",
+        subtitle: "",
+        author: "Özge Özer",
+        author_contact: "",
+        publish_date: "August 8, 2022",
+        image_source: "economic-and-environmental-impact-of-medical-waste.png",
+        post_destination: "/Posts/economic-and-environmental-impact-of-medical-waste.html"
+    },
+    {
         title: "Why safe access to abortion is a necessity",
         subtitle: "",
         author: "Swati Singh",
