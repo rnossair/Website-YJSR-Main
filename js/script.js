@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Reference Frames & Galileo Transformation Formulas",
+        subtitle: "",
+        author: "İdil Doğa Türkmen",
+        author_contact: "",
+        publish_date: "August 9, 2022",
+        image_source: "reference_frames.png",
+        post_destination: "/Posts/Reference-frames-and-galileo-transformation-formulas.html"
+    },
+    {
         title: "Economic and Environmental Impact of Medical Waste",
         subtitle: "",
         author: "Özge Özer",
