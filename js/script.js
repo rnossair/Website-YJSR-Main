@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Wolbachia Vector Control",
+        subtitle: "An impactful and successful technique to lower disease spread hidden in the shadows",
+        author: "Tran Bui",
+        author_contact: "", 
+        publish_date: "August 11, 2022",
+        image_source: "wolbachia.png",
+        post_destination: "/Posts/wolbachia.html"
+    },
+    {
         title: "Reference Frames & Galileo Transformation Formulas",
         subtitle: "",
         author: "İdil Doğa Türkmen",
