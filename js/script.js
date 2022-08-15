@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Which personality is more successful: Type A or Type B ?",
+        subtitle: "",
+        author: "Na'eema Baksh",
+        author_contact: "", // I personally dunno why does it even exists...
+        publish_date: "August 15, 2022",
+        image_source: "which_presonality_is_more_successful.png",
+        post_destination: "/Posts/Which-personality-is-more-successful.html"
+    },
+    {
         title: "Wolbachia Vector Control",
         subtitle: "An impactful and successful technique to lower disease spread hidden in the shadows",
         author: "Tran Bui",
