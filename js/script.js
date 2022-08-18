@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Genetic Basis of Behavior in Bipolar Disorder?",
+        subtitle: "",
+        author: "Arushi Verma",
+        author_contact: "", // I personally dunno why does it even exists...
+        publish_date: "August 17, 2022",
+        image_source: "Genetic-Basis-of-Behavior-in-Bipolar-Disorder.png",
+        post_destination: "/Posts/Genetic-Basis-of-Behavior-in-Bipolar-Disorder.html"
+    },
+    {
         title: "Which personality is more successful: Type A or Type B ?",
         subtitle: "",
         author: "Na'eema Baksh",
