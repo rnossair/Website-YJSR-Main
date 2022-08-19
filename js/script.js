@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "How Machine Learning Can Aid the Visually Impaired",
+        subtitle: "",
+        author: "Julia Huang",
+        author_contact: "",
+        publish_date: "August 19, 2022",
+        image_source: "how_machine_learning_can_aid_visually_impaired.png",
+        post_destination: "/Posts/How-machine-learning-can-aid-the-visually-impaired.html"
+    },
+    {
         title: "Genetic Basis of Behavior in Bipolar Disorder?",
         subtitle: "",
         author: "Arushi Verma",
