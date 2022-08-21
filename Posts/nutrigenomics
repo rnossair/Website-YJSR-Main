@@ -90,8 +90,31 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
-                        <!-- Main Content/ Article Body -->
+                        <h2 class="section-heading" id="cont-7">What is nutrigenomics?</h2>
+                        <p>Nutrigenomics, also known as nutritional genomics, is the study of the relationship between genomics, nutrition, and health. In the 1990s, the Human Genome Project mapped out human DNA and paved the path for the modern era of nutrigenomics.</p>
+                        <p>Since then, several researchers have looked at how food influences a person's genes and how genes influence how the body responds to food, which ultimately led to this new and emerging field of science.</p>
+                        <p>Genes respond to environmental influences such as nutrition, and nutrigenomics aims to look at exactly that. Nutrigenomics uses several molecular tools to identify how nutrients in foods alter DNA transcription and translation, therefore affecting how our genes are expressed.</p>
+                        <p>On the molecular level, nutrients in the food we eat transmit signals which are then translated into changes in gene, protein, and metabolic expression. The nutrients involved in the one-carbon cycle, including folate, choline, and vitamins B2, B6, B12, and A, are important regulators of this gene expression.</p>
+                        <p>Not only does nutrigenomics look at how what we eat affects our genes, but also how our genes impact what we eat. Carrie Dennett, a nutrigenomics researcher, says that genetic variation may affect appetite, calorie intake, as well as insulin signaling, inflammation, adipogenesis, and lipid metabolism.</p>
+                        <h2 class="section-heading" id="cont-7">How can nutrigenomics adoption influence healthcare outcomes?</h2>
+                        <p>The phrase "every body is different" applies not just to our form or physical type, but also to our genetic makeup, which is why nutrigenomics research can lead to more personalized outcomes tailored to your body type.</p>
+                        <p>Despite the fact that much of the early nutrigenomics "hype" has yet to be realized, the field is still rapidly evolving and has the ability to create the groundwork for truly individualized nutrition. If the ideas and practices of nutrigenomics were to become widely understood and implemented, it can reveal concerns that a basic health history cannot.</p>
+                        <p>When you see the doctor, a simple genetic test may allow them to advise you on particular dietary patterns that will or will not work for you. For example, a certain gene variant might reveal that you have a genomic tendency for fat metabolism, and therefore you would not benefit from a keto diet.</p>
+                        <p>Although genetic testing as part of dietary counseling or medical visits may appear excessive, a nutrigenomic test can provide valuable information about what your body requires, benefits from, and even your particular best sources of macro- and micronutrients.</p>
+                        <p>The “MyPlate” model, for instance, has set the standards for healthy eating, no matter a person’s age, body type, or condition. This model suggests that 12 percent of our meal should be fruits and vegetables, 14 percent should be whole grains, and the remaining 14 percent should be protein. However, it's becoming clear that these "one-size-fits-all" approaches are falling short.</p>
+                        <p>For instance, a scientific nutritional study conducted in 2019 by Tim Spector, a professor at King’s College London and author of “The Diet Myth,” concluded that there were huge differences in how people responded to foods. Tim says in his study that “even identical twins had different responses to the same foods. That might be down to their gut microbes, as the twins shared only 37% of the same microbes with each other. That’s only slightly more than unrelated individuals, which share an average of 35% of the same microbes.”</p>
+                        <h2 class="section heading" id="cont-7">Conclusion</h2>
+                        <p>The widely prevalent nutritional science and advice is based on a one size fits all approach. However, there is ample scientific evidence to show that not everyone reacts the same way to particular foods, nutrients, or portions.</p>
+                        <p>Nutrigenomics has made huge strides in discovering how individual genes impact how an individual’s body responds to food, and vice versa. This field has huge potential to deliver a more personalized approach to health and food, and therefore usher in a whole new paradigm of attaining health.</p>
+                        <h2 class="section-heading">References</h2>
+                        <ol class="ref">
+                            <li>Farr, Christina. “Even Identical Twins Don't React the Same Way to the Same Foods - Which Is Why Most Diet Advice Doesn't Work.” CNBC, CNBC, 22 June 2019, <a href="https://www.cnbc.com/2019/06/22/new-study-shows-theres-no-one-size-fits-all-diet.html.">https://www.cnbc.com/2019/06/22/new-study-shows-theres-no-one-size-fits-all-diet.html.</a>.</li>
+                            <li>Garone, Sarah. “Nutrigenomics Might Be the Future of How You Eat.” Healthline, Healthline Media, 16 Mar. 2021, <a href="https://www.healthline.com/health/food-nutrition/nutrigenomics-might-be-the-future-of-ho w-you-eat#benefits.">https://www.healthline.com/health/food-nutrition/nutrigenomics-might-be-the-future-of-ho w-you-eat#benefits.</a>.</li>
+                            <li>Guasch-Ferré, Marta, et al. “Nutritional Genomics and Direct-to-Consumer Genetic Testing: An Overview.” OUP Academic, Oxford University Press, 11 Apr. 2018,<a href="https://academic.oup.com/advances/article/9/2/128/4969268">https://academic.oup.com/advances/article/9/2/128/4969268</a>.</li>
+                            <li>Pavlidis, Cristiana, et al. “Nutrigenomics: A Controversy.” Applied & Translational Genomics, Elsevier, 14 Feb. 2015, <a href="https://www.sciencedirect.com/science/article/pii/S2212066115000058.">https://www.sciencedirect.com/science/article/pii/S2212066115000058.</a>.</li>
 
+                        </ol>   
+                        
                     </div>
                 </div>
             </div>
@@ -139,30 +162,3 @@
     </body>
 </html>
 
-<!-- Webpage Format: Code (excluding this statement and instructions) to be copied and pasted in the article webpage -->
-
-<!--
-    Instructions:
-        #1 Article Info: 
-            For article info, you need to fill the following details:
-                I: Article Name (line 63)- Title of the article.
-                II: Article Subtitle *optional* (line 64)- If present, article subtitle or the description.
-                III: Author Name: (line 66): Name of the Author.
-                IV: Publish Date (line )- Fill it in the format 'Month DD, YYYY', Example: June 29, 2022.
-                V: Editor Name (line ): Name of the Editor.
-                V: Thumbnail (line ): You may fill the string in the `url()` function with a link of an unliscenced, royalty-free image from websites like https://www.unsplash.com or https://www.pixabay.com.
-                VI: Author Contact *optional*: If present, fill it with a link to social media page of the author, for eg. Facebook, Instagram or any other such platforms (It's mostly empty so no need to fill it up).
-        #2 Article Body <From line 85):
-            I. Main titles: Use `<h2 class="section-heading"></h2>` tag.
-            II. Other titles: Use `<h2>` to `<h6>` tags depending on the type of the title.
-            III. Paragraphs: Use simple `<p>` tags.
-            IV. Images: Use `<img src="" class="illus-img">` tag. Where src string contains the local imag source or the link to the image.
-            V. Image description: If present, use `<p class="img-cap">` tag below the img tag.
-            VI. Lists:
-                Numbered Lists: Use `<ol class="cont-list"></ol>`, with `<li>` tags (containing list item) inside the ol tags.
-                Bulleted/Non-Numbered Lists: Use `<ul class="cont-list"></ul>`, with `<li>` tags (containing list item) inside the ul tags.
-            VII. References:
-                For references, use `<ol class="ref"></ol>`, with `<li>` tags (containing refernces) inside the ol tags.
-            VIII. Links:
-                For links, use `<a href=""></a>`, with href string containing the link to the webpage to be redirected.
--->
