@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Cloning Of Asiatic Lions In India - a solution or an even bigger problem?",
+        subtitle: "",
+        author: "Maahira Singh",
+        author_contact: "",
+        publish_date: "August 24, 2022",
+        image_source: "Asiatic-Lion-Cloning.png",
+        post_destination: "/Posts/Cloning-Of-Asiatic-Lions.html"
+    },
+    {
         title: "How Machine Learning Can Aid the Visually Impaired",
         subtitle: "",
         author: "Julia Huang",
