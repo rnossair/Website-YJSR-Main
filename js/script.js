@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Nutrigenomics: An intro to this newly emerging field",
+        subtitle: "",
+        author: "Saanika Agarwal",
+        author_contact: "",
+        publish_date: "August 25, 2022",
+        image_source: "nutrigenomics.png",
+        post_destination: "/Posts/nutrigenomics.html"
+    },
+    {
         title: "The String Theory for babies",
         subtitle: "",
         author: "Swapnil k Singh",
