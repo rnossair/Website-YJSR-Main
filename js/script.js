@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "The String Theory for babies",
+        subtitle: "",
+        author: "Swapnil k Singh",
+        author_contact: "",
+        publish_date: "August 25, 2022",
+        image_source: "the_string_theory.png",
+        post_destination: "/Posts/The-string-theory-for-babies.html"
+    },
+    {
         title: "Cloning Of Asiatic Lions In India - a solution or an even bigger problem?",
         subtitle: "",
         author: "Maahira Singh",
