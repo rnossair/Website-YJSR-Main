@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "History of the Golden Ratio and Its Relation to Beauty",
+        subtitle: "",
+        author: "Min Khant Oakkar",
+        author_contact: "",
+        publish_date: "September 5, 2022",
+        image_source: "History_of_golden_ratio.png",
+        post_destination: "/Posts/History-of-golden-ratio-and-its-relation-to-beauty.html"
+    },
+    {
         title: "Nutrigenomics: An intro to this newly emerging field",
         subtitle: "",
         author: "Saanika Agarwal",
