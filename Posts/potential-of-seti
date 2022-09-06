@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZH82SXNCBR%22%3E"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-ZH82SXNCBR');
+        </script>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>YJSR</title>
+        <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../css/styles.css" rel="stylesheet" />
+        <style>
+            .ref > li, .cont-list > li {
+                margin: 18px 0;
+            }
+            .ref > li > a {
+                text-decoration: underline;
+            }
+            .cont :hover {
+                color: #0085A1;
+            }
+            .illus-img {
+                width: 100%;
+                border-radius: 9px;
+            }
+            .img-cap {
+                font-style: italic;
+                text-align: center;
+                font-size: 18px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="../">YJSR</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../">Home</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../about">About</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../publish">Publish</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../join">Join</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('https://lh3.googleusercontent.com/ufimXQESQNAIPlN6A8c9YF-uh44u9vXLZqgSGW42noGUaAte0s46X25KdmLEBtopybrKS3xCnZR-HhhiQ4K0_r9n6Lw7AEoHHD-3lfLo0-NLv8oep1YwKLxjlVB1IgOqu1DyThnK2593oGTMhA')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="post-heading">
+                            <h1>Peering into the Potential of SETI</h1> 
+                            <h2 class="subheading"></h2> 
+                            <span class="meta">
+                                Posted by 
+                                <a href="">Deepthy Ajith K</a> 
+                                on September 10, 2022
+                            </span>
+                            <span class="meta">
+                                Edited by 
+                                <a href="">Ishan Choudhary</a> 
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Post Content-->
+        <article class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <img class="illus-img" src="https://lh3.googleusercontent.com/LAktGKwXf5Dv6nCmxuWhiPVwHjjLuYcgNnlzk2HMpKcD81aOGhIrYYyJmtk9Cipxbn4bdSzA1579q3uIAolI2nbtwqnJy8FdahDkLpg_Uo2pFC8yD4_4W0Mh4Ju-PEcEsQ_Ja5NFJXy0-fZ1uORbhg">
+                        <p class="img-cap">Source: <a href="">The title alien from the movie ‘E.T. The Extra-Terrestrial,’ 1982. PHOTO: UNIVERSAL/EVERETT COLLECTION</a></p>
+                        <h2 class="section-heading">What is SETI?</h2>
+                        <p>A collective term for the scientific searches for intelligent extraterrestrial life, SETI stands for the ‘search for extraterrestrial life’. It is essentially an effort to detect evidence of civilizations that may exist elsewhere in the universe.</p>
+                        <p>By focusing on receiving and analysing signals from space, particularly in the radio and visible-light regions of the electromagnetic spectrum, SETI searches for non-random patterns likely to have been sent either deliberately or inadvertently by technologically advanced beings.</p>
+                        <div>
+                            <img class="illus-img" src="https://lh5.googleusercontent.com/FSIjYbQCoiUKjWoQBvyrFbxYWu5Get-7kwMfte47rLH5fO3vc9D6QatWUCbR4HTGlVjvlmOmk_pvqoRzx3uGnZQAI4AUvqCy2Ij6m2Ed2ytipJ04qhQB05j66EIwoek3xsPKF0AAWmt_67O9NA">
+                            <p class="img-cap"><a href="">Aerial view of the Allen Telescope Array in Hat Creek, California. SETI Institute.</a></p>
+                        </div>
+                        <p>The first modern SETI experiment, named Project Ozma, was performed in 1960 by astronomer Frank Drake who is famous for his Drake equation (more on that later!) using a radio telescope 85 ft in diameter at Green Bank, West Virginia.</p>
+                        <p>The experiment was to examine the stars Tau Ceti and Epsilon Eridani in a region of the radio spectrum often referred to as the “water hole” due to its proximity to the hydrogen and hydroxyl radical spectral lines. However, he found nothing of interest.</p>
+                        <p>The SETI Institute is a well-known non-profit research organisation whose mission is to explore, understand, and explain the origin and nature of life in the universe, and to use this knowledge to inspire and guide present and future generations. </p>
+                        <p>Isn’t it amazing that there are potentially billions of locations capable of sustaining life outside our Solar System? Considering the technological advancements happening now, we have the ability to discover evidence of cosmic habitations. Speaking of the SETI experiments, we have the required tools to find beings that are at a technological level at least as advanced as ours, which is the base assumption for SETI.</p>
+                        <h2 class="section-heading">Breaking down the Drake equation</h2>
+                        <p>Coming to the famous Drake Equation - which is more of a probabilistic argument, was formulated by Frank Drake in 1961. It is used to estimate the number of active, communicative extraterrestrial civilizations in the Milky Way Galaxy.</p>
+                        <p>Summarising the main concepts which scientists need to address to consider the question of other radio-communicative life, the Drake equation is more of an approximation than a serious attempt to determine a precise number. The equation is as given below:</p>
+                        <div>
+                            <img class="illus-img" src="https://lh4.googleusercontent.com/9xcpBuXPTlcc8kp3iFVX46OXC81Gz1Vp-kURFH9vJpS5UpjgMXQKeEauU_IlzAH-e6pQudKYU3TGY_c2AeBjdyBrJauaELSM-oBtROQSFDB_xiKynSYj5JlUquAeomLt7lq2jICzaf6ChL6s1g">
+                            <p class="img-cap"><a href=""></a></p>
+                        </div>
+                        <p>where,</p>
+                        <p>N = the number of civilizations in our galaxy with which communication might be possible (i.e. which are on our current past light cone);</p>
+                        <p>R∗ = the average rate of star formation in our Galaxy</p>
+                        <p>fp = the fraction of those stars that have planets</p>
+                        <p>ne = the average number of planets that can potentially support life per star that has planets</p>
+                        <p>fl = the fraction of planets that actually develops life at some point</p>
+                        <p>fi = the fraction of planets with life that actually go on to develop intelligent life (civilizations)</p>
+                        <p>fc = the fraction of civilizations that develop a technology that releases detectable signs of their existence into space</p>
+                        <p>L = the length of time for which such civilizations release detectable signals into space.</p>
+                        <div>
+                            <img class="illus-img" src="https://lh3.googleusercontent.com/TuYDLmQOEomIh2rdzjBBl9MRHdWxKx7r2p4N3qWHfm7EEP1o90oBLnYqLC1jPm-1sQh63dDBe2aQvdc7FFFGZ6e1TEpEIWRLtC1rq0CTvlBP3JUsGuMhqBKnHghMQ1aRsKKuYrEO4ntETD3Ccg">
+                            <p class="img-cap">Source: <a href="https://scienceline.org/2019/01/anybody-out-there/">Credit: Scienceline</a></p>
+                       </div>
+                       <p>The utility of the Drake equation is not quite in the solving, but in the addressing of all the various concepts which scientists must include when considering the question of life elsewhere. The equation also gives the question of life elsewhere in the universe a basis for scientific analysis.</p>
+                       <p>It needs to be noted that there is considerable disagreement on the values of these parameters. The values used by Drake and his colleagues in 1961 are given below:</p>
+                       <ul>
+                       <li>R∗ = 1 yr−1 (1 star formed per year, on average over the life of the galaxy; this was regarded as conservative)</li>
+                       <li>fp = 0.2 to 0.5 (one-fifth to one-half of all the stars formed will have planets)</li>
+                       <li>ne = 1 to 5 (stars with planets will have between 1 and 5 planets capable of developing life)</li>
+                       <li>fl = 1 (100% of these planets will develop life)</li>
+                       <li>fi = 1 (100% of which will develop intelligent life)</li>
+                       <li>fc = 0.1 to 0.2 (10–20% of which will be able to communicate)</li>
+                       <li>L = 1000 to 100,000,000 communicative civilizations (which will last somewhere between 1000 and 100,000,000 years)</li>
+                       </ul>
+                       <p>Inserting the above minimum numbers into the equation gives a minimum N of 20. Inserting the maximum numbers gives a maximum of 50,000,000.</p>
+                       <p>Drake states that given the uncertainties, there were probably between 1000 and 100,000,000 planets with civilizations in the Milky Way Galaxy.</p>
+                       <h2 class="section-heading">Search for extraterrestrial life</h2>
+                       <p>According to Brittanica, extraterrestrial intelligence refers to hypothetical extraterrestrial life that is capable of thinking and purposeful activity.  The argument for their existence is based on the so-called principle of mediocrity which states that the properties and evolution of the solar system are not unusual.  This essentially means that the processes on Earth that led to life, could have occurred everywhere i.e throughout the cosmos.</p>
+                       <div>
+                        <img class="illus-img" src="https://lh4.googleusercontent.com/vBYROmTQ7aI5a_4w9CfXs95w-nxcy7nYqV8S6BH4KuqO9rJzRIu4DuQFr1Wk3hlJzAvisD5SQ6FFudRCc3C_8szhZJAVoRJi_-OZujtA2pjTYoJS3VBgORPCXObe6A52HTrmJ6Bpvu1_IWRyCg">
+                        <p class="img-cap"><a href="">Credit: Science News for Students 
+                        Telescopes around the world, including the Very Large Array (pictured) near Socorro, N.M., have joined the search for alien messages from outer space.NRAO/AUI/NSF, JEFF HELLERMAN (CC BY 3.0)</a></p>
+                       </div>
+                       <p>In fact, extensive research and work in Astrobiology has provided evidence that suggests that the evolution of other intelligent species in the Milky Way Galaxy is not completely improbable.  According to Britannica, the assumptions used by this argument are as follows:</p>
+                       <ol>
+                       <li>planets capable of spawning life are common,</li>
+                       <li>biota will spring up on such worlds, and</li>
+                       <li>the workings of natural selection on planets with life will at least occasionally produce intelligent species.</li>
+                       </ol>
+                       <p>However, only the first one has actually been proven.</p>
+                       <p>Coming back to the results of the aforementioned research, more than 4,000 extrasolar planets have been detected, and the plausible presence of underground water on Mars and some of the moons of the outer solar system. These suggest that there could be many worlds in which life, and occasionally intelligent life, might arise.</p>
+                       <p>Astronomers have also found several small rocky planets that are the right distance from their stars to have atmospheres and oceans able to support life. In fact, the Kepler Space Telescope launched in 2009, (now retired) found thousands of planets, more than 20 of which are Earth-sized planets in the habitable zone where liquid water can survive on the surface, by observing such transits.</p>
+                       <p>However, as of now, scientists have found no clear indications of life, past or present, beyond the Earth. </p>
+                       <p>As radio frequencies can penetrate the Earth’s atmosphere quite well, radio telescopes were utilised to investigate the cosmos using large radio antennas. One way of discovering an extraterrestrial civilization might be to detect artificial radio emissions from a location outside the Solar System as these have repetitive nature and narrow bandwidths.</p>
+                       <p>Many international radio telescopes are currently being used for radio SETI searches, including the Low Frequency Array (LOFAR) in Europe, the Murchison Widefield Array (MWA) in Australia, and the Lovell Telescope in the United Kingdom.</p>
+                       <h2 class="section-heading">Possibilities</h2>
+                       <p>There is a fairly good understanding of how life evolved on Earth. With this knowledge, we can assume that similar processes may occur throughout the universe.  Unseen companion bodies as big as large planets have been detected orbiting nearby stars. </p>
+                       <p>The evolution of potential life forms over billions of years could have resulted in the development of intelligence, civilisation, and technology. As was mentioned at the beginning, we do possess the technology necessary to communicate with other civilizations throughout the depths of space. </p>
+                       <p>If there are 100 billion suitable planets in our galaxy and assuming the origin of life to be highly probable with  billions of years of evolution available on each such planet – the number of technological civilizations in the galaxy today might be very large assuming of course, a small fraction of technical civilizations pass safely through the early stages of technological adolescence. </p>
+                       <p>Messaging to extraterrestrial intelligence (METI), sometimes referred to as Active SETI, consists of sending signals into space in the hope that they will be picked up by an alien intelligence.</p>
+                       <p>According to Cato Unbound, ‘The Draft Declaration of Principles Concerning Sending Communications to Extraterrestrial Intelligence, developed within the International Academy of Astronautics (IAA) SETI Committee, stresses the benefits of an interstellar exchange for humans, rather than for our interlocutors: “The content of such a message should reflect a careful concern for the broad interests and wellbeing of Humanity….” </p>
+                       <p>We still don’t have any concrete evidence that hints at the existence of intelligent life elsewhere in the universe. Over 50 years of SETI have yet to produce the results we’re hoping to find. Of course, it’s also not prudent to disregard the numerous claims of UFO sightings or abductions that have traversed years just as our curiosity to discover more has.</p>
+                       <h2 class="section-heading" id="cont-7">References</h2>
+                        <ol class="ref">
+                            <li>About. SETI Institute. (n.d.). Retrieved July 22, 2022, from <a href="https://www.seti.org/about">https://www.seti.org/about</a>.</li>
+                            <li>Wikimedia Foundation. (2022, August 6). Search for extraterrestrial intelligence. Wikipedia. Retrieved July 24, 2022, from <a href="https://en.wikipedia.org/wiki/Search_for_extraterrestrial_intelligence">https://en.wikipedia.org/wiki/Search_for_extraterrestrial_intelligence.</a>.</li>
+                            <li>Wikimedia Foundation. (2022, August 11). SETI Institute. Wikipedia. Retrieved July 24, 2022, from <a href="https://en.wikipedia.org/wiki/SETI_Institute">https://en.wikipedia.org/wiki/SETI_Institute </a>.</li>
+                            <li>Drake, C. S. and F. (1997, January 6). The search for extraterrestrial intelligence. Scientific American. Retrieved July 24, 2022, from <a href="https://www.scientificamerican.com/article/the-search-for-extraterre/">https://www.scientificamerican.com/article/the-search-for-extraterre/</a>.</li>
+                            <liEncyclopædia Britannica, inc. (n.d.). Extraterrestrial intelligence. Encyclopædia Britannica. Retrieved July 24, 2022, from <a href="https://www.britannica.com/science/extraterrestrial-intelligence">https://www.britannica.com/science/extraterrestrial-intelligence.</a>.</li>
+                            <li>The importance of Active Seti. Cato Unbound. (2014, December 8). Retrieved July 24, 2022, from <a href="https://www.cato-unbound.org/2014/12/08/douglas-vakoch/importance-active-seti/">https://www.cato-unbound.org/2014/12/08/douglas-vakoch/importance-active-seti/.</a>.</li>
+                            <li>Wikimedia Foundation. (2022, August 1). Drake equation. Wikipedia. Retrieved July 24, 2022, from <a href="https://en.wikipedia.org/wiki/Drake_equation#:~:text=The%20Drake%20equation%20is%20a,in%20the%20Milky%20Way%20Galaxy">https://en.wikipedia.org/wiki/Drake_equation#:~:text=The%20Drake%20equation%20is%20a,in%20the%20Milky%20Way%20Galaxy</a>.</li>
+                        </ol>
+
+                       
+                    </div>
+                </div>
+            </div>
+        </article>
+<!-- Footer-->
+        <footer class="border-top">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <ul class="list-inline text-center">
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-reddit-alien fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/yjsr.tech/">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/company/youth-journal-of-stem-research">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="small text-center text-muted fst-italic">Copyright &copy; YJSR 2022</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
+
