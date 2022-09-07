@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Peering into the Potential of SETI",
+        subtitle: "",
+        author: "Deepthy Ajith K",
+        author_contact: "",
+        publish_date: "September 7, 2022",
+        image_source: "seti.png",
+        post_destination: "/Posts/seti.html"
+    },
+    {
         title: "History of the Golden Ratio and Its Relation to Beauty",
         subtitle: "",
         author: "Min Khant Oakkar",
