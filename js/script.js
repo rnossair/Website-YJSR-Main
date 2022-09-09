@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Human Speech and Development",
+        subtitle: "",
+        author: "Mya Dias",
+        author_contact: "",
+        publish_date: "September 9, 2022",
+        image_source: "human_speech_and_development.jpg",
+        post_destination: "/Posts/Human-speech-and-development.html"
+    },
+    {
         title: "Peering into the Potential of SETI",
         subtitle: "",
         author: "Deepthy Ajith K",
