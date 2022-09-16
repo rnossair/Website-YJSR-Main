@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Cell Structure",
+        subtitle: "What are the fundamental units of life made of?",
+        author: "Ngoc Tran Bui",
+        author_contact: "", // I personally dunno why does it even exists...
+        publish_date: "September 15, 2022",
+        image_source: "Cell-Structure.png",
+        post_destination: "/Posts/Cell-Structure.html"
+    },
+    {
         title: "Human Speech and Development",
         subtitle: "",
         author: "Mya Dias",
