@@ -62,6 +62,15 @@ A format for the post list array items.
 
 const Post_List = [
     {
+        title: "Alzheimer’s Connection to Dysfunctional Immune System",
+        subtitle: "",
+        author: "Shrute Dayalan",
+        author_contact: "",
+        publish_date: "September 18, 2022",
+        image_source: "alzheimer.png",
+        post_destination: "/Posts/alzheimer.html"
+    },
+    {
         title: "Cell Structure",
         subtitle: "What are the fundamental units of life made of?",
         author: "Ngoc Tran Bui",
