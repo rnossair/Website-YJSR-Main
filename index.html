@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <!-- Google tag (gtag.js) -->
@@ -17,12 +17,90 @@
         <title>Youth Journal Of Stem research</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
         <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <script src="https://use.fontawesome.com/releases/v6.2.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="../css/styles.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
+        <style> 
+            .tab-bar {
+                font-size: 21px;
+                display: flex;
+                width: 720px;
+                margin: auto;
+                margin-bottom: 36px;
+                font-weight: bold;
+            }
+            .tab {
+                margin-bottom: 12px;
+                height: 36px;
+                width: calc(100%/4);
+                text-align: center;
+                color: #313131;
+                border-radius: 12px 12px 0px 0px;
+                transition: color 500ms;
+            }
+            .tab:hover {
+                cursor: pointer;
+                color: #0085A1;
+            }
+            .indicator {    
+                z-index: -1;
+                position: absolute;
+                height: 3px;
+                width: 180px;
+                margin-top: 36px;
+                background-color: #00b8dd;
+                transition: left 450ms;
+                /*height: 36px;
+                width: 180px;
+                border-radius: 12px 12px 0 0;
+                box-shadow: -6px 0px 9px rgba(3, 221, 3, 0.54), 6px 0px 9px rgba(3, 221, 3, 0.54), 0px -6px 9px rgba(3, 221, 3, 0.54); 
+                transition: left 500ms, box-shadow 500ms;*/
+            }
+            .tab-body {
+                position: relative;
+                padding: 10px, 5px;
+            }
+            .tab-body > div {
+                position: absolute;
+                top: -200px;
+                opacity: 0;
+                transform: scale(0,0);
+                transition: opacity 500ms ease-in-out 0ms;
+            }
+            .tab-body > .active {
+                top: 0px;
+                opacity: 1;
+                transform: scale(1);
+                position: relative;
+            }
+            .tab-bar > .active {
+                color:#0085A1;
+            }
+            @media (max-width: 992px) {
+                .tab {
+                    font-size: 21px;
+                    width: fit-content;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding: 9px;
+                }
+                .tab-bar {
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                .indicator {
+                    display: none;
+                }
+            }
+            .post-cont {
+                height: 450px;
+                word-wrap: normal;
+            }
+        </style>
     </head>
     <body>
         <!-- Navigation-->
@@ -68,8 +146,41 @@
                         <div id="search-results"></div>
                     </div>
                     <!-- Post preview-->
-                    <div class="post-list"></div>
-                    <button class="bob" onclick="post_render(5)" id="load_more">Load More</button>
+                    <div class="tab-bg">
+                        <div class="tab-bar">
+                            <div class="tab tab-sci active">
+                                <i class="fa fa-flask"></i> Science
+                            </div>
+                            <div class="tab tab-tech">
+                                <i class="fa fa-microchip"></i> Technology
+                            </div>
+                            <div class="tab tab-engi">
+                                <i class="fa fa-screwdriver-wrench"></i> Engineering
+                            </div>
+                            <div class="tab tab-math">
+                                <i class="fa fa-infinity"></i> Mathematics
+                            </div>
+                            <div class="indicator"></div>
+                        </div>
+                        <div class="tab-body">
+                            <div class="tb sci-body active">
+                                <div class="post-body"></div>
+                                <button class="bob" onclick="postRender('sci', 5)" id="sci-load-more">Load More</button>
+                            </div>
+                            <div class="tb tech-body">
+                                <div class="post-body"></div>
+                                <button class="bob" onclick="postRender('tech', 5)" id="tech-load-more">Load More</button>
+                            </div>
+                            <div class="tb eng-body">
+                                <div class="post-body"></div>
+                                <button class="bob" onclick="postRender('eng', 5)" id="eng-load-more">Load More</button>
+                            </div>
+                            <div class="tb math-body">
+                                <div class="post-body"></div>
+                                <button class="bob" onclick="postRender('math', 5)" id="math-load-more">Load More</button>
+                            </div>
+                        </div>
+                    </div>
                     <br>
         <!-- Footer-->
         <footer class="border-top">
@@ -102,7 +213,7 @@
                                 </a>
                             </li>
                         </ul>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; YJSR 2022</div>
+                        <div class="small text-center text-muted fst-italic">Copyright &copy; YJRS 2022</div>
                     </div>
                 </div>
             </div>
