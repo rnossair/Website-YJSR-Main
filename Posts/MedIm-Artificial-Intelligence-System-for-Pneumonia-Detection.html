@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZH82SXNCBR%22%3E"></script>
+        <script>
+            //window.dataLayer = window.dataLayer || [];
+            //function gtag(){dataLayer.push(arguments);}
+            //gtag('js', new Date());
+
+            //gtag('config', 'G-ZH82SXNCBR');
+        </script>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>YJSR</title>
+        <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../css/styles.css" rel="stylesheet" />
+        <style>
+            .ref > li, .cont-list > li {
+                margin: 18px 0;
+            }
+            .ref > li > a {
+                text-decoration: underline;
+            }
+            .cont :hover {
+                color: #0085A1;
+            }
+            .illus-img {
+                width: 100%;
+                border-radius: 9px;
+            }
+            .img-cap {
+                font-style: italic;
+                text-align: center;
+                font-size: 18px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="../">YJSR</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../">Home</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../about">About</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../publish">Publish</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../join">Join</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="post-heading">
+                            <h1>MedIm: Artificial Intelligence System for Pneumonia Detection</h1> 
+                            <h2 class="subheading"><!-- Article Subtitle --></h2> 
+                            <span class="meta">
+                                Posted by 
+                                <a href="">Nargiz Akhmetova</a> <!-- Author Contact, if present in the `href` string. -->
+                                on October 24, 2022
+                            </span>
+                            <span class="meta">
+                                Edited by 
+                                <a href="">Felea Joli Mago</a> <!-- Editor Contact, if present in the `href` string. -->
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Post Content-->
+        <article class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <!-- Main Content/ Article Body -->
+                        <h2 class="section-heading">Contents</h2>
+                        <ol class="cont">
+                            <li onclick='document.getElementsByClassName("section-heading")[1].scrollIntoView()'>Abstract</li>
+                            <li onclick='document.getElementsByClassName("section-heading")[2].scrollIntoView()'>Introduction</li>
+                            <li onclick='document.getElementsByClassName("section-heading")[3].scrollIntoView()'>Neural Networks</li>
+                            <li onclick='document.getElementsByClassName("section-heading")[4].scrollIntoView()'>Convolutional Neural Network</li>
+                            <li onclick='document.getElementsByClassName("section-heading")[5].scrollIntoView()'>“MedIm” Algorithm</li>
+                            <li onclick='document.getElementsByClassName("section-heading")[6].scrollIntoView()'>Research Results</li>
+                            <li onclick='document.getElementsByClassName("section-heading")[7].scrollIntoView()'>Conclusion</li>
+                            <li onclick='document.getElementsByClassName("section-heading")[8].scrollIntoView()'>References</li>
+                        </ol>
+                        <h2 class="section-heading">Abstract</h2>
+                        <p>The MedIm project aims to bring automation to the detection of pneumonia based on X-ray images, which includes all the steps of diagnosis and final evaluation. Machine learning offers the ability to learn suitable models from previously analyzed data. Structured AI uses cases that define specific datasets for training and testing algorithms to contribute to developing multiple sites while developing the AI model. </p>
+                        <p>Four machine learning classifiers' predicting accuracy was tested to test the hypothesis that implementing the principles of artificial intelligence in pneumonia disease diagnosis will have a high-efficiency level. After proper initialization, the neural networks were given identical data for training and testing, after which the model's accuracy score was calculated. Based on the results of the calculation, it has been seen that the most functional library for X-ray image analysis is CNN Classifier. The accuracy of its forecast was 92%. Subsequently, the convolutional neural network was chosen as the primary tool for forecasting the disease in the project’s final version.</p>
+                        <p>The research results suggest that the “MedIm” machine learning algorithm achieved its goal of identifying pneumonia using X-ray images, thereby confirming the hypothesis of the high efficiency of AI in diagnosing and interpreting radiological data.</p>
+                        <h2 class="section-heading">Introduction</h2>
+                        <p>Medical imaging analysis aims to design computing systems to automatically quantify pertinent information from medical imaging data. The aim is to support diagnosis, treatment planning, and follow-up biomedical research. The analysis of medical images is complicated by the complexity of the data itself, including 3D tomographic images based on different physical principles and predetermined by their characteristics and limitations, as well as by the complexity of the environment, including standard and pathological anatomical features and functions. Hence, model-based approaches are needed that consider prior knowledge about the appearance of the images of the respective objects in the environment. These models are parameterized to deal with the variability of the object's appearance; therefore, the image analysis task can be formulated as the task of optimizing the search for parameters that best explain their content. Different approaches can be distinguished depending on the representation chosen for the model. <a href="https://doi.org/10.1148/radiol.2018180547">[1]</a></p>
+                        <p><ol>
+                            Research stages:<br>
+                            <li><b>Formulation of the problem.</b> At this stage, research and selection of technologies were chosen to achieve the project's goal.</li>
+                            <li><b>Research of selected technologies.</b> The determined ways of solving the problem were considered from all sides, considering the functionality, accuracy, and clarity of data interpretation.</li>
+                            <li><b>Algorithm development.</b> Formation of the logic of the process.</li>
+                            <li><b>Explore the general benefits of using AI.</b> The final research stage includes calculations and assumptions regarding the joint work of all selected sources.</li>
+                        </ol></p>
+                        <p>Machine learning offers the ability to learn suitable models from previously analyzed data. Structured AI used cases that define specific datasets parameters for training and testing algorithms can contribute to developing multiple sites for developing training and validation datasets that can help ensure that algorithms respect the technical, geographic, and demographic diversity in patient populations and the acquisition of images.</p>
+                        <p>Medical specialty societies can play a role in protecting patients from the unintended consequences of AI by developing use cases, developing programs to independently validate algorithms, and monitoring the effectiveness and safety of AI tools in clinical practice. The development and implementation of machine learning algorithms for medical imaging will benefit from the creation of an artificial intelligence ecosystem that includes doctors, researchers, software developers, as well as government regulators, the HIT industry, and hospital administrators who are working toward the safe and efficient use of artificial intelligence tools in clinical practice.</p>
+                        <h2 class="section-heading">Neural Networks</h2>
+                        <p>The basis of mathematical analysis is constructed from logical dependencies and sequences. Neural networks are technological applications of complex mathematical regressions combined into the human brain's neural exchange structure. Artificial equivalents of biological neurons are zeros or ones in our preliminary definition. Synapses are modeled with a single number or weight, so each input is multiplied by a displacement vector (weight) before being sent to the equivalent of the cell body. Subsequently, the weighted signals are summed by simple arithmetic addition to ensure node activation. Some input signals have an inhibitory effect in determining whether to emit a pulse and generally prevent excitation. In contrast, others are excitatory and contribute to the generation of vibrations. It is assumed that the distinctive ability of each neuron to process data depends on the type - excitatory or inhibitory - and the strength of its synaptic connections with other neurons. This architecture and processing style is embedded in neural networks, and because of the emphasis on the importance of interneural connections, this type of system is sometimes called connectionism. This terminology is often used for neural networks in the context of modeling human cognitive functions. <a href="https://insightsimaging.springeropen.com/articles/10.1007/s13244-018-0639-9">[2]</a></p>
+                        <div>
+                            <img class="illus-img" src="../assets/others/medlm_ai_nargiz (4).png">
+                            <p class="img-cap">Figure 1</p>
+                        </div>
+                        <p>Returning to a working definition of a neural network, the emphasis is made on learning from experience. In the human brain, synaptic strength can, under certain circumstances, be altered so that the behavior of each neuron can change and adapt to its particular input stimulus. In artificial neurons, the equivalent changes the values ​​of the connections. As for information processing, there are no computer programs since it is assumed that the "knowledge" that the network possesses is stored in its connections, which are developed in the process of adaptation to a stimulus from a set of template examples. In the process of training a neural network, one of the fundamental aspects is regression and a vector. The directional vector is essential for indicating the trend of values ​​and then predetermining the direction of the regression. A vector in a neural network is a set of data of a particular sequence written into a data array for further interpretation. To generalize to higher dimensions and relate vectors to template space ideas, it is more convenient to describe vectors in a rectangular or Cartesian coordinate system. In the future, the neural network determines important computational data based on the vector components and performs the necessary manipulations with the values. <a href="https://doi.org/10.1007/978-3-319-94878-2_19">[3]</a></p>
+                        <p>Based on the above functionality of neural networks, we can conclude that they are usually used in tasks formulated in classification and forecasting. Some examples include image and speech recognition, text character recognition, and areas of human expertise, such as geological prospecting for oil, forecasting financial market indicators, and medical diagnostics.</p>
+                        <h2 class="section-heading">Convolutional Neural Network</h2>
+                        <p>The convolutional neural network is a class of deep learning methods that have become dominant in various computer vision tasks. The CNN architecture consists of a series of layers that translate the volume of the image into output class estimates. Each layer transforms one volume of activations into another. The main types of layers combined to build a CNN are Conv, Pool, Nonlinear, Nonlinear, Fully Connected, and Fully Connected.</p>
+                        <p>A convolutional neural network is designed for the automatic and adaptive study of spatial functions through the backward propagation of information. This principle is the opposite of procedural programming: the input and output data are initially known, but the principle of determination is unknown and is determined precisely in the process of working with data. Whereas in procedural programming, the input and the algorithm are taken as a basis, and the output is determined during the compilation process. Knowledge of a convolutional neural network's concepts, benefits, and limitations is necessary to enhance its potential to improve the radiologist's performance and patient care.</p>
+                        <p>The most recent research in radionics uses manual feature extraction techniques like texture analysis, followed by conventional machine learning classifiers such as a random forest (a concept based on a random subspace method) and helper vector machines. A convolutional neural network has many significant advantages over the methods mentioned above. First, CNN does not require manual feature extraction. Second, the architecture of CNN does not necessarily require human specialists' segmentation of tumors or organs. Thirdly, this type of neural network opens up opportunities for a more detailed study of the feature model.</p>
+                        <p>However, a convolutional neural network requires much more data due to the millions of parameters being trained to estimate and therefore is computationally expensive, which necessitates the use of graphics processing units (GPUs) to train the model. <a href="https://www.inf.ed.ac.uk/teaching/courses/nlu/assets/reading/Gurney_et_al.pdf">[4]</a></p>
+                        <h2 class="section-heading">“MedIm” Algorithm</h2>
+                        <p>To write a neural network for radionics, a sample of X-ray data from sick and recovered patients was obtained. Data is presented as a table of several columns of different classes.</p>
+                        <p>With the help of training information, the model memorizes specific sequences based on the correspondence with which it will draw subsequent conclusions regarding new images.</p>
+                        <div>
+                            <img class="illus-img" src="../assets/others/medlm_ai_nargiz (1).png">
+                            <p class="img-cap">Figure 2</p>
+                        </div>
+                        <p>Each data class defines one of many functional groups in the analysis and interpretation of the obtained data. The more significant the data, the more accurate the forecast of the result will be.</p>
+                        <p>The greater the variability of the data, the more mathematical equations a neural network can create; therefore, the average value will be closer to the accurate result.</p>
+                        <div>
+                            <img class="illus-img" src="../assets/others/medlm_ai_nargiz (3).png">
+                            <p class="img-cap">Figure 3</p>
+                        </div>
+                        <p>When using the get_train_data() function, the data from the database forms two lists - train_data (training images) and train_labels (training indicators, in this case, sick (1) and healthy (0)).</p>
+                        <div>
+                            <img class="illus-img" src="../assets/others/medlm_ai_nargiz (7).png">
+                            <p class="img-cap">Figure 4</p>
+                        </div>
+                        <p>Sequencing data allows a program to step through all lines of code sequentially without going over or missing essential data in the sample.</p>
+                        <div>
+                            <img class="illus-img" src="../assets/others/medlm_ai_nargiz (2).png">
+                            <p class="img-cap">Figure 5</p>
+                        </div>
+                        <p>There are a large number of machine learning libraries for creating neural networks. The guiding principle in choosing the right library is the accuracy of the data prediction. For qualitative research and applying the most accurate machine learning model in the process, it is necessary to consider different methods simultaneously. Thus, when creating MedIm, 4 types of machine libraries were considered for the highest efficiency: KNeighborsClassifier, LogisticRegression, DecisionTreeClassifier, and CNNClassifier. After training each of the above models, the accuracy of the assumed forecast was calculated to determine the most successful model.</p>
+                        <div>
+                            <img class="illus-img" src="../assets/others/medlm_ai_nargiz (8).png">
+                            <p class="img-cap">Figure 6</p>
+                        </div>
+                        <p>When writing a program using CNN Classifier, additional in-depth libraries are required, which are imported as class objects for more convenient further use. In declaring model objects, internal arguments (model parameters that specify the program's main functionality) are of great importance. Without appropriate pointers, the neural network will be unable to “learn” the algorithm, and its use will become ineffective.</p>
+                        <div>
+                            <img class="illus-img" src="../assets/others/medlm_ai_nargiz (9).png">
+                            <p class="img-cap">Figure 7</p>
+                        </div>
+                        <p>The fit() function for training the model includes 3 main components: training data (images), training indicators (1 and 0 - sick/healthy), and the number of circles of full training and testing - epochs. The more training cycles a neural network has gone through, its predicted result will be more accurate. At the same time, the number of these revolutions makes the program heavier. As a result, the selection of the number of training cycles for the neural network is selected situationally, depending on the amount of input data and the output accuracy.</p>
+                        <p>The accuracy_score() function determines the effectiveness of the neural network, which contains training data and the expected result as arguments. Based on the training data, the model built an algorithm that is subsequently applied to the predictions.</p>
+                        <h2 class="section-heading">Research Results</h2>
+                        <p>Based on the accuracy of the four compiled algorithms, one can conclude the effectiveness and the need to use a specific type of machine learning. The most efficient and functional library for X-ray analysis is CNN Classifier. It will subsequently be used as the leading analytics and forecasting tool. The other 3 libraries (KNeighborsClassifier, LogisticRegression, DecisionTreeClassifier) showed low functionality in this study - less than 75% of disease detection accuracy. This cannot indicate their full-fledged lag in quality from CNN Classifier since this study is one of a large sample of AI applications. However, using these libraries to analyze medical images will not be of practical importance.</p>
+                        <div>
+                            <img class="illus-img" src="../assets/others/medlm_ai_nargiz (6).png">
+                            <p class="img-cap">Figure 8</p>
+                        </div>
+                        <br>
+                        <div>
+                            <img class="illus-img" src="../assets/others/medlm_ai_nargiz (5).png">
+                            <p class="img-cap">Figure 9</p>
+                        </div>
+                        <h2 class="section-heading">Conclusion</h2>
+                        <p>Machine learning offers great potential for improving readings in image analytics. For example, it takes a long time for a radiologist to perform a detailed analysis manually. The use of artificial intelligence automates the process, making the work of diagnosing and interpreting data more structured and efficient. There are frequent cases of human error that can be avoided by applying machine learning concepts. At the same time, even the most trained and experienced radiologists can sometimes disagree about the diagnosis and emphasize different aspects in their reports. This subsequently complicates the analyst's work and brings discomfort to the patient. In such situations, using a centralized approach to diagnosis completely solves the problem, reducing the risk of misdiagnosis and research time. Moreover, the algorithm's results can serve as a simple backup check of the doctor's diagnosis. An additional benefit of using AI software as a background offering is that it allows the radiologist to gradually get used to working with AI, improving its use in their work. Compilation of such complex algorithms as artificial intelligence in radionics is a complex and detailed process that deserves its place as one of the main methods of processing medical data. <a href="https://sitn.hms.harvard.edu/flash/2019/artificial-intelligence-in-medicine-applications-implications-and-limitations/">[5]</a></p>
+                        <p>Summing up the research of the project work, the machine learning algorithm "MedIm" has identified lung diseases using X-ray images.</p>
+                        <h2 class="section-heading">References</h2>
+                        <ol class="ref">
+                            <li>B. Allen, R. Gish, and K. Dreyer, “The role of an artificial intelligence ecosystem in Radiology,” Artificial Intelligence in Medical Imaging, pp. 291–327, 2019.</li>
+                            <li>D. Greenfield, “Artificial Intelligence in Medicine: Applications, implications, and limitations,” Science in the News, 19-Jun-2019. [Online]. Available: <a href="https://sitn.hms.harvard.edu/flash/2019/artificial-intelligence-in-medicine-applications-implications-and-limitations/">https://sitn.hms.harvard.edu/flash/2019/artificial-intelligence-in-medicine-applications-implications-and-limitations/</a>. [Accessed: 30-Sep-2022].</li>
+                            <li>K. Gurney, “An introduction to neural networks.” CRC Press, 2014.</li>
+                            <li>R. Yamashita, M. Nishio, R. K. G. Do, and K. Togashi, “Convolutional Neural Networks: An overview and application in radiology - insights into imaging,” SpringerOpen, 22-Jun-2018. [Online]. Available: <a href="https://insightsimaging.springeropen.com/articles/10.1007/s13244-018-0639-9">https://insightsimaging.springeropen.com/articles/10.1007/s13244-018-0639-9</a>. [Accessed: 30-Sep-2022].</li>
+                            <li>S. Soffer, A. Ben-Cohen, O. Shimon, M. M. Amitai, H. Greenspan, and E. Klang, “Convolutional Neural Networks for Radiologic Images: A radiologist’s guide,” Radiology, vol. 290, no. 3, pp. 590–606, 2019. </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </article>
+<!-- Footer-->
+        <footer class="border-top">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <ul class="list-inline text-center">
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-reddit-alien fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/yjsr.tech/">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/company/youth-journal-of-stem-research">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="small text-center text-muted fst-italic">Copyright &copy; YJSR 2022</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
