@@ -656,6 +656,15 @@ const Post_List = {
     ],
     "tech": [
         {
+            title: "MedIm: Artificial Intelligence System for Pneumonia Detection",
+            subtitle: "",
+            author: "Nargiz Akhmetova",
+            author_contact: "",
+            publish_date: "October 24, 2022",
+            image_source: "medlm_ai_system_for_pneumonia_detection.png",
+            post_destination: "/Posts/MedIm-Artificial-Intelligence-System-for-Pneumonia-Detection.html"
+        },
+        {
             title: "Peering into the Potential of SETI",
             subtitle: "",
             author: "Deepthy Ajith K",
