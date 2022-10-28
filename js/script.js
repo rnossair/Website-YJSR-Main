@@ -656,6 +656,15 @@ const Post_List = {
     ],
     "tech": [
         {
+            title: "Virtual Field Trips (VFTs)",
+            subtitle: "Reflections on the Future of Virtual Reality in Education and the Possibilities of Change",
+            author: "Aymen Jadda",
+            author_contact: "",
+            publish_date: "October 28, 2022",
+            image_source: "virtual_field_trips.png",
+            post_destination: "/Posts/Virtual-Field-Trips.html"
+        },
+        {
             title: "MedIm: Artificial Intelligence System for Pneumonia Detection",
             subtitle: "",
             author: "Nargiz Akhmetova",
