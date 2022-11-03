@@ -656,6 +656,15 @@ const Post_List = {
     ],
     "tech": [
         {
+            title: "Applications Of Machine Learning in Healthcare",
+            subtitle: "",
+            author: "Jingran Yang",
+            author_contact: "",
+            publish_date: "November 3, 2022",
+            image_source: "applications_of_ml_in_hc.png",
+            post_destination: "/Posts/Applications-of-machine-learning.html"
+        },
+        {
             title: "Virtual Field Trips (VFTs)",
             subtitle: "Reflections on the Future of Virtual Reality in Education and the Possibilities of Change",
             author: "Aymen Jadda",
