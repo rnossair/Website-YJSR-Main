@@ -69,6 +69,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "GABA Receptors and Neurosteroids Effect on Psychiatric Disorders",
+            subtitle: "",
+            author: "Sneha Ahuja",
+            author_contact: "",
+            publish_date: "November 4, 2022",
+            image_source: "gaba_receptors_and_neurosteroids_effect.png",
+            post_destination: "/Posts/GABA-Receptors-and-Neurosteroids-effect.html"
+        },
+        {
             title: "Imaging a Black Hole",
             subtitle: "",
             author: "Mohanad Ahmed Osman",
