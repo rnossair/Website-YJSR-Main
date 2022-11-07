@@ -775,6 +775,15 @@ const Post_List = {
     ],
     "eng": [ 
         {
+            title: "Kinematics in 1D Motion",
+            subtitle: "Discovering Relationships Between Position, Velocity, and Acceleration",
+            author: "Julia Huang",
+            author_contact: "", // I personally dunno why does it even exists...
+            publish_date: "November 7, 2022",
+            image_source: "kinematics_in_1d_motion.png",
+            post_destination: "/Posts/Kinematics-in-1D-motion.html"
+        },
+        {
             title: "Effective Project Management: Potential Cure for Stress and Depression in Construction and Engineering?",
             subtitle: "",
             author: "Asher Segun-Olasanmi",
