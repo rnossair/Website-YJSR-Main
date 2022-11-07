@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZH82SXNCBR%22%3E"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-ZH82SXNCBR');
+        </script>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>YJSR</title>
+        <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../css/styles.css" rel="stylesheet" />
+        <style>
+            .ref > li, .cont-list > li {
+                margin: 18px 0;
+            }
+            .ref > li > a {
+                text-decoration: underline;
+            }
+            .cont :hover {
+                color: #0085A1;
+            }
+            .illus-img {
+                width: 100%;
+                border-radius: 9px;
+            }
+            .img-cap {
+                font-style: italic;
+                text-align: center;
+                font-size: 18px;
+            }
+            td {
+                border: 1px black;
+                font-style: italic;
+            }
+            th {text-align: center;}
+            table {
+                margin: 36px 0;
+                width: 100%;
+                border-collapse: collapse;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+            }
+            table thead tr, th {   
+                background-color: #1c2020;
+                color:rgb(255, 255, 255);
+                text-align: left;
+            }
+            table tbody tr {
+                border-bottom: 1px solid #dddddd;
+            }
+            table tbody tr:nth-of-type(even) {
+                background-color: #f3f3f3;
+            }
+            table tbody tr:last-of-type {
+                border-bottom: 2px solid #1a1d1c;
+            }
+            table tbody tr.active-row {
+                font-weight: bold;
+                color: #009879;
+            }
+            table th, table td {
+                padding: 12px 15px;
+                font-size: 18px;
+            }
+            caption {
+                font-style: italic;
+                text-align: center;
+                caption-side: top;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="../">YJSR</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../">Home</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../about">About</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../publish">Publish</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../join">Join</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('https://images.unsplash.com/photo-1488998628026-a1a79746cdcd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="post-heading">
+                            <h1>Kinematics in 1D Motion</h1> 
+                            <h2 class="subheading">Discovering Relationships Between Position, Velocity, and Acceleration</h2> 
+                            <span class="meta">
+                                Posted by 
+                                <a href="">Julia Huang</a> <!-- Author Contact, if present in the `href` string. -->
+                                on November 7, 2022
+                            </span>
+                            <span class="meta">
+                                Edited by 
+                                <a href="">Zhuri Burchenson</a> <!-- Editor Contact, if present in the `href` string. -->
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Post Content-->
+        <article class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <!-- Main Content/ Article Body -->
+                        <h2 class="section-heading">Abstract</h2>
+                        <p>In 1-dimensional motion in kinematics, a critical subfield of physics, it is often useful to analyze the changes in position, velocity, and acceleration that result from objects in motion. In this experiment, we study the position-time data of a vehicle moving at different speeds in linear motion in one direction to fit a cubic polynomial function representing distance that can predict the vehicle's maximum speed and initial and final magnitudes of its acceleration. Video captures of a toy car running along a meter stick display a cubic pattern of distance and a quadratic pattern of velocity, where its speed increases then decreases. Experimental results of this study confirm that the spring present in the car gives it an initial push to accelerate; then, as the spring is finished, the car finally decelerates and stops due to the friction of the carpet ground.</p>
+                        <p><b>Keywords:</b> position, velocity, acceleration, 1d motion, kinematics, physics</p>
+                        <h2 class="section-heading">Introduction</h2>
+                        <p>Researchers define kinematics as studying the position and orientation of systems in relation to time and other factors [1]. Therefore, the purpose of this experiment is to analyze changes in speed and acceleration that results from objects in motion, specifically by using a vehicle with a spring traveling along a straight line in one direction and see if relationships between time, acceleration, velocity, and position can be modeled by fitted functions. By experimenting with a springed vehicle, our objective is to test if the spring in the vehicle, when pulled back, causes a forward push to the car that accelerates it before friction in the carpet slows it down. Kinematics experiments have important applications in many areas of physics and engineering, such as in astrophysics to describe motions of celestial bodies and in mechanical engineering to describe motions of engines and robots [2].</p>
+                        <h2 class="section-heading">Experimental Setup</h2>
+                        <p>In this experiment, we first set up materials, including a 200 cm long racetrack created by joining two 100 cm meter sticks, a springed car, and 2 iPhones used to capture the vehicle in motion. Then, after capturing recordings of the vehicle moving after being pushed by its spring, we estimate the position of the vehicle in centimeters at each 0.5 second time increment. Lastly, after gathering data from 0-3 seconds, we used a TI-84 Plus CE graphing calculator from Texas Instruments to utilize cubic regression to fit a cubic function to our position-time data.</p>
+                        <h2 class="section-heading">Results</h2>
+                        <table>
+                            <caption>Time-Distance Data of a Vehicle in Linear Motion</caption>
+                            <thead>
+                                <tr>
+                                    <th rowspan="2">Time (seconds) <br><i>±0.1sec</i></th>
+                                    <tc>
+                                        <th colspan="3">Position of the Vehicle on the Meter Stick in cm <i>±0.1cm</i></th>
+                                        <tr>
+                                            <th>Trial 1 Dist. Traveled (cm)</th>
+                                            <th>Trial 2 Dist. Traveled (cm)</th>
+                                            <th>Average of Trials- Distance Traveled (cm)</th>        
+                                        </tr>
+                                    </tc>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>0</td>
+                                    <td>0.00</td>
+                                    <td>0.00</td>
+                                    <td>0.00</td>
+                                </tr>
+                                <tr>
+                                    <td>0.5</td>
+                                    <td>10.1</td>
+                                    <td>10.4</td>
+                                    <td>10.3</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>15.4</td>
+                                    <td>23.2</td>
+                                    <td>19.3</td>
+                                </tr>
+                                <tr>
+                                    <td>1.5</td>
+                                    <td>80.0</td>
+                                    <td>54.1</td>
+                                    <td>67.1</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>95.7</td>
+                                    <td>110</td>
+                                    <td>103</td>
+                                </tr>
+                                <tr>
+                                    <td>2.5</td>
+                                    <td>147</td>
+                                    <td>135</td>
+                                    <td>141</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>153</td>
+                                    <td>155</td>
+                                    <td>154</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="img-cap">Table 1 [3]: Times and distance values were measured using two 100 cm meter sticks and video captures with an iPhone camera. The springed car was pulled back by 30 cm and then let go at the 0 cm mark of the stick. Note: we measured up to 3 significant figures as the meter sticks only go up to 2 significant figures (whole numbers).</p>
+                        <table>
+                            <caption>Position, Velocity, and Acceleration Functions and Calculated Values</caption>
+                            <tr>
+                                <th>Position cubic function:</th>
+                                <td>x(t) = -13.3t<sup>3</sup> + 66.5t<sup>2</sup> - 28.5t + 2.27</td>
+                            </tr>
+                            <tr>
+                                <th>Velocity quadratic function:</th>
+                                <td>derivative of x(t) = x’(t) = v(t) = -39.9t<sup>2</sup> + 133t - 28.5</td>
+                            </tr>
+                            <tr>
+                                <th>Acceleration linear function:</th>
+                                <td>derivative of v(t) = v’(t) = a(t) = -79.8t + 133</td>
+                            </tr>
+                            <tr>
+                                <th>Maximum Speed</th>
+                                <td>0.823 m/s</td>
+                            </tr>
+                            <tr>
+                                <th>Initial Acceleration</th>
+                                <td>1.33 m/s/s</td>
+                            </tr>
+                            <tr>
+                                <th>Final Acceleration</th>
+                                <td>-1.06 m/s/s</td>
+                            </tr>
+                            <tr>
+                                <th>R<sup>2</sup> value from cubic regression on position-time data:</th>
+                                <td>0.994</td>
+                            </tr>
+                        </table>
+                        <p class="img-cap">Table 2 [4]: Fitted cubic function of the position of the vehicle was estimated using a TI-84 graphing calculator’s cubic regression function while velocity and acceleration functions were subsequently estimated by taking the derivatives of the position and velocity functions, respectively. The maximum speed, initial acceleration, and final accleration values were calculated from these three equations – see the calculations section below.</p>
+                        <div>
+                            <h5 style="text-align: center;">Position vs. Time Traveled of Moving Vehicle in Straight Line</h5>
+                            <img class="illus-img" src="../assets/others/kinematics_in_1d_motion_julia (1).png">
+                            <p class="img-cap">Figure 1 [5]: Position-time data graph created using Google Sheets from our position-time table’s averaged position values. Axes labels were displayed using Google Drawings.</p>
+                        </div>
+                        <div>
+                            <h5 style="text-align: center;">Graphed Functions of Position, Velocity, and Acceleration</h5>
+                            <img class="illus-img" src="../assets/others/kinematics_in_1d_motion_julia (2).png">
+                            <p class="img-cap">Figure 2 [6]: Graphed versions of the three functions generated from cubic regression. Graph lines were created using Desmos and axes labels were generated using Google Drawings.</p>
+                        </div>
+                        <h2 class="section-heading">Calculations of the maximum speed and initial and final acceleration</h2>
+                        <ol class="ref">
+                            <li>
+                                Initial Magnitude of Acceleration of Vehicle (a)
+                                <div style="margin-left: 15px; font-style: italic;">
+                                    a(t) = -79.8t +133 = acceleration function<br>
+                                    a(0) = initial acceleration<br>
+                                    a(0) = -79.8(0)+133=133 cm/s/s<br>
+                                    <br>
+                                    133 cm * (0.01 m/1cm) = 1.33 m<br>
+                                    <b>So a(0)=1.33 m/s/s</b>
+                                </div>
+                            </li>
+                            <li>
+                                Final Magnitude of Acceleration (a)
+                                <div style="margin-left: 15px; font-style: italic;">
+                                    a(t) = -79.8t +133 = acceleration function<br>
+                                    a(f) = final acceleration = a(3) because we timed the car from 0-3 sec & it stopped at 3 sec<br>
+                                    a(3) = -79.8(3)+133= -106 cm/s/s<br>
+                                    <br>
+                                    -106 cm * (0.01 m/1cm) = -1.06 m<br>
+                                    <b>So a(3)= -1.06 m/s/s</b>
+                                </div>
+                            </li>
+                            <li>
+                                Max Speed (v)
+                                <div style="margin-left: 15px; font-style: italic;">
+                                    v(t) = -39.9t<sup>2</sup> + 133t - 28.5 = Velocity function<br>
+                                    It is a downward parabola, so the max speed is at the peak of this curve. At that peak, the slope of v(t) is 0. In other words, v’(t)=a(t)=0.<br>
+                                    So I use a(t) = -79.8t +133 = acceleration function<br>
+                                    0 = -79.8t+133<br>
+                                    At t=1.6667 sec, velocity is the highest<br>
+                                    v(1.6667)= -39.9(1.6667)<sup>2</sup> + 133(1.6667) - 28.5 = 82.3 cm/s<br>
+                                    <br>
+                                    82.3 cm * (0.01 m/1cm) = 0.823 cm<br>
+                                    <b>So v(1.6667)=0.823 m/s</b>
+                                </div>
+                            </li>
+                        </ol>
+                        <h2 class="section-heading">Discussion</h2>
+                        <p>The purpose of this experiment was to analyze changes and relationships between position, speed, and acceleration of from objects in motion.</p>
+                        <p>Numerical results from fitting a cubic function to the position-time data we recorded resulted in x(t) = -13.3t<sup>3</sup> + 66.5t<sup>2</sup> - 28.5t + 2.27 for the position function of the vehicle, and subsequent derivatives of x(t) resulted in v(t) = -39.9t<sup>2</sup>+133t-28.5 being the velocity function and a(t) = -79.8t +133 being the acceleration function. From cubic regression, our R-Squared value, or coefficient of determination, which determines variance in the y variable that is explained by x, is 0.994 [7]. This value is close enough to 1 that the resulting cubic function is deemed an almost perfect fit for our position-time data. In fact, one source mentioned that a R<sup>2</sup> value above 0.95 is high enough for any kind of regression model to be considered reliable and relatable enough to the raw data. In our case, it means that 99.4% of the variance in the position of the vehicle can be explained by the time interval of the car without error [8]. Finally, we utilized these regression functions to calculate maximum speed and initial and final acceleration, which are 0.823 m/s, 1.33 m/s/s, and -1.06 m/s/s, respectively. These numbers, which we calculated in the Calculations section, directly match the values listed in the data sheet.</p>
+                        <p>We noticed a few trends in the motion of our vehicle in terms of the relationship between its position, velocity, and acceleration. In both trials, the springed car’s position in centimeters along the meter stick started to increase quite fast, then increased slower, meaning that it sped up at first and reached its maximum velocity, then slowed down (velocity), meaning that its acceleration is at first positive (for example, a(0), or the initial acceleration, is positive), then became negative (for example, at the end, a(3) is negative). These trends are caused by two forces: the car’s spring and friction. In the first segment of the car’s distance, the car’s velocity increased due to the extra push the spring provided to the car. Then, in the last segment, its velocity decreased because the spring was already at its relaxed position and there was no extra force applied to the car anymore. Eventually, the car slowed down and stopped because of the carpet ground’s opposing friction force. Figure 1 supports these trends as well, since the positive slope of the position-graph function is smaller for the time interval 0-1 seconds, the slope is steeper for the interval 1-2.5 seconds, and finally the slope becomes smaller again from 2.5-3 seconds. In other words, the car first accelerates, then decelerates. Figure 2, which includes functions of acceleration (linear with a negative slope and and positive y-intercept), velocity (downward quadratic curve), and position(cubic), which are all dependent variables, also supports these relationships: as the independent x variable, time, increased from 0-3 seconds with a 0.5 positive increment, acceleration changed from positive (accelerating) to negative values (decelerating) at t=1.667 seconds, velocity’s positive values increased then decreased (and reached a maximum at 1.667 seconds), and the position’s values increased slowly, then quickly, then slowly again.</p>
+                        <p>Therefore, our experimental data and patterns in tables and figures all substantiate the relationships between acceleration, velocity, and position and prove that spring force accelerates objects and friction slows down objects’ motion. However, experiments are not 100% accurate or precise, as there always exist sources of error and uncertainties. As our R<sup>2</sup> value of cubic regression is not perfectly 1, it means that there are some values in our data that are slightly inaccurate and don’t fit the cubic function perfectly. The inaccurate values are due to our experimental method having a few sources of error/uncertainties. Due to human reaction or reflexes, we may have pressed the stopwatch start and stop buttons approximately 0.1 seconds too early or late, the precision of the meter sticks only going up to 2 significant figures (whole numbers), and the iPhone’s cameras being too blurry to exactly measure the position of the car at certain time intervals, all caused position values to be slightly lower or higher than they should be, with an approximate error range of ±0.1cm. To decrease the amount of uncertainty, we can utilize meter sticks that have tick marks that go to the tenth decimal place and the iPhone’s slow-motion video format to record position values of the car more accurately. It looks like our results demonstrate systematic deviations, as the R<sup>2</sup> value is quite high at over 0.99, the position values between Trial 1 and 2 are quite similar, and the resulting graphs of the acceleration, velocity, and position functions display clear cubic, quadratic, and linear properties that outline the changes in these variables mentioned earlier. Perhaps if our time measurements and position values were more accurate, then the R<sup>2</sup> value could increase even more.</p>
+                        <h2 class="section-heading">Conclusion</h2>
+                        <p>After conducting this motion experiment and evaluating the relationships between and functions of position, velocity, and acceleration, we concluded that spring force from the spring in the vehicle accelerated the car and verified the linear relationship between acceleration and time, quadratic relationship between velocity and time, and cubic relationship between position and time. Our high coefficient of determination (0.994) resulting from cubic regression proves the accuracy of our linear, quadratic, and cubic relationship functions listed above. Lastly, by concluding that friction force opposed and decelerated the car, we verified the 3rd Newton law of motion, which is that for every action (such as our car going forward), there is an equal and opposite reaction (the friction of the carpet pushing against the car’s direction of motion) [9]. Though we explored vehicular motion, our experiment can easily be applied to studying the motion of other objects, such as planets, robots, and even humans, making our results versatile and scalable to a wide variety of areas.</p>
+                        <h2 class="section-heading">References</h2>
+                        <ol class="ref">
+                            <li>ScienceDirect Topics, <i>“Kinematic analysis. Kinematic Analysis - an overview,”</i> (n.d.). [Online]. Available: <a href="https://www.sciencedirect.com/topics/engineering/kinematic-analysis">https://www.sciencedirect.com/topics/engineering/kinematic-analysis</a> [Accessed 15 September 2022].</li>
+                            <li>Physics Libretexts, <i>“2.1: Basics of kinematics,”</i> November 2020. [Online]. Available: <a href="https://phys.libretexts.org/Bookshelves/University_Physics/Book%3A_Physics_(Boundless)/2%3A_Kinematics/2.1%3A_Basics_of_Kinematics">https://phys.libretexts.org/Bookshelves/University_Physics/Book%3A_Physics_(Boundless)/2%3A_Kinematics/2.1%3A_Basics_of_Kinematics</a> [Accessed 15 September 2022].</li>
+                            <li>Table 1</li>
+                            <li>Table 2</li>
+                            <li>Figure 1</li>
+                            <li>Figure 2</li>
+                            <li>Corporate Finance Institute, <i>“R-squared,”</i> May 2022. [Online]. Available: <a href="https://corporatefinanceinstitute.com/resources/knowledge/other/r-squared/#:~:text=R%2DSquared%20">https://corporatefinanceinstitute.com/resources/knowledge/other/r-squared/#:~:text=R%2DSquared%20</a> [Accessed 15 September 2022].</li>
+                            <li>Statology, <i>“What is a good R-squared value?”</i> April 2020. [Online]. Available: <a href="https://www.statology.org/good-r-squared-value/">https://www.statology.org/good-r-squared-value/</a> [Accessed 15 September 2022].</li>
+                            <li>Dictionary.com, <i>“Newton's laws of motion definition & meaning,”</i> (n.d.). [Online]. Available: <a href="https://www.dictionary.com/browse/newton-s-laws-of-motion">https://www.dictionary.com/browse/newton-s-laws-of-motion</a> [Accessed 15 September 2022].</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </article>
+<!-- Footer-->
+        <footer class="border-top">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <ul class="list-inline text-center">
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-reddit-alien fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/yjsr.tech/">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/company/youth-journal-of-stem-research">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="small text-center text-muted fst-italic">Copyright &copy; YJSR 2022</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
