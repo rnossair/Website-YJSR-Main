@@ -69,6 +69,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "Application of Amino-Acid based Metabolites in Early Diagnosis of MS Patients",
+            subtitle: "",
+            author: "Fareen Momen",
+            author_contact: "",
+            publish_date: "November 12, 2022",
+            image_source: "applications_of_amino_acid_based_metabolites.jpg",
+            post_destination: "/Posts/Application-of-Amino-Acid-based-metabolites.html"
+        },
+        {
             title: "GABA Receptors and Neurosteroids Effect on Psychiatric Disorders",
             subtitle: "",
             author: "Sneha Ahuja",
