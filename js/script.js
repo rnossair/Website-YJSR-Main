@@ -34,6 +34,15 @@ function resizeHandler(event) {
                 postContainer.getElementsByClassName("post-preview-holder")[i].style = "display: table-row";
             }
         }
+        for (i = 0; i < matches_found.length; i++) {
+            var postGroup = group_list[matches_found[i][0]];
+            var resultsContainer = document.getElementById("search-results")
+            var Post = Post_List[postGroup][matches_found[i][1]]
+            resultsContainer.getElementsByClassName("res-image-holder")[i].style = "display: table-row";
+            resultsContainer.getElementsByClassName("res-preview-image")[i].style = "width: 100%; border-radius: 18px";
+            resultsContainer.getElementsByClassName("res-preview-image")[i].src = "/assets/thumbnails/portrait/" + Post.image_source;
+            resultsContainer.getElementsByClassName("res-post-preview-holder")[i].style = "display: table-row";
+        }
     }
     else {
         for (grIndex in group_list) {
@@ -46,6 +55,15 @@ function resizeHandler(event) {
                 postContainer.getElementsByClassName("preview-image")[i].src = "/assets/thumbnails/landscape/" + Post_List[group_list[grIndex]][i].image_source;
                 postContainer.getElementsByClassName("post-preview-holder")[i].style = "display: table-cell";
             }
+        }
+        for (i = 0; i < matches_found.length; i++) {
+            var postGroup = group_list[matches_found[i][0]];
+            var resultsContainer = document.getElementById("search-results")
+            var Post = Post_List[postGroup][matches_found[i][1]]
+            resultsContainer.getElementsByClassName("res-image-holder")[i].style = "display: table-cell";
+            resultsContainer.getElementsByClassName("res-preview-image")[i].style = "height: 138px; width: 138px; border-radius: 18px;";
+            resultsContainer.getElementsByClassName("res-preview-image")[i].src = "/assets/thumbnails/landscape/" + Post.image_source;
+            resultsContainer.getElementsByClassName("res-post-preview-holder")[i].style = "display: table-cell";
         }
     }
 }
