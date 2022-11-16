@@ -3,6 +3,7 @@ let tabHeader = document.getElementsByClassName("tab-bar")[0];
 let tabIndicator = document.getElementsByClassName("indicator")[0];
 let tabBody = document.getElementsByClassName("tab-body")[0];
 let tabsPane = tabHeader.getElementsByTagName("div");
+matches_found = []
 
 for (let i = 0; i < tabsPane.length - 1; i++) {
     tabsPane[i].addEventListener("click", function() {
