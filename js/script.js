@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "The impact of omega-3 and omega-6 fatty acids on depression",
+            subtitle: "",
+            author: "Saanika Agarwal",
+            author_contact: "",
+            publish_date: "November 18, 2022",
+            image_source: "omega-3-and-omega-6-acids.jpg",
+            post_destination: "/Posts/The-impact-of-omega-3-and-omega-6-fatty-acids-on-depression.html"
+        },
+        {
             title: "Application of Amino-Acid based Metabolites in Early Diagnosis of MS Patients",
             subtitle: "",
             author: "Fareen Momen",
