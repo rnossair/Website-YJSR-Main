@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "What is the implication of dreaming?",
+            subtitle: "",
+            author: "Anel Mukatova",
+            author_contact: "",
+            publish_date: "November 19, 2022",
+            image_source: "implications_of_dreaming.png",
+            post_destination: "/Posts/What-are-implications-of-dreaming.html"
+        },
+        {
             title: "The impact of omega-3 and omega-6 fatty acids on depression",
             subtitle: "",
             author: "Saanika Agarwal",
