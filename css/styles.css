@@ -11348,3 +11348,12 @@ header.masthead .site-heading .h1 {
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.15), -6px -6px 10px #f0f3ff;
   }
 }
+
+@media (min-width: 992px) {
+  #mainNav {mix-blend-mode: difference;}
+}
+
+#mainNav {
+  position: fixed;
+  backdrop-filter: blur(9px);
+}
