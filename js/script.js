@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "Chaos Theory: The Three Body Problem",
+            subtitle: "",
+            author: "Ranica Chawla",
+            author_contact: "",
+            publish_date: "December 13, 2022",
+            image_source: "three-body-problem.jpg",
+            post_destination: "/Posts/Chaos-Theory-The-Three-Body-Problem.html"
+        },
+        {
             title: "What is the implication of dreaming?",
             subtitle: "",
             author: "Anel Mukatova",
