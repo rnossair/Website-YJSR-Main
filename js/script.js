@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "Project to Control Surgical Errors",
+            subtitle: "",
+            author: "Raushan Pandit",
+            author_contact: "",
+            publish_date: "December 20, 2022",
+            image_source: "project_to_control_surgical_errors.png",
+            post_destination: "/Posts/Project-to-control-surgical-errors.html"
+        },
+        {
             title: "Chaos Theory: The Three Body Problem",
             subtitle: "",
             author: "Ranica Chawla",
