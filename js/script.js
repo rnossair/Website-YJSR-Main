@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "Radioactivity/ Radioactive Decay",
+            subtitle: "A blessing and a threat to the world.",
+            author: "Nour El Imane",
+            author_contact: "",
+            publish_date: "January 12, 2023",
+            image_source: "radioactivity.png",
+            post_destination: "/Posts/radioactivity.html"
+        },
+        {
             title: "Project to Control Surgical Errors",
             subtitle: "",
             author: "Raushan Pandit",
