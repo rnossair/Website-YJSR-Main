@@ -90,7 +90,7 @@ const Post_List = {
         {
             title: "Radioactivity/ Radioactive Decay",
             subtitle: "A blessing and a threat to the world.",
-            author: "Nour El Imane",
+            author: "Nour El Imane Toufiq",
             author_contact: "",
             publish_date: "January 12, 2023",
             image_source: "radioactivity.png",
