@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "The Dopamine Hypothesis of Schizophrenia",
+            subtitle: "",
+            author: "Charvi Kashyap",
+            author_contact: "",
+            publish_date: "January 13, 2023",
+            image_source: "the_dopamine_hypothesis.jpg",
+            post_destination: "/Posts/The-dopamine-hypothesis-of-schizophrenia.html"
+        },
+        {
             title: "Radioactivity/ Radioactive Decay",
             subtitle: "A blessing and a threat to the world.",
             author: "Nour El Imane Toufiq",
