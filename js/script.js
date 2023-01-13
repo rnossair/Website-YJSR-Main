@@ -747,6 +747,15 @@ const Post_List = {
     ],
     "tech": [
         {
+            title: "Difference between Computer Science and IT",
+            subtitle: "These two are some of the most easily confused carreer fields, here are the differences between them.",
+            author: "Surayya Yuldashova",
+            author_contact: "",
+            publish_date: "January 14, 2023",
+            image_source: "difference_between_it_and_cs.png",
+            post_destination: "/Posts/Difference-between-computer-science-and-IT.html"
+        },
+        {
             title: "Applications Of Machine Learning in Healthcare",
             subtitle: "",
             author: "Jingran Yang",
