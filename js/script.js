@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "CAR-T Cells: Eliminating Residual Tumor Cells",
+            subtitle: "",
+            author: "Jasmine Biju",
+            author_contact: "",
+            publish_date: "January 14, 2023",
+            image_source: "carT_cells_eliminating_residual_tumour_cells.png",
+            post_destination: "/Posts/CAR-T-Cells-eliminating-residual-tumor-cells.html"
+        },
+        {
             title: "The Dopamine Hypothesis of Schizophrenia",
             subtitle: "",
             author: "Charvi Kashyap",
