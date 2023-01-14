@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "Can Swarming Locusts generate as much Electricity as a Storm Cloud?",
+            subtitle: "",
+            author: "Jasmine Biju",
+            author_contact: "",
+            publish_date: "January 14, 2023",
+            image_source: "can_swarming_locusts_produce_electricity.png",
+            post_destination: "/Posts/Can-swarming-locusts-generate-as-much-electricity-as-storm-cloud.html"
+        },
+        {
             title: "CAR-T Cells: Eliminating Residual Tumor Cells",
             subtitle: "",
             author: "Jasmine Biju",
