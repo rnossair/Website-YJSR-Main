@@ -931,6 +931,15 @@ const Post_List = {
     ],
     "math": [
         {
+            title: "The Use of Mapping ELements",
+            subtitle: "",
+            author: "Uday Nambeesan",
+            author_contact: "",
+            publish_date: "January 20, 2023",
+            image_source: "the_use_of_mapping_elements.png",
+            post_destination: "/Posts/The-use-of-mapping-elements.html"
+        },
+        {
             title: "The Application of Sorting Algorithms in N-Dimensional Space",
             subtitle: "",
             author: "Christian Hall",
