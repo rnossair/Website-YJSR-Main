@@ -931,7 +931,7 @@ const Post_List = {
     ],
     "math": [
         {
-            title: "The Use of Mapping ELements",
+            title: "The Use of Mapping Elements",
             subtitle: "",
             author: "Uday Nambeesan",
             author_contact: "",
