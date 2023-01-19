@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "CRISPR: Beneficial, Effective yet Problematic Healthcare",
+            subtitle: "",
+            author: "Kamal Korrapati",
+            author_contact: "",
+            publish_date: "January 18, 2023",
+            image_source: "crispr-problematic-healthcare.png",
+            post_destination: "/Posts/CRISPR-Beneficial-Effective-yet-Problematic-Healthcare.html"
+        },
+        {
             title: "Can Swarming Locusts generate as much Electricity as a Storm Cloud?",
             subtitle: "",
             author: "Jasmine Biju",
