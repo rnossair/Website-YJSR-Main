@@ -42,6 +42,64 @@
                 text-align: center;
                 font-size: 18px;
             }
+            li.L0, li.L1, li.L2, li.L3, li.L5, li.L6, li.L7, li.L8 {
+                list-style-type: decimal !important;
+            }
+            pre .str, code .str { color: #00ff11; }
+            pre .kwd, code .kwd { color: #ff007b; }
+            pre .com, code .com { color: #AEAEAE; font-style: italic; }
+            pre .typ, code .typ { color: #89bdff; }
+            pre .lit, code .lit { color: #3387CC; }
+            pre .pun, code .pun { color: #fff; }
+            pre .pln, code .pln { color: #fff; }
+            pre .tag, code .tag { color: #89bdff; }
+            pre .atn, code .atn { color: #bdb76b; }
+            pre .atv, code .atv { color: #65B042; } 
+            pre .dec, code .dec { color: #3387CC; } 
+
+            pre.prettyprint, code.prettyprint {
+                background-color: #000;
+                border-radius: 8px;
+            }
+
+            pre.prettyprint {
+                width: 95%;
+                margin: 1em auto;
+                padding: 1em;
+                white-space: pre-wrap;
+            }
+
+            ol.linenums { margin-top: 0; margin-bottom: 0; color: #AEAEAE; }
+
+            @media print {
+                pre .str, code .str { color: #060; }
+                pre .kwd, code .kwd { color: #006; font-weight: bold; }
+                pre .com, code .com { color: #600; font-style: italic; }
+                pre .typ, code .typ { color: #404; font-weight: bold; }
+                pre .lit, code .lit { color: #044; }
+                pre .pun, code .pun { color: #440; }
+                pre .pln, code .pln { color: #000; }
+                pre .tag, code .tag { color: #006; font-weight: bold; }
+                pre .atn, code .atn { color: #404; }
+                pre .atv, code .atv { color: #060; }
+            }
+
+            pre { overflow-x: scroll; max-height: 360px;}
+            pre::-webkit-scrollbar {
+                width: 6px;
+                height: 6px;
+            }
+            pre::-webkit-scrollbar-track {
+                background: #0000001c;
+                border-radius: 18px;
+            }
+            pre::-webkit-scrollbar-thumb {
+                background-color: rgba(255, 255, 255, 0.684);
+                border-radius: 36px;
+            }
+            pre::-webkit-scrollbar-thumb:hover {
+                background-color: rgba(255, 255, 255, 0.777);
+            }
         </style>
     </head>
     <body>
@@ -76,6 +134,9 @@
                                 <a href="">Christian Hall</a> <!-- Author Contact, if present in the `href` string. -->
                                 on January 14, 2023
                             </span>
+                            <span class="meta">
+                                Republished on January 21, 2023
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -88,47 +149,293 @@
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <!-- Main Content/ Article Body -->
                         <h2 class="section-heading">Abstract</h2>
-                        <p>Sorting algorithms are fundamental to computer science and are applied to fields from data management to machine learning.  This paper explores the challenges and techniques for sorting n-dimensional datasets, and the various applications for n-dimensional sorting algorithms.  It also introduces common 2D and N-dimensional sorting algorithms and their corresponding time complexity, and various techniques for optimizing the algorithms covered, such as using space-filling curves or parallelization.  This research shows the importance of using sorting algorithms in n-dimensional space and suggests that there is still much to learn on improving the efficiency of the algorithms.</p>
+                        <p>Sorting algorithms are fundamental to computer science and are applied to fields ranging from data management to machine learning. This paper explores the challenges and techniques for sorting 2D and n-dimensional datasets, and the various applications that n-dimensional sorting algorithms have. It also introduces common 2D and N-dimensional sorting algorithms and their corresponding time complexities, along with various techniques for optimizing the algorithms covered, such as using space-filling curves and parallelization. In addition to that, the research shows the vast applications of these algorithms. While working in the nth dimension may be daunting, it is rewarding and has plenty of computational benefits. Overall, this research shows the importance of using sorting algorithms in n-dimensional space and suggests that there is still much to learn on improving the efficiency of current algorithms.</p>
                         <h2 class="section-heading">Keywords</h2>
-                        <p>Sorting algorithms, computer science, data management, machine learning, n-dimensional datasets, 2D sorting algorithms, N-dimensional sorting algorithms, time complexity, space-filling curves, parallelization, efficiency improvement</p>
+                        <p>Sorting algorithms, computer science, data management, machine learning, n-dimensional datasets, 2D sorting algorithms, N-dimensional sorting algorithms, time complexity, space-filling curves, parallelization, efficiency</p>
                         <h2 class="section-heading">Introduction</h2>
-                        <p>Sorting algorithms are a fundamental tool in computer science, with applications ranging from data analysis to machine learning.  Sorting algorithms allow us to rearrange datasets into a desired order to make the dataset easier to search, analyze, and visualize.  While sorting algorithms are generally applied to two-dimensional spaces, they can also be applied to the nth dimension, where <i>n</i> is a positive integer. This paper will explore the difficulties and strategies to sorting n-dimensional datasets with the focus on performance and efficiency.</p>
+                        <p>Sorting algorithms are a fundamental tool in computer science, with applications ranging from data analysis to machine learning. Sorting algorithms allow us to rearrange datasets into a desired order to make the dataset easier to search, analyze, and visualize. While sorting algorithms are generally applied to two-dimensional spaces, they can also be applied to the nth dimension, where n is a positive integer. This paper will explore the difficulties and strategies to sorting n-dimensional datasets with the focus on performance and efficiency.</p>
                         <h2 class="section-heading">Related Work</h2>
-                        <p>Sorting algorithms have been a topic in computer science for some time now, with a wide range of applications from data management to machine learning. While previous research for sorting algorithms focused on the 1<sup>st</sup> and 2<sup>nd</sup> dimension, there has been little focus on n-dimensional datasets. There is a growing need for more efficient sorting in n-dimensions to improve the efficiency of machine learning and other fields as a whole.</p>
-                        <p>A variety of algorithms have been proposed for n-dimensional sorting, such as space-filling curve methods and parallelization techniques, but there are still many difficulties within the field and it is not yet incredibly optimized. Memory usage and time complexity is a common trade off, and future technologies hope to stop this issue.</p>
-                        <p>This research fills a gap in computer science by exploring the challenges for sorting in n-dimensions and highlights different algorithms uses and time complexities</p>
+                        <p>Sorting algorithms have been a topic in computer science for some time now, with a wide range of applications from data management to machine learning. While previous research for sorting algorithms focused on the 1st and 2nd dimension, there has been little focus on dealing with n-dimensional datasets. There is a growing need for more efficient sorting of n-dimensional datasets for a variety of reasons, such as the data preprocessing stage of machine learning.</p> 
+                        <p>A variety of algorithms have been proposed for n-dimensional sorting, such as space-filling curve methods and parallelization techniques, but there are still many difficulties within the field and it is not yet incredibly optimized. Memory usage and time complexity is a common trade off, but future technologies hope to end this issue.</p>
+                        <p>This research fills a gap in computer science by exploring the challenges for sorting in n-dimensions and highlights different algorithms uses and time complexities.</p>
                         <h2 class="section-heading">Body</h2>
-                        <p>There are two types of sorting algorithms: comparison-based and non-comparison-based.  According to NIST, a comparison-based sorting algorithm is defined as “any sort algorithm using comparisons between keys, and nothing else about the keys, to arrange items in a predetermined order.” [1]  On the other hand, non-comparison sorting algorithms are simply algorithms that do not compare elements while sorting.  There are various types of sorting algorithms, each with its own set of strengths and weaknesses.  Some common types of sorting algorithms include bubble sort, insertion sort, selection sort, merge sort, and quick sort.</p>
-                        <p>Bubble sort is an algorithm that loops through datasets and swaps adjacent elements if they are in the wrong order.  It has a time complexity of O(n<sup>2</sup>) in a worst case scenario, which proves to be inefficient with large datasets.  Imagine a scenario where 100 elements need to be sorted, the scenario would call for 10,000 comparisons (100<sup>2</sup>). For 1,000 elements, there would need to be 1,000,000 comparisons (1000<sup>2</sup>). In conclusion, algorithms with an O(n<sup>2</sup>) time complexity are generally not a plausible option for large datasets, and are often replaced by <i>O(n·log(n))</i> sorting algorithms, such as merge or quick sort.</p>
+                        <p>There are two types of sorting algorithms: comparison-based and non-comparison-based. A comparison-based sorting algorithm is defined as a sorting algorithm that uses comparisons between keys to arrange items in a desired order<sup>[1]</sup>. On the other hand, non-comparison sorting algorithms are simply algorithms that do not compare elements while sorting. There are various types of sorting algorithms, each with its own set of strengths and weaknesses. Common sorting algorithms utilized in the 2nd dimension include bubble sort, insertion sort, selection sort, merge sort, and quick sort, while common n-dimensional sorting algorithms include radix sort and bubble sort.</p>
+                        <p>Bubble sort is an algorithm that loops through datasets and swaps adjacent elements if they are in the wrong order. It has a time complexity of O(n<sup>2</sup>) in a worst case scenario, which proves to be inefficient with large datasets. Overall, algorithms with an O(n<sup>2</sup>) time complexity are generally not a plausible option for large datasets, and are often replaced by O(n·log(n)) sorting algorithms, such as merge or quick sort. Please refer to figure 1 for a visualization of bubble sort’s strategy.</p>
                         <img class="illus-img" src="../assets/others/the_application_of_sorting_algorithms_christian (2).png">
-                        <p class="img-cap">Figure 1</p>
-                        <p>While inefficient for large datasets, O(n<sup>2</sup>) algorithms are still commonly used for smaller datasets.  For example, take insertion sort, another sorting algorithm with a time complexity of O(n<sup>2</sup>).  Insertion sort loops through a dataset and inserts each element in its correct position relative to the elements that come before it.  While insertion sort and bubble sort both have a time complexity of O(n<sup>2</sup>), insertion sort is generally considered quicker due to its smaller comparison and swap count. Another commonly used O(n<sup>2</sup>) algorithm is selection sort, a sorting algorithm that repeatedly finds the smallest element within the dataset and sets it to the beginning of the dataset.</p>
+                        <p class="img-cap">Figure 1: Bubble Sort Visualization</p>
+                        <p>The implementation of bubble sort within Python requires these steps:</p>
+                        <ol>
+                            <li>Define a function & add a parameter for a list <i>(in this case the parameter is labeled arr which stands for array, but a list is technically not an array.)</i></li>
+                            <li>Create a variable <i>(n in this case)</i> and set its value to the length of the parameter.</li>
+                            <li>Create a variable named swapped and set it to false. This variable will be set true if a swap of the elements takes place later within the code.</li>
+                            <li>Initiate a for loop with the value n - 1 <i>(n is the length of the list in this case, so n - 1)</i>.</li>
+                            <li>Initiate a nested for loop in the range of 0 – 'n - i - 1' <i>(0 - len(arr) - i - 1)</i>.</li>
+                            <li>Create a conditional statement to test if arr[j] > arr[j + 1]. In other words, check if the value of the current for loop is greater than the value to the right of it. If it is, swap them.</li>
+                            <li>If the program does not swap the elements, return.</li>
+                        </ol>
+                        <pre class="prettyprint linenums" style="padding: 9px; font-size: 15px; white-space: pre;">
+def bubbleSort(arr):
+    n = len(arr)
+    swapped = False
+    for i in range(n-1):
+        for j in range(0, n-i-1):
+            if arr[j] > arr[j + 1]:
+                swapped = True
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+        if not swapped: return</pre>
+                        <p class="img-cap">Source: <a href="https://www.geeksforgeeks.org/python-program-for-bubble-sort/">GeeksForGeeks</a></p>
+                        <p>While inefficient for large datasets, O(n^2) algorithms are still commonly used for smaller datasets. For example, take insertion sort, another sorting algorithm with a time complexity of O(n^2). Insertion sort loops through a dataset and inserts each element in its correct position relative to the elements that come before it. While insertion sort and bubble sort both have a time complexity of O(n^2), insertion sort is generally considered quicker due to its smaller comparison and swap count. Another commonly used O(n^2) algorithm is selection sort, a sorting algorithm that repeatedly finds the smallest element within the dataset and sets it to the beginning of the dataset. Please refer to figure 2 for a visualization of insertion sort’s strategy.</p>
                         <img class="illus-img" src="../assets/others/the_application_of_sorting_algorithms_christian (1).png">
-                        <p class="img-cap">Figure 2</p>
-                        <img class="illus-img" src="../assets/others/the_application_of_sorting_algorithms_christian (5).png">
-                        <p class="img-cap">Figure 3</p>
-                        <p>For larger datasets, algorithms with a time complexity of <i>O(n·log(n))</i> are more desirable. Merge sort and quick sort are two sorting algorithms with a time complexity of <i>O(n·log(n))</i>, which is quicker than all the algorithms mentioned thus far. Merge sort divides a dataset into smaller datasets, sorting each one, and then merging the sorted datasets back together. On the other hand, quick sort selects a pivot element and partitions the dataset around it, such that all elements smaller than the pivot are placed to the left of it and all elements larger than the pivot are placed to the right. Afterwards, it recursively sorts the left and right partitions.</p>
+                        <p class="img-cap">Figure 2: Insertion Sort Visualization</p>
+                        <p>While the explanation for bubble sort was step-by-step and fairly in depth, you now can understand the general process for comparison-based sorting algorithms. Here is a code implementation of insertion sort, another comparison-based algorithm, within C++:</p>
+                        <pre class="prettyprint linenums" style="padding: 9px; font-size: 15px; white-space: pre;">
+#include &lt;bits/stdc++.h&gt;
+using namespace std;
+
+void insertionSort(int arr[], int n)
+{
+int i, key, j;
+    for (i = 1; i < n; i++)
+    {
+        key = arr[i];
+        j = i - 1;
+        while (j >= 0 && arr[j] > key)
+        {
+            arr[j + 1] = arr[j];
+            j = j - 1;
+        }
+        arr[j + 1] = key;
+    }
+}
+
+void printArray(int arr[], int n)
+{
+    int i;
+    for (i = 0; i < n; i++)
+        cout << arr[i] << " ";
+    cout << endl;
+}
+
+int main()
+{
+    int arr[] = { 12, 11, 13, 5, 6 };
+    int N = sizeof(arr) / sizeof(arr[0]);
+
+    insertionSort(arr, N);
+    printArray(arr, N);
+    
+    return 0;
+}</pre>
+                    <p class="img-cap">Source: <a href="https://www.geeksforgeeks.org/insertion-sort/">GeeksForGeeks</a></p>
+                    <p>As shown in the code, this implementation of insertion sort takes in parameters for an array and its size, declares variables and initializes a for loop, assigns the value of the current element to the variable key in each iteration, initializes j to compare the variable before arr[i] with itself, creates a conditional that checks if j is greater or equal to 0 and if the element at the jth position of the array is greater than the key variable (which is equal to arr[i]), swaps the element at the jth position to the position (j+1) and decrements the value of j by 1 if the condition is true, and repeats until j is less than 0 or the element at the jth position is not greater than key. Insertion sort is commonly used to sort small lists and partially solved lists, but is still ultimately inefficient for large lists. To clarify, bubble sort and insertion sort are both sorting algorithms used for 2D data.</p>
+                    <p>Another common O(n^2) sorting algorithm is selection sort, an algorithm that this paper will quickly gloss over. Selection sort is an algorithm that selects the smallest element of a list and places it at the beginning of the sorted portion. It is a divide-and-conquer algorithm, which means that it divides the bigger problem into smaller subproblems to solve independently. It creates a sorted part and an unsorted part, and picks the smallest element from the unsorted part to put into the sorted part. Refer to figure 3 for a visualization of selection sort:</p>
+                    <img class="illus-img" src="../assets/others/the_application_of_sorting_algorithms_christian (5).png">
+                    <p class="img-cap">Figure 3: Selection Sort Visualization</p>
+                    <p>Here is an implementation of selection sort within C#:</p>
+                    <pre class="prettyprint linenums" style="padding: 9px; font-size: 15px; white-space: pre;">
+using System;
+class GFG
+{
+    static void sort(int []arr)
+    {
+        int n = arr.Length;
+
+        for (int i = 0; i < n - 1; i++)
+        {
+            int min_idx = i;
+            for (int j = i + 1; j < n; j++)
+                if (arr[j] < arr[min_idx])
+                    min_idx = j;
+            int temp = arr[min_idx];
+            arr[min_idx] = arr[i];
+            arr[i] = temp;
+        }
+    }
+
+    static void printArray(int []arr)
+    {
+        int n = arr.Length;
+        for (int i=0; i < n; ++i)
+            Console.Write(arr[i] + " ");
+        Console.WriteLine();
+    }
+
+    public static void Main()
+    {
+        int []arr = {64,25,12,22,11};
+        sort(arr);
+        Console.WriteLine("Sorted array");
+        printArray(arr);
+    }
+}</pre>
+                        <p class="img-cap">Source: <a href="https://www.geeksforgeeks.org/selection-sort/">GeeksForGeeks</a></p>
+                        <p>For larger datasets, algorithms with a time complexity of O(n*log(n)) are more desirable. Merge sort and quick sort are two sorting algorithms with a time complexity of O(n*log(n)), which is quicker than all the algorithms mentioned thus far. Merge sort divides a dataset into smaller datasets, sorting each one, and then merging the sorted datasets back together. On the other hand, quick sort selects a pivot element and partitions the dataset around it, such that all elements smaller than the pivot are placed to the left of it and all elements larger than the pivot are placed to the right. Afterwards, it recursively sorts the left and right partitions. While both of these are quick algorithms, and they give a taste of speed, they are not designed for n-dimensional datasets. The next algorithm we will cover will be bucket sort, which is an algorithm designed specifically for n-dimensional space. Please refer to figure 4 for a visualization of merge sort and figure 5 for a visualization of quick sort.</p>
                         <img class="illus-img" src="../assets/others/the_application_of_sorting_algorithms_christian (4).png">
-                        <p class="img-cap">Figure 4</p>
+                        <p class="img-cap">Figure 4: Merge Sort Visualization</p>
+                        <p>Here is a code implementation of merge sort within C:</p>
+                        <pre class="prettyprint linenums" style="padding: 9px; font-size: 15px; white-space: pre;">
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+
+void merge(int arr[], int l, int m, int r)
+{
+    int i, j, k;
+    int n1 = m - l + 1;
+    int n2 = r - m;
+    int L[n1], R[n2];
+
+    for (i = 0; i < n1; i++)
+        L[i] = arr[l + i];
+    for (j = 0; j < n2; j++)
+        R[j] = arr[m + 1 + j];
+
+    i = 0;
+    j = 0;
+    k = l;
+
+    while (i < n1 && j < n2) {
+        if (L[i] <= R[j]) {
+            arr[k] = L[i];
+            i++;
+        }
+        else {
+            arr[k] = R[j];
+            j++;
+        }
+        k++;
+    }
+
+    while (i < n1) {
+        arr[k] = L[i];
+        i++;
+        k++;
+    }
+
+    while (j < n2) {
+        arr[k] = R[j];
+        j++;
+        k++;
+    }
+}
+
+void mergeSort(int arr[], int l, int r)
+{
+    if (l < r) {
+        int m = l + (r - l) / 2;
+
+        mergeSort(arr, l, m);
+        mergeSort(arr, m + 1, r);
+
+        merge(arr, l, m, r);
+    }
+}
+
+void printArray(int A[], int size)
+{
+    int i;
+    for (i = 0; i < size; i++)
+        printf("%d ", A[i]);
+    printf("\n");
+}</pre>
+                        <p class="img-cap">Source: <a href="https://www.geeksforgeeks.org/merge-sort/">GeeksForGeeks</a></p>
                         <img class="illus-img" src="../assets/others/the_application_of_sorting_algorithms_christian (3).png">
-                        <p class="img-cap">Figure 5</p>
-                        <p>There are a variety of applications for 2D dataset sorting.  For example, you can sort a list of points in a coordinate system, a matrix, 2D shapes (based on area, perimeter, etc), 2D images (size, resolution), and other applications. To compare the performance of the different sorting algorithms in this context, you could compare the number of comparisons and swaps performed by each algorithm to determine which algorithm is most efficient for the task.  You could also simply measure the time that it takes for the algorithm to complete by taking advantage of the time module in Python or through using other comparable methods.</p>
-                        <p>While sorting algorithms are often designed to work with one or two dimensional data, they can also be applied to n-dimensional space, where <i>n</i> is a positive integer.  However, sorting n-dimensional data comes with challenges. There are two major challenges when it comes to sorting in the nth dimension: the increased complexity of the data, and the increased space complexity which causes the algorithm to need to store more information in memory to sort the datasets.  To overcome these challenges, researchers have developed sorting algorithms with the sole purpose for working with n-dimensional datasets.</p>
-                        <p>For example, the bucket sort algorithm is a sorting algorithm that divides a dataset into a number of buckets based on the values of the different dimensions.  Afterwards, the data is sorted within each bucket and the sorted buckets are merged to form the final sorted data.  Another example is the radix sort, a sorting algorithm which sorts a dataset by the digits of the different dimensions.  It is most efficient and often used for sorting large datasets with a small dimension count.</p>
-                        <p>Sorting in the <i>nth</i> dimension has applications within a variety of fields.  For example, sorting algorithms can identify patterns and trends in n-dimensional space, such as recognizing clusters of points or correlations between dimensions. They can also be used to improve the rendering performance of 3D graphics by sorting the objects in the scene based on their distance from the viewer.  On top of that, sorting in the nth dimension is extensively used in machine learning, such as being used to pre-process data before training a model.</p>
-                        <p>For example, imagine you had a dataset of 10,000 points in 3-dimensional space, representing the features of different people.  The dataset included three features: height, weight, and age.  Your goal is to use machine learning to predict the athletic performance of each person based on these features.  You could use a decision tree algorithm, which is an algorithm that recursively splits the data based on the feature that provides the most information gain.  You can sort the data by the target variable prior to the model’s training with the goal of improving performance of the decision tree in mind.  This will guarantee that similar points are grouped together, therefore improving the accuracy and efficiency of the algorithm.</p>
-                        <p>To sort the data, using a sorting algorithm designed to be used in n-dimensions, such as bucket sort would be optimal.  You could pass the sorted dataset to the decision tree algorithm and train the model using the sorted data.  The model would predict the popularity of the products based on their features because of this process.</p>
-                        <p>While there are plenty of applications of n-dimensional sorting algorithms, some became displeased with the optimization of the systems.  Because of this, researchers have developed countless techniques for optimizing sorting algorithms designed to work in the nth dimension.  One discovery is the use of space-filling curves, which are continuous functions that map n-dimensional space onto a one-dimensional space.  According to Marsha Berger, “Space-filling curves provide an inexpensive way to map an interval to a three-dimensional domain.” [2]  In other words, using a space-filling curve allows you to reorder the data in a way that reduces the comparisons and swap count needed to sort the data.  Another approach is parallelization, which divides the data into smaller pieces and sorts them in parallel using multiple processors which can improve the performance of the algorithm due to the reduced amount of time needed to sort the data.</p>
+                        <p class="img-cap">Figure 5: Quick Sort Visualization</p>
+                        <p>Here is an implementation of quick sort within Java:</p>
+                        <pre class="prettyprint linenums" style="padding: 9px; font-size: 15px; white-space: pre;">
+import java.io.*;
+
+class GFG {
+    static void swap(int[] arr, int i, int j)
+    {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+
+    static int partition(int[] arr, int low, int high)
+    {
+        int pivot = arr[high];
+        int i = (low - 1);
+        
+        for (int j = low; j <= high - 1; j++) 
+        {
+            if (arr[j] < pivot) 
+            {
+                i++;
+                swap(arr, i, j);
+            }
+        }
+        swap(arr, i + 1, high);
+        return (i + 1);
+    }
+
+    static void quickSort(int[] arr, int low, int high)
+    {
+        if (low < high) 
+        {
+            int pi = partition(arr, low, high);
+
+            quickSort(arr, low, pi - 1);
+            quickSort(arr, pi + 1, high);
+        }
+    }
+
+    static void printArray(int[] arr, int size)
+    {
+        for (int i = 0; i < size; i++)
+            System.out.print(arr[i] + " ");
+        System.out.println();
+    }
+}</pre>
+                        <p class="img-cap">Source: <a href="https://www.geeksforgeeks.org/quick-sort/">GeeksForGeeks</a></p>
+                        <p>There are a variety of applications for 2D dataset sorting. For example, you can sort a list of points in a coordinate system, a matrix, 2D shapes (based on area, perimeter, etc), 2D images (size, resolution), and other applications. To compare the performance of the different sorting algorithms in this context, you could compare the number of comparisons and swaps performed by each algorithm to determine which algorithm is most efficient for a given task. You could also simply measure the time that it takes for the algorithm to complete by taking advantage of the time module in Python or through using other comparable methods.</p>
+                        <p>While sorting algorithms are often designed to work with one or two dimensional data, they can also be applied to n-dimensional space, where n is a positive integer. However, sorting n-dimensional data comes with its own challenges. There are two major challenges when it comes to sorting in the nth dimension: the increased complexity of the data, and the increased space complexity which causes the algorithm to need to store more information in memory to sort the datasets. To overcome these challenges, researchers have developed sorting algorithms with the sole purpose for working with n-dimensional datasets.</p>
+                        <p>For example, the bucket sort algorithm is a sorting algorithm that divides a dataset into a number of buckets based on the values of the different dimensions. Afterwards, the data is sorted within each bucket and the sorted buckets are merged to form the final sorted data. Another example is the radix sort, a sorting algorithm which sorts a dataset by the digits of the different dimensions. It is most efficient and often used for sorting large datasets with a small dimension count.</p>
+                        <p>Sorting in the nth dimension has applications within a variety of fields. For example, sorting algorithms can identify patterns and trends in n-dimensional space, such as recognizing clusters of points or correlations between dimensions. They can also be used to improve the rendering performance of 3D graphics by sorting the objects in the scene based on their distance from the viewer. On top of that, sorting in the nth dimension is extensively used in machine learning, such as being used to pre-process data before training a model.</p>
+                        <p>For example, imagine you had a dataset of 10,000 points in 3-dimensional space, representing the features of different people. The dataset included three features: height, weight, and age. Your goal is to use machine learning to predict the athletic performance of each person based on these features. You could use a decision tree algorithm, which is an algorithm that recursively splits the data based on the feature that provides the most information gain. You can sort the data by the target variable prior to the model’s training with the goal of improving performance of the decision tree in mind. This will guarantee that similar points are grouped together, therefore improving the accuracy and efficiency of the algorithm.</p>
+                        <p>To sort the data, using a sorting algorithm designed to be used in n-dimensions, such as bucket sort, would be optimal. You could pass the sorted dataset to the decision tree algorithm and train the model using the sorted data. The model would predict the popularity of the products based on their features because of this process. Please refer to figure 6 to see a visualization of bucket sort:</p>
+                        <img class="illus-img" src="../assets/others/the_application_of_sorting_algorithms_christian (6).jpeg">
+                        <p class="img-cap">Figure 6: Bucket Sort Visualization</p>
+                        <p>As shown above, bucket sort divides a list into n buckets and proceeds to sort the elements of the individual buckets. It is efficient for large algorithms, and can be applied in a variety of ways, such as sorting uniformly distributed data, and even creating histograms.</p>
+                        <p>Here is a code implementation of bucket sort within Python:</p>
+                        <pre class="prettyprint linenums" style="padding: 9px; font-size: 15px; white-space: pre;">
+def bucketSort(array):
+    bucket = []
+
+    for i in range(len(array)): bucket.append([])
+
+    for j in array:
+        index_b = int(10 * j)
+        bucket[index_b].append(j)
+
+    for i in range(len(array)): bucket[i] = sorted(bucket[i])
+
+    k = 0
+    for i in range(len(array)):
+        for j in range(len(bucket[i])):
+            array[k] = bucket[i][j]
+            k += 1
+    return array</pre>
+                        <p class="img-cap">Source: <a href="https://www.programiz.com/dsa/bucket-sort">GeeksForGeeks</a></p>
+                        <p>While there are plenty of applications of n-dimensional sorting algorithms, some became displeased with the optimization of such systems. Because of this, researchers have developed countless techniques for optimizing sorting algorithms designed to work in the nth dimension. One discovery is the use of space-filling curves, which are continuous functions that map n-dimensional space onto a one-dimensional space. Space-filling curves provide a cheap strategy for mapping an interval to a three-dimensional domain [13]. In other words, using a space-filling curve allows you to reorder the data in a way that reduces the comparisons and swap count needed to sort the data. Another approach is parallelization, which divides the data into smaller pieces and sorts them in parallel using multiple processors which can improve the performance of the algorithm due to the reduced amount of time needed to sort the data.</p>
+                        <p>These curves are often used to create space-filling fractals which are applied in a variety of fields ranging from data visualization to computer graphics. Parallelization, on the other hand, is often applied in machine learning and big data processing. Since parallelization is based on the theory of breaking a large problem into subproblems, machine learning benefits greatly from this due to the large, difficult to deal with n-dimensional datasets given to model off of. Parallelization reduces memory requirements through the distribution of computation, improves performance through a similar process, enables distributed training to use time more efficiently, and more. Plenty of fields need to handle large amounts of data, such as geographic information systems and computational fluid dynamics, and these strategies are often applied.to these fields. Ultimately, they are powerful tools to optimize computation, data storage, and more.</p>
                         <h2 class="section-heading">Conclusion</h2>
-                        <p>In conclusion, sorting algorithms play a crucial role in a variety of fields, from simple data management to machine learning.  While sorting algorithms are especially important in n-dimensional data, working in n-dimensional space can be daunting.  This paper explored the applications of sorting algorithms in two dimensions to n dimensions, and it compared the performance of different algorithms in these contexts.  We also discussed optimization techniques, such as space-filling curves or parallelization, and presented examples of improved sorting algorithms designed for working in n-dimensional space.  Overall, the research shows the importance and applications of sorting algorithms in n-dimensional space, and that there is still much to learn about how to optimize and improve algorithms to meet computer scientist's needs.</p>
+                        <p>In conclusion, sorting algorithms play a crucial role in a variety of fields, from simple data management to machine learning. While sorting algorithms are especially important in n-dimensional data, working in n-dimensional space can be daunting. This paper explored the applications of sorting algorithms in two dimensions to n dimensions, and it compared the performance of different algorithms in these contexts. We also discussed optimization techniques, such as space-filling curves or parallelization, and presented examples of improved sorting algorithms designed for working in n-dimensional space. Overall, the research shows the importance and applications of sorting algorithms in n-dimensional space, and that there is still much to learn about how to optimize and improve algorithms to meet computer scientist's needs.</p>
                         <h2 class="section-heading">References</h2>
                         <ol class="ref">
-                            <li><i>"Comparison Sort"</i>, xlinux.nist.gov. <a href="https://xlinux.nist.gov/dads/HTML/comparisnsrt.html#:~:text=Definition%3A%20Any%20sort%20algorithm%20using">https://xlinux.nist.gov/dads/HTML/comparisnsrt.html#:~:text=Definition%3A%20Any%20sort%20algorithm%20using</a>. (Accessed December 27, 2022).</li>
-                            <li>S. Gautam, <i>“Scaler Topics”</i>, www.scaler.com, Aug. 15, 2021. <a href="https://www.scaler.com/topics/data-structures/bubble-sort/">https://www.scaler.com/topics/data-structures/bubble-sort/</a>.</li>
-                            <li><i>“Insertion Sort Tutorials & Notes | Algorithms | HackerEarth”</i>, HackerEarth, 2016. <a href="https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/tutorial/">https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/tutorial/</a>.</li>
-                            <li>GeeksforGeeks, <i>“Merge Sort - GeeksforGeeks”</i>, GeeksforGeeks, Oct. 31, 2018. <a href="https://www.geeksforgeeks.org/merge-sort/">https://www.geeksforgeeks.org/merge-sort/</a>.</li>
-                            <li><i>“6.12. The Quick Sort — Problem Solving with Algorithms and Data Structures”</i>, runestone.academy. <a href="https://runestone.academy/ns/books/published/pythonds/SortSearch/TheQuickSort.html">https://runestone.academy/ns/books/published/pythonds/SortSearch/TheQuickSort.html</a>.</li>
-                            <li><i>“Distributed Dynamic Data-Structures for Parallel Adaptive Mesh-Refinement”</i>, Research Gate, Sep. 1998. <a href="https://www.researchgate.net/publication/2334714_Distributed_Dynamic_Data-Structures_for_Parallel_Adaptive_Mesh-Refinement">https://www.researchgate.net/publication/2334714_Distributed_Dynamic_Data-Structures_for_Parallel_Adaptive_Mesh-Refinement</a>.</li>
+                            <li>“Comparison Sort,” <i>xlinux.nist.gov</i> <br><a href="https://xlinux.nist.gov/dads/HTML/comparisnsrt.html#:~:text=Definition%3A%20Any%20sort%20algorithm%20using">https://xlinux.nist.gov/dads/HTML/comparisnsrt.html#:~:text=Definition%3A%20Any%20sort%20algorithm%20using</a>. <br>[Accessed December 27, 2022]</li>
+                            <li>S. Gautam, “Scaler Topics,” <i>www.scaler.com</i>, Aug. 15, 2021. <br><a href="https://www.scaler.com/topics/data-structures/bubble-sort/">https://www.scaler.com/topics/data-structures/bubble-sort/</a>.</li>
+                            <li>“Python program for Bubble Sort,” <i>GeeksforGeeks</i>, 13-Jun-2022. [Online]. <br>Available: <a href="https://www.geeksforgeeks.org/python-program-for-bubble-sort/">https://www.geeksforgeeks.org/python-program-for-bubble-sort/</a>. <br>[Accessed: 17 January 2023]</li>
+                            <li>“Insertion Sort Tutorials & Notes | Algorithms | HackerEarth,” <i>HackerEarth</i>, 2016. <br><a href="https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/tutorial/">https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/tutorial/</a>.</li>
+                            <li>“Insertion sort,” <i>GeeksforGeeks</i>, 13-Jan-2023. [Online]. <br>Available: <a href="https://www.geeksforgeeks.org/insertion-sort/">https://www.geeksforgeeks.org/insertion-sort/</a>. <br>[Accessed: 17 January 2023].</li>
+                            <li>“Selection sort tutorials & notes: Algorithms,” <i>HackerEarth</i>. [Online]. <br>Available: <a href="https://www.hackerearth.com/practice/algorithms/sorting/selection-sort/tutorial/">https://www.hackerearth.com/practice/algorithms/sorting/selection-sort/tutorial/</a>. <br>[Accessed: 17 January 2023]</li>
+                            <li>“Selection sort algorithm,” <i>GeeksforGeeks</i>, 16 January 2023. [Online]. <br>Available: <a href="https://www.geeksforgeeks.org/selection-sort/">https://www.geeksforgeeks.org/selection-sort/</a>. <br>[Accessed: 17 January 2023]</li>
+                            <li>GeeksForGeeks, “Merge Sort - GeeksforGeeks,” <i>GeeksforGeeks</i>, Oct. 31, 2018. <br><a href="https://www.geeksforgeeks.org/merge-sort/">https://www.geeksforgeeks.org/merge-sort/</a>.</li>
+                            <li>“6.12. The Quick Sort — Problem Solving with Algorithms and Data Structures,” <i>Runestone Academy</i>. <br><a href="https://runestone.academy/ns/books/published/pythonds/SortSearch/TheQuickSort.html">https://runestone.academy/ns/books/published/pythonds/SortSearch/TheQuickSort.html</a>.</li>
+                            <li>“Quicksort,” <i>GeeksforGeeks</i>, 17 January 2023. [Online]. <br>Available: <a href="https://www.geeksforgeeks.org/quick-sort/">https://www.geeksforgeeks.org/quick-sort/</a>. <br>[Accessed: 17 January 2023]</li>
+                            <li>“Bucket sort,” <i>GeeksforGeeks</i>, 17 January 2023. [Online]. <br>Available: <a href="https://www.geeksforgeeks.org/bucket-sort-2/">https://www.geeksforgeeks.org/bucket-sort-2/</a>. <br>[Accessed: 17 January 2023].</li>
+                            <li>“Bucket sort algorithm,” Programiz. [Online]. Available: <a href="https://www.programiz.com/dsa/bucket-sort">https://www.programiz.com/dsa/bucket-sort</a>. <br>[Accessed: 17 January 2023]</li>
+                            <li>[13]	“Distributed Dynamic Data-Structures for Parallel Adaptive Mesh-Refinement,” <i>Research Gate</i>, Sep. 1998. <a href="https://www.researchgate.net/publication/2334714_Distributed_Dynamic_Data-Structures_for_Parallel_Adaptive_Mesh-Refinement">https://www.researchgate.net/publication/2334714_Distributed_Dynamic_Data-Structures_for_Parallel_Adaptive_Mesh-Refinement</a>. <br>[Accessed: December 22, 2022]</li>
                         </ol>
                     </div>
                 </div>
@@ -171,7 +478,11 @@
             </div>
         </footer>
         <!-- Bootstrap core JS-->
+        <style>
+            li.L1,li.L3,li.L5,li.L7,li.L9 {background-color: #000;}
+        </style>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
