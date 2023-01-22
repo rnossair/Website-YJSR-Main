@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "How SARS-CoV-2 affect Human Cells",
+            subtitle: "Let's take a look on how one of the world's deadliest virus makes it's way to accomplish their lethal mission.",
+            author: "Soham Jindal",
+            author_contact: "",
+            publish_date: "January 22, 2023",
+            image_source: "how_sars_cov_2_affect_human_cells.png",
+            post_destination: "/Posts/How-SARS-Cov-2-affect-human-cells.html"
+        },
+        {
             title: "CRISPR: Beneficial, Effective yet Problematic Healthcare",
             subtitle: "",
             author: "Kamal Korrapati",
