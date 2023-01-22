@@ -931,6 +931,15 @@ const Post_List = {
     ],
     "math": [
         {
+            title: "The Application of Sorting Algorithms in N-Dimensional Space",
+            subtitle: "",
+            author: "Christian Hall",
+            author_contact: "",
+            publish_date: " January 21, 2023",
+            image_source: "the_application_of_sorting_algorithm.png",
+            post_destination: "/Posts/The-application-of-sorting-algorithms-in-N-dimensional-space.html"
+        },
+        {
             title: "The Use of Mapping Elements",
             subtitle: "",
             author: "Uday Nambeesan",
@@ -938,15 +947,6 @@ const Post_List = {
             publish_date: "January 20, 2023",
             image_source: "the_use_of_mapping_elements.png",
             post_destination: "/Posts/The-use-of-mapping-elements.html"
-        },
-        {
-            title: "The Application of Sorting Algorithms in N-Dimensional Space",
-            subtitle: "",
-            author: "Christian Hall",
-            author_contact: "",
-            publish_date: " January 14, 2023",
-            image_source: "the_application_of_sorting_algorithm.png",
-            post_destination: "/Posts/The-application-of-sorting-algorithms-in-N-dimensional-space.html"
         },
         {
             title: "History of the Golden Ratio and Its Relation to Beauty",
