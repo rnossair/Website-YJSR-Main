@@ -93,7 +93,7 @@ const Post_List = {
             author: "Lael Alva",
             author_contact: "", // I personally dunno why does it even exists...
             publish_date: "February 1, 2023",
-            image_source: "lifestyle-diseases-oman.jpeg",
+            image_source: "lifestyle-diseases-oman.jpg",
             post_destination: "/Posts/Reducing-Lifestyle-Disease-In-Oman.html"
         },
         {
