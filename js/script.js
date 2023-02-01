@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "Reducing Lifestyle Disease In Oman",
+            subtitle: "",
+            author: "Lael Alva",
+            author_contact: "", // I personally dunno why does it even exists...
+            publish_date: "February 1, 2023",
+            image_source: "lifestyle-diseases-oman.jpeg",
+            post_destination: "/Posts/Reducing-Lifestyle-Disease-In-Oman.html"
+        },
+        {
             title: "On the Mend: Recovering the Ozone Layer",
             subtitle: "",
             author: "Jasmine Biju",
