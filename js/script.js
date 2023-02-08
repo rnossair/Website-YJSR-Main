@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "The Placebo Effect",
+            subtitle: "Mind over matter: The surprising impact of perception on healing.",
+            author: "Charvi Kashyap",
+            author_contact: "",
+            publish_date: "February 8, 2023",
+            image_source: "the-placebo-effect.png",
+            post_destination: "/Posts/The-placebo-effect.html"
+        },
+        {
             title: "Reducing Lifestyle Disease In Oman",
             subtitle: "",
             author: "Lael Alva",
