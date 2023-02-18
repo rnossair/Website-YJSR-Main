@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "The Anti-Icing Mechanism of Plants",
+            subtitle: "How Plants Overcome the Cold: Deciphering the Anti-Icing Mechanism",
+            author: "Jasmine Biju",
+            author_contact: "",
+            publish_date: "February 18, 2022",
+            image_source: "the_anti_icing_mechanism_of_plants.jpeg",
+            post_destination: "/Posts/The-Anti-Icing-Mechanism-in-Plants.html"
+        },
+        {
             title: "The Placebo Effect",
             subtitle: "Mind over matter: The surprising impact of perception on healing.",
             author: "Charvi Kashyap",
