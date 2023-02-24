@@ -93,7 +93,7 @@ const Post_List = {
             author: "Dhruve Dahiya",
             author_contact: "",
             publish_date: "February 24, 2023",
-            image_source: "qbio.jpeg",
+            image_source: "qbio.jpg",
             post_destination: "/Posts/qbio.html"
         },
         {
