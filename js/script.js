@@ -88,11 +88,20 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "Quantum Biology",
+            subtitle: "",
+            author: "Dhruve Dahiya",
+            author_contact: "",
+            publish_date: "February 24, 2023",
+            image_source: "qbio.jpeg",
+            post_destination: "/Posts/qbio.html"
+        },
+        {
             title: "The Anti-Icing Mechanism of Plants",
             subtitle: "How Plants Overcome the Cold: Deciphering the Anti-Icing Mechanism",
             author: "Jasmine Biju",
             author_contact: "",
-            publish_date: "February 18, 2022",
+            publish_date: "February 18, 2023",
             image_source: "the_anti_icing_mechanism_of_plants.jpeg",
             post_destination: "/Posts/The-Anti-Icing-Mechanism-in-Plants.html"
         },
