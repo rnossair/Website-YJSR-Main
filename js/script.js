@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "How an Alligator Gene in Farming Catfish will Help Defend Against Infection",
+            subtitle: "",
+            author: "Jasmine Biju",
+            author_contact: "",
+            publish_date: "February 28, 2023",
+            image_source: "how_an_alligator_gene_will_help_catfish_farming.png",
+            post_destination: "/Posts/How-an-alligator-gene-in-farming-catfish-will-help-defend-against-infections.html"
+        },
+        {
             title: "Quantum Biology",
             subtitle: "",
             author: "Dhruve Dahiya",
