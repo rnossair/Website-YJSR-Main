@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "Scientists use plasma to produce oxygen on Mars",
+            subtitle: "Are we one step closer to living on the red planet?",
+            author: "Maria Eduarda de Mattos Brandão",
+            author_contact: "",
+            publish_date: "February 28, 2023",
+            image_source: "scientist_using_plasma_to_create_oxygen.png",
+            post_destination: "/Posts/Scientists-use-plasma-to-produce-oxygen-on-mars.html"
+        },
+        {
             title: "How an Alligator Gene in Farming Catfish will Help Defend Against Infection",
             subtitle: "",
             author: "Jasmine Biju",
