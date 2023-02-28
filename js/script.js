@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "Mice Combat: Mirror Neurons Are To Blame",
+            subtitle: "",
+            author: "Mice Combat: Mirror Neurons Are To Blame",
+            author_contact: "",
+            publish_date: "February 28, 2023",
+            image_source: "mice-combact.jpg",
+            post_destination: "/Posts/mice-combact.html"
+        },
+        {
             title: "Scientists use plasma to produce oxygen on Mars",
             subtitle: "Are we one step closer to living on the red planet?",
             author: "Maria Eduarda de Mattos Brandão",
