@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "What Are BrainEx and OrganEx?",
+            subtitle: "",
+            author: "Adrianna Cirillo",
+            author_contact: "",
+            publish_date: "March 19, 2023",
+            image_source: "brainEX-organEX.jpg",
+            post_destination: "/Posts/brainEX-organEX.html"
+        },
+        {
             title: "Statistics and their Relevance in Grading",
             subtitle: "",
             author: "Vincent Hui",
