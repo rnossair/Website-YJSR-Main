@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "Paraneoplastic Syndrome",
+            subtitle: "Decoding the Enigmatic Symptoms of Cancer's Secret Companion",
+            author: "Ayana Samantray",
+            author_contact: "",
+            publish_date: "March 23, 2022",
+            image_source: "paraneoplastic_syndrome.png",
+            post_destination: "/Posts/Paraneoplastic-syndrome.html"
+        },
+        {
             title: "What Are BrainEx and OrganEx?",
             subtitle: "",
             author: "Adrianna Cirillo",
