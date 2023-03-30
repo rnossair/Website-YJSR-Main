@@ -90,7 +90,7 @@ const Post_List = {
         {
             title: "The Ethics of Human Cloning",
             subtitle: "Unpacking the Possibilities and Challenges of Human Cloning in the Modern Age",
-            author: "Adrika Maurya",
+            author: "Aadrika Maurya",
             author_contact: "",
             publish_date: "March 29, 2023",
             image_source: "the_ethics_of_human_cloning.png",
