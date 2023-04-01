@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "The NANOG Gene: A Potential for Age-Reversal",
+            subtitle: "Revitalizing the Body's Cells with NANOG Gene Therapy: A Breakthrough in Anti-Aging Research",
+            author: "Jasmine Biju",
+            author_contact: "",
+            publish_date: "April 1, 2023",
+            image_source: "the_nanog_gene.jpg",
+            post_destination: "/Posts/The-NANOG-gene-a-potential-for-age-reversal.html"
+        },
+        {
             title: "The Ethics of Human Cloning",
             subtitle: "Unpacking the Possibilities and Challenges of Human Cloning in the Modern Age",
             author: "Aadrika Maurya",
