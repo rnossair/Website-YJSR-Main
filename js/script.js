@@ -88,15 +88,6 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
-            title: "Soft Robotics: The Key to Unlocking the Mysteries of Space",
-            subtitle: "",
-            author: "Fareeha Rehman",
-            author_contact: "",
-            publish_date: "April 4, 2023",
-            image_source: "soft-robotics.png",
-            post_destination: "/Posts/Soft-Robotics.html"
-        },
-        {
             title: "The NANOG Gene: A Potential for Age-Reversal",
             subtitle: "Revitalizing the Body's Cells with NANOG Gene Therapy: A Breakthrough in Anti-Aging Research",
             author: "Jasmine Biju",
@@ -917,6 +908,15 @@ const Post_List = {
         }
     ],
     "tech": [
+        {
+            title: "Soft Robotics: The Key to Unlocking the Mysteries of Space",
+            subtitle: "",
+            author: "Fareeha Rehman",
+            author_contact: "",
+            publish_date: "April 4, 2023",
+            image_source: "soft-robotics.png",
+            post_destination: "/Posts/Soft-Robotics.html"
+        },
         {
             title: "Difference between Computer Science and IT",
             subtitle: "These two are some of the most easily confused carreer fields, here are the differences between them.",
