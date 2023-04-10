@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "Love From The Biological Perspective",
+            subtitle: "Love is a Drug: How Hormones and Neurotransmitters create Addiction and Euphoria...",
+            author: "Vincent Hui",
+            author_contact: "",
+            publish_date: "April 10, 2023",
+            image_source: "love_from_the_biological_perspective.png",
+            post_destination: "/Posts/Love-from-the-biological-perspective.html"
+        },
+        {
             title: "How the Brain Processes Music: Insights from Neuroscience",
             subtitle: "Unraveling the Mysteries of the Musical Mind: A Neuroscientific Perspective",
             author: "Aadrika Maurya",
