@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "How the Brain Processes Music: Insights from Neuroscience",
+            subtitle: "Unraveling the Mysteries of the Musical Mind: A Neuroscientific Perspective",
+            author: "Aadrika Maurya",
+            author_contact: "",
+            publish_date: "April 10, 2023",
+            image_source: "how_the_brain_processes_music.png",
+            post_destination: "/Posts/How-the-brain-processes-music.html"
+        },
+        {
             title: "The NANOG Gene: A Potential for Age-Reversal",
             subtitle: "Revitalizing the Body's Cells with NANOG Gene Therapy: A Breakthrough in Anti-Aging Research",
             author: "Jasmine Biju",
