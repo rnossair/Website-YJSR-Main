@@ -918,6 +918,15 @@ const Post_List = {
     ],
     "tech": [
         {
+            title: "Neural Network in Arts",
+            subtitle: "",
+            author: "Anel Mukatova",
+            author_contact: "",
+            publish_date: "April 16th, 2023",
+            image_source: "neural-art.jpg",
+            post_destination: "/Posts/Neural-Network-in-Arts.html"
+        },
+        {
             title: "Difference between Computer Science and IT",
             subtitle: "These two are some of the most easily confused carreer fields, here are the differences between them.",
             author: "Surayya Yuldashova",
