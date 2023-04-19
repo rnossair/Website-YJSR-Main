@@ -918,6 +918,15 @@ const Post_List = {
     ],
     "tech": [
         {
+            title: "Space-Based Solar Power",
+            subtitle: "Determining the efficacy of space-based solar panels in the energy needs of the world.",
+            author: "Mahashri Ranjith Kumar",
+            author_contact: "", 
+            publish_date: "April 19, 2023",
+            image_source: "space_based_solar_power.png",
+            post_destination: "/Posts/Space-Based-solar-power.html"
+        },
+        {
             title: "Neural Network in Arts",
             subtitle: "",
             author: "Anel Mukatova",
