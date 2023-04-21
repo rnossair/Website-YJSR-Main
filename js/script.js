@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "Horaglanis populi: A Newly Discovered Species",
+            subtitle: "",
+            author: "Jasmine Biju",
+            author_contact: "",
+            publish_date: "April 20, 2023",
+            image_source: "horaglanis-populi.jpeg",
+            post_destination: "/Posts/horaglanis-populi.html"
+        },
+        {
             title: "Love From The Biological Perspective",
             subtitle: "Love is a Drug: How Hormones and Neurotransmitters create Addiction and Euphoria...",
             author: "Vincent Hui",
