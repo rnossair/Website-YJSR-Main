@@ -93,7 +93,7 @@ const Post_List = {
             author: "Jasmine Biju",
             author_contact: "",
             publish_date: "April 20, 2023",
-            image_source: "horaglanis-populi.jpeg",
+            image_source: "horaglanis-populi.jpg",
             post_destination: "/Posts/horaglanis-populi.html"
         },
         {
