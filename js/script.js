@@ -1064,6 +1064,15 @@ const Post_List = {
     ],
     "eng": [ 
         {
+            title: "Leveraging Digital Twins to Unlock the Potential of the Industrial Internet of Things",
+            subtitle: "Bridging the Physical-Digital Divide",
+            author: "Jay Kataria",
+            author_contact: "",
+            publish_date: "April 23, 2023",
+            image_source: "leveraging_digital_twins.png",
+            post_destination: "/Posts/Leveraging-digital-twins-to-unlock-the-potential-of-the-industrial-internet-of-things.html"
+        },
+        {
             title: "Soft Robotics: The Key to Unlocking the Mysteries of Space",
             subtitle: "",
             author: "Fareeha Rehman",
