@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "Neuroplasticity",
+            subtitle: "Exploring the Brain's Remarkable Ability to Adapt and Learn through Neuroplasticity",
+            author: "Charvi Kashyap",
+            author_contact: "",
+            publish_date: "April 24, 2023",
+            image_source: "neuroplasticity.png",
+            post_destination: "/Posts/Neuroplasticity.html"
+        },
+        {
             title: "Horaglanis populi: A Newly Discovered Species",
             subtitle: "",
             author: "Jasmine Biju",
