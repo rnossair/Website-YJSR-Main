@@ -936,6 +936,15 @@ const Post_List = {
     ],
     "tech": [
         {
+            title: "The Role Of Technology In Supporting Individuals With Autism",
+            subtitle: "Exploring Innovations for Enhancing Autism Support and Inclusion through Technology",
+            author: "Aadrika Maurya",
+            author_contact: "",
+            publish_date: "April 25, 2023",
+            image_source: "the_role_of_technology_in_supporting_individual_with_autism.png",
+            post_destination: "/Posts/The-Role-of-Technology-in-supporting-individuals-with-autism.html"
+        },
+        {
             title: "Space-Based Solar Power",
             subtitle: "Determining the efficiency of space-based solar panels in the energy needs of the world.",
             author: "Mahashri Ranjith Kumar",
