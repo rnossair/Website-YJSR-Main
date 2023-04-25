@@ -1082,6 +1082,15 @@ const Post_List = {
     ],
     "eng": [ 
         {
+            title: "Hydrogen-Powered Car: Fuel Cell Engine Technology",
+            subtitle: "Driving our Way Towards a Sustainable Future with Hydrogen Fuel Cell Technology",
+            author: "Harya Vishwanath",
+            author_contact: "",
+            publish_date: "April 26, 2023",
+            image_source: "hydrogen_powered_car_fuel_cell_engine_technology.png",
+            post_destination: "/Posts/Hydrogen-powered-car-fuel-cell-engine-technology.html"
+        },
+        {
             title: "Leveraging Digital Twins to Unlock the Potential of the Industrial Internet of Things",
             subtitle: "Bridging the Physical-Digital Divide",
             author: "Jay Kataria",
