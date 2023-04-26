@@ -1302,6 +1302,10 @@ function search_posts(query) {
             </div>
         `;
     }
+    if (matches_found == 0) {document.getElementById("search-results").innerHTML += `
+        <img class="no-res-img" src="../assets/no_results_found.png">
+        <p class="no-res-line">No results found for the query &OpenCurlyQuote;${query}&CloseCurlyQuote;. Please try searching by some other query.</p>
+    `}
     document.getElementById("search-results").innerHTML += "<hr>";
     document.getElementById("no-of-search-found").innerHTML = matches_found.length;
     resizeHandler(null);
