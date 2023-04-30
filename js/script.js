@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "The psychology behind plastic surgery",
+            subtitle: "Why do we resolutely change ourselves? And how do the people who perform these surgeries feel?",
+            author: "Bargaoui Elaa",
+            author_contact: "",
+            publish_date: "April 30, 2023",
+            image_source: "psychology-plastic-surgery.jpeg",
+            post_destination: "/Posts/The-psychology-behind-plastic-surgery.html"
+        },
+        {
             title: "Neuroplasticity",
             subtitle: "Exploring the Brain's Remarkable Ability to Adapt and Learn through Neuroplasticity",
             author: "Charvi Kashyap",
