@@ -93,7 +93,7 @@ const Post_List = {
             author: "Bargaoui Elaa",
             author_contact: "",
             publish_date: "April 30, 2023",
-            image_source: "psychology-plastic-surgery.jpeg",
+            image_source: "psychology-plastic-surgery.jpg",
             post_destination: "/Posts/The-psychology-behind-plastic-surgery.html"
         },
         {
