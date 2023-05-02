@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "The Axolotl: An Intriguing Pokémon",
+            subtitle: "Some might find it cute, some might find it weird, but its regenerative abilities are undeniably and scientifically fascinating.",
+            author: "Maria Eduarda de Mattos Brandão",
+            author_contact: "",
+            publish_date: "May 2, 2023",
+            image_source: "the-axolotl-an-intriguing-pokemon.jpeg",
+            post_destination: "/Posts/The-Axolotl-an-intriguing-Pokemon.html"
+        },
+        {
             title: "The psychology behind plastic surgery",
             subtitle: "Why do we resolutely change ourselves? And how do the people who perform these surgeries feel?",
             author: "Bargaoui Elaa",
