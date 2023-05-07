@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "The Matilda effect",
+            subtitle: "",
+            author: "Maria Eduarda de Mattos Brandão",
+            author_contact: "",
+            publish_date: "May 7, 2023",
+            image_source: "matilda-effect.png",
+            post_destination: "/Posts/the-matilda-effect.html"
+        },
+        {
             title: "The Axolotl: An Intriguing Pokémon",
             subtitle: "Some might find it cute, some might find it weird, but its regenerative abilities are undeniably and scientifically fascinating.",
             author: "Maria Eduarda de Mattos Brandão",
