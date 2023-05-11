@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "The New Era of Gravitational-Wave Astronomy",
+            subtitle: "",
+            author: "Adriana Talianová",
+            author_contact: "",
+            publish_date: "May 10, 2023",
+            image_source: "Gravitational-Wave.jpg",
+            post_destination: "/Posts/Gravitational-Wave-Astronomy.html"
+        },
+        {
             title: "The Matilda effect",
             subtitle: "",
             author: "Maria Eduarda de Mattos Brandão",
