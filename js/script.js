@@ -972,6 +972,15 @@ const Post_List = {
     ],
     "tech": [
         {
+            title: "Why Resurrecting Back Extinct Animals Is A Horrible Idea",
+            subtitle: "",
+            author: "Ariana D. Walcott",
+            author_contact: "",
+            publish_date: "May 10, 2023",
+            image_source: "Resurrecting-Extinct-Animals.jpg",
+            post_destination: "/Posts/Resurrecting-Extinct-Animals.html"
+        },
+        {
             title: "The Role Of Technology In Supporting Individuals With Autism",
             subtitle: "Exploring Innovations for Enhancing Autism Support and Inclusion through Technology",
             author: "Aadrika Maurya",
