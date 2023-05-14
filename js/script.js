@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "The Truth About Bioweapons: The Science Behind Biological Destruction",
+            subtitle: "Uncovering the Secrets of Bioweapons: Analyzing the Mechanisms and Consequences of Biological Warfare.",
+            author: "Anya Trivedi",
+            author_contact: "",
+            publish_date: "May 14, 2023",
+            image_source: "the_truth_about_bioweapons.jpg",
+            post_destination: "/Posts/The-truth-about-bioweapons.html"
+        },
+        {
             title: "The New Era of Gravitational-Wave Astronomy",
             subtitle: "",
             author: "Adriana Talianová",
