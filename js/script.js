@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "Unlocking the Mysteries of Oncogenes: How These Genetic Rebels Drive Cancer",
+            subtitle: "Decoding Oncogenes' Dominance in Cancer Pathways.",
+            author: "Sindhoora R.",
+            author_contact: "", 
+            publish_date: "May 15, 2023",
+            image_source: "unlocking_the_mysteries_of_oncogenes.jpg",
+            post_destination: "/Posts/Unlocking-the-mysteries-of-oncogenes.html"
+        },
+        {
             title: "What is Gillick Competence and how did it originate?",
             subtitle: "",
             author: "Varya Mishra",
