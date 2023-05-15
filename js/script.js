@@ -89,7 +89,7 @@ const Post_List = {
     "sci": [
         {
             title: "What is Gillick Competence and how did it originate?",
-            subtitle: ".",
+            subtitle: "",
             author: "Varya Mishra",
             author_contact: "",
             publish_date: "May 15, 2023",
