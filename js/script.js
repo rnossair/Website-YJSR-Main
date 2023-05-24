@@ -1154,6 +1154,15 @@ const Post_List = {
     ],
     "eng": [ 
         {
+            title: "An Insight To Rocket Propulsion",
+            subtitle: "",
+            author: "Anel Mukatova",
+            author_contact: "",
+            publish_date: "May 23, 2023",
+            image_source: "rocket-propulsion.png",
+            post_destination: "/Posts/Insight-Rocket-Propulsion.html"
+        },
+        {
             title: "Hydrogen-Powered Car: Fuel Cell Engine Technology",
             subtitle: "Driving our Way Towards a Sustainable Future with Hydrogen Fuel Cell Technology",
             author: "Harya Vishwanath",
@@ -1218,15 +1227,6 @@ const Post_List = {
         },
     ],
     "math": [
-        {
-            title: "An Insight To Rocket Propulsion",
-            subtitle: "",
-            author: "Anel Mukatova",
-            author_contact: "",
-            publish_date: "May 23, 2023",
-            image_source: "rocket-propulsion.png",
-            post_destination: "/Posts/Insight-Rocket-Propulsion.html"
-        },
         {
             title: "Statistics and their Relevance in Grading",
             subtitle: "",
