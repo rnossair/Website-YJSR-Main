@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "Effects of Water and Baking Soda on Plant Oxidation Rates",
+            subtitle: "",
+            author: "Chloe LaForge",
+            author_contact: "", // I personally dunno why does it even exists...
+            publish_date: "June 5, 2023",
+            image_source: "effect_of_water_and_basic_soda_on_plant_oxidation_rated.jpg",
+            post_destination: "/Posts/Effects-of-water-and-baking-soda-on-plant-oxidation-rates.html"
+        },
+        {
             title: "The Invisible Universe",
             subtitle: "Uncovering the Mysteries and Wonders of Dark Matter",
             author: "Fareeha Rehman",
