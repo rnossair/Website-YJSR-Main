@@ -1017,6 +1017,15 @@ const Post_List = {
     ],
     "tech": [
         {
+            title: "The Metaverse: Can Technology Save An Island",
+            subtitle: "Digital Dimensions and Island Preservation: Unleashing the Potential of the Metaverse",
+            author: "Ariana Walcott",
+            author_contact: "",
+            publish_date: "June 6, 2023",
+            image_source: "the_metaverse_can_technology_save_an_island.jpg",
+            post_destination: "/Posts/The-metaverse-can-technology-save-an-island.html"
+        },
+        {
             title: "Why Resurrecting Back Extinct Animals Is A Horrible Idea",
             subtitle: "",
             author: "Ariana D. Walcott",
