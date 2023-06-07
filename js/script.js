@@ -90,9 +90,9 @@ const Post_List = {
         {
             title: "The Silent Threat: Unveiling the Connection Between Air Pollution and Mental Health",
             subtitle: "",
-            author: "Ashley Lim ",
+            author: "Ashley Lim",
             author_contact: "", // I personally dunno why does it even exists...
-            publish_date: "June 7th, 2023",
+            publish_date: "June 7, 2023",
             image_source: "air_pollution_mental_health.png",
             post_destination: "/Posts/Connection-Between-Air-Pollution-and-Mental-Health.html"
         },
