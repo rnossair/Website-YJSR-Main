@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "The Silent Threat: Unveiling the Connection Between Air Pollution and Mental Health",
+            subtitle: "",
+            author: "Ashley Lim ",
+            author_contact: "", // I personally dunno why does it even exists...
+            publish_date: "June 7th, 2023",
+            image_source: "air_pollution_mental_health.png",
+            post_destination: "/Posts/Connection-Between-Air-Pollution-and-Mental-Health.html"
+        },
+        {
             title: "Effects of Water and Baking Soda on Plant Oxidation Rates",
             subtitle: "",
             author: "Chloe LaForge",
