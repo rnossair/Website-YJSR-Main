@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "Honey Water and Fertilizer Effect on Plant Growth",
+            subtitle: "",
+            author: "Chloe LaForge",
+            author_contact: "", // I personally dunno why does it even exists...
+            publish_date: "June 9, 2023",
+            image_source: "Honey-Water-Fertilizer-Effect.jpg",
+            post_destination: "/Posts/Honey-Water-and-Fertilizer-Effect-on-Plant-Growth.html"
+        },
+        {
             title: "The Silent Threat: Unveiling the Connection Between Air Pollution and Mental Health",
             subtitle: "",
             author: "Ashley Lim",
