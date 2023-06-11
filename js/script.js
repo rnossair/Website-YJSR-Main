@@ -1035,6 +1035,15 @@ const Post_List = {
     ],
     "tech": [
         {
+            title: "Virtual Reality in Education",
+            subtitle: "Navigating the Challenges and Unlocking the Potential",
+            author: "Treasure Mayowa",
+            author_contact: "https://linkedin.com/in/treasure-mayowa", // Finally!
+            publish_date: "June 11, 2023",
+            image_source: "virtual_reality_in_education.jpg",
+            post_destination: "/Posts/Virtual-reality-in-education-navigating-the-challenges-and-unlocking-the-potential.html"
+        },
+        {
             title: "The Synergy of AI and Design: Unleashing the Power of Innovation",
             subtitle: "",
             author: "Anel Mukatova ",
