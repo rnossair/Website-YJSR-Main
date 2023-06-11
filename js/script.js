@@ -1031,7 +1031,7 @@ const Post_List = {
             author: "Anel Mukatova ",
             author_contact: "", // I personally dunno why does it even exists...
             publish_date: "June 11, 2023",
-            image_source: "synergy_of_AI_and_design_Unleashing_the_power_of_innovation",
+            image_source: "synergy_of_AI_and_design_Unleashing_the_power_of_innovation.jpg",
             post_destination: "/Posts/synergy_of_AI_and_design_Unleashing_the_power_of_innovation.html"
         },
         {
