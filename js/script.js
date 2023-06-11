@@ -1035,6 +1035,15 @@ const Post_List = {
     ],
     "tech": [
         {
+            title: "The Synergy of AI and Design: Unleashing the Power of Innovation",
+            subtitle: "",
+            author: "Anel Mukatova ",
+            author_contact: "", // I personally dunno why does it even exists...
+            publish_date: "June 11, 2023",
+            image_source: "synergy_of_AI_and_design_Unleashing_the_power_of_innovation",
+            post_destination: "/Posts/synergy_of_AI_and_design_Unleashing_the_power_of_innovation.html"
+        },
+        {
             title: "The Metaverse: Can Technology Save An Island",
             subtitle: "Digital Dimensions and Island Preservation: Unleashing the Potential of the Metaverse",
             author: "Ariana Walcott",
