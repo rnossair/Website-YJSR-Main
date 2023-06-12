@@ -1035,6 +1035,15 @@ const Post_List = {
     ],
     "tech": [
         {
+            title: "The Power of APIs in Modern Software Development",
+            subtitle: "Code Connectors: Harnessing the Potential of APIs for Advanced Software Development.",
+            author: "Aurum Mandal",
+            author_contact: "",
+            publish_date: "June 12, 2023",
+            image_source: "the_power_of_apis_in_modern_software_development.jpg",
+            post_destination: "/Posts/The-power-of-APIs-Modern-Software-Development.html"
+        },
+        {
             title: "Virtual Reality in Education",
             subtitle: "Navigating the Challenges and Unlocking the Potential",
             author: "Treasure Mayowa",
