@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "Music as Informational Art: Debunking the Myth of 'Informative Garbage'",
+            subtitle: "",
+            author: "Anel Mukatova",
+            author_contact: "", // I personally dunno why does it even exists...
+            publish_date: "June 13, 2023",
+            image_source: "Music-Informational-Art.jpg",
+            post_destination: "/Posts/Music-Informational-Art.html"
+        },
+        {
             title: "Honey Water and Fertilizer Effect on Plant Growth",
             subtitle: "",
             author: "Chloe LaForge",
