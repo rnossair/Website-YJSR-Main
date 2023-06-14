@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "The Etiology and Treatment of Preeclampsia Among Pregnant Women",
+            subtitle: "Together let’s explore the complex biological mechanisms and treatments of one of the most notorious pathologies in the field of maternal-fetal medicine.",
+            author: "Jared Ortiz-Luis",
+            author_contact: "",
+            publish_date: "June 14, 2023",
+            image_source: "the_ethiology_and_treatment_of_preeclampsia.jpg",
+            post_destination: "/Posts/The-Ethiology-and-Treatment-of-Preeclampsia-among-pregnant-women.html"
+        },
+        {
             title: "Music as Informational Art: Debunking the Myth of 'Informative Garbage'",
             subtitle: "",
             author: "Anel Mukatova",
