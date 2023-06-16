@@ -87,6 +87,15 @@ A format for the post list array items.
 
 const Post_List = {
     "sci": [
+         {
+            title: "Designer Babies: Creating a Better Generation, Or Not?",
+            subtitle: "",
+            author: "Emel Çırakoğlu",
+            author_contact: "", // I personally dunno why does it even exists...
+            publish_date: "June 16, 2023",
+            image_source: "Designer_Babies-_Creating_A_Better_Generation_Or_Not.jpg",
+            post_destination: "/Posts/Designer_Babies-_Creating_A_Better_Generation_Or_Not"
+        },
         {
             title: "The Etiology and Treatment of Preeclampsia Among Pregnant Women",
             subtitle: "Together let’s explore the complex biological mechanisms and treatments of one of the most notorious pathologies in the field of maternal-fetal medicine.",
