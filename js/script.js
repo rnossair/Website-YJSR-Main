@@ -1062,6 +1062,15 @@ const Post_List = {
     ],
     "tech": [
         {
+            title: "Quantum Computing: Unlocking the Power of Quantum Mechanics",
+            subtitle: "",
+            author: "Aadesh Taneja",
+            author_contact: "",
+            publish_date: "June 17, 2023",
+            image_source: "Quantum-Computing-Unlocking-Power-Quantum-Mechanics.jpg",
+            post_destination: "Quantum-Computing-Unlocking-Power-Quantum-Mechanics.html"
+        },
+        {
             title: "The Power of APIs in Modern Software Development",
             subtitle: "Code Connectors: Harnessing the Potential of APIs for Advanced Software Development.",
             author: "Aurum Mandal",
