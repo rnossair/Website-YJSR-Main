@@ -1068,7 +1068,7 @@ const Post_List = {
             author_contact: "",
             publish_date: "June 17, 2023",
             image_source: "Quantum-Computing-Unlocking-Power-Quantum-Mechanics.jpg",
-            post_destination: "Quantum-Computing-Unlocking-Power-Quantum-Mechanics.html"
+            post_destination: "/Posts/Quantum-Computing-Unlocking-Power-Quantum-Mechanics.html"
         },
         {
             title: "The Power of APIs in Modern Software Development",
