@@ -87,6 +87,15 @@ A format for the post list array items.
 
 const Post_List = {
     "sci": [
+        {
+            title: "Rewiring Resilience",
+            subtitle: "How Neuroplasticity Helps the Brain Heal from PTSD",
+            author: "Aadrika Maurya",
+            author_contact: "",
+            publish_date: "June 18, 2023",
+            image_source: "rewiring_resilience.jpg",
+            post_destination: "/Posts/Rewiring-Resilience.html"
+        },
          {
             title: "Designer Babies: Creating a Better Generation, Or Not?",
             subtitle: "",
