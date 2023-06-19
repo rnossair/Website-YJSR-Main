@@ -91,7 +91,7 @@ const Post_List = {
             title: "Anthropogenic Habitat Alteration and the Demographic Decline of Scantius Aegyptius",
             subtitle: "The Human Footprint on Scantius Aegyptius: Investigating the Ecological Consequences of Anthropogenic Habitat Alteration.",
             author: "Rithvik Sabnekar",
-            author_contact: "https://www.linkedin.com/in/rithvik-sabnekar-1971a3266/",
+            author_contact: "https://www.linkedin.com/in/rithvik-sabnekar-1971a3266/", // (👉ﾟヮﾟ)👉👈(ﾟヮﾟ👈)
             publish_date: "June 19, 2023",
             image_source: "anthropogenic_habitat_alteration_and_the_demographic_decline_of_scantius_aegyptius.png",
             post_destination: "/Posts/Anthropogenic-habitat-alteration-and-the-demographic-decline-of-scantius-aegyptius.html"
