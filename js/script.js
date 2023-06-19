@@ -1071,6 +1071,15 @@ const Post_List = {
     ],
     "tech": [
         {
+            title: "The Swift and Surprising AI Revolution",
+            subtitle: "Unraveling the Unpredictable Future",
+            author: "Afreen Hossain",
+            author_contact: "",
+            publish_date: "June 19, 2023",
+            image_source: "the_swift_and_surprising_AI_revolution.jpg",
+            post_destination: "/Posts/The-swift-and-surprising-AI-revolution.html"
+        },
+        {
             title: "Quantum Computing: Unlocking the Power of Quantum Mechanics",
             subtitle: "",
             author: "Aadesh Taneja",
