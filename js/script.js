@@ -1080,6 +1080,15 @@ const Post_List = {
     ],
     "tech": [
         {
+            title: "How is Technology Changing the Face of the Banking Sector?",
+            subtitle: "Exploring Technological Innovations Redefining the Banking Landscape.",
+            author: "Ritika Tyagi",
+            author_contact: "",
+            publish_date: "June 22, 2023",
+            image_source: "how_technology_is_changing_the_face_of_the_banking_sector.jpg",
+            post_destination: "/Posts/How-is-technology-changing-the-face-of-banking-sector.html"
+        },
+        {
             title: "The Swift and Surprising AI Revolution",
             subtitle: "Unraveling the Unpredictable Future",
             author: "Afreen Hossain",
