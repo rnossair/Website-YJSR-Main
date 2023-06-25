@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "The Adderall Problem: A Therapeutic Dilemma",
+            subtitle: "Balancing Focus and Consequences: Exploring the Complexities of Adderall Use in Therapeutic Contexts.",
+            author: "Kate Rutter",
+            author_contact: "",
+            publish_date: "June 25, 2023",
+            image_source: "the_adderall_problem.jpg",
+            post_destination: "/Posts/The-adderall-problem.html"
+        },
+        {
             title: "Global Warming And Its Impact On The Phenology Of Birds And Other Wildlife",
             subtitle: "Shifting Rhythms of Life: Investigating the Influence of Global Warming on Wildlife Phenology and Ecosystem Dynamics.",
             author: "Xyrene Amansec",
