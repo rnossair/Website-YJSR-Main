@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "Global Warming And Its Impact On The Phenology Of Birds And Other Wildlife",
+            subtitle: "Shifting Rhythms of Life: Investigating the Influence of Global Warming on Wildlife Phenology and Ecosystem Dynamics.",
+            author: "Xyrene Amansec",
+            author_contact: "", 
+            publish_date: "June 25, 2023",
+            image_source: "global_warming_and_its_impact_on_the_phenology_of_birds_and_other_wildlife.jpg",
+            post_destination: "/Posts/Globe-warming-and-its-impact-on-the-phenology-of-birds-and-other-wildlife.html"
+        },
+        {
             title: "Anthropogenic Habitat Alteration and the Demographic Decline of Scantius Aegyptius",
             subtitle: "The Human Footprint on Scantius Aegyptius: Investigating the Ecological Consequences of Anthropogenic Habitat Alteration.",
             author: "Rithvik Sabnekar",
