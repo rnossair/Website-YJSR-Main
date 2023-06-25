@@ -94,7 +94,7 @@ const Post_List = {
             author_contact: "", 
             publish_date: "June 25, 2023",
             image_source: "global_warming_and_its_impact_on_the_phenology_of_birds_and_other_wildlife.jpg",
-            post_destination: "/Posts/Globe-warming-and-its-impact-on-the-phenology-of-birds-and-other-wildlife.html"
+            post_destination: "/Posts/Global-warming-and-its-impact-on-the-phenology-of-birds-and-other-wildlife.html"
         },
         {
             title: "Anthropogenic Habitat Alteration and the Demographic Decline of Scantius Aegyptius",
