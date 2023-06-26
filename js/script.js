@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "Evolution: a Law or a Theory?",
+            subtitle: "",
+            author: "Mina Akın",
+            author_contact: "",
+            publish_date: "June 26, 2023",
+            image_source: "Evolution-Law-or-Theory.png",
+            post_destination: "/Posts/Evolution-Law-or-Theory.html"
+        },
+        {
             title: "The Adderall Problem: A Therapeutic Dilemma",
             subtitle: "Balancing Focus and Consequences: Exploring the Complexities of Adderall Use in Therapeutic Contexts.",
             author: "Kate Rutter",
