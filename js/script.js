@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "STEM Education: Empowering a Transformed Future in an Ever-Evolving World",
+            subtitle: "",
+            author: "Afreen Hossain",
+            author_contact: "",
+            publish_date: "June 30, 2023",
+            image_source: "Empowering-Transformed-Future-in-Ever-Evolving-World.png",
+            post_destination: "/Posts/Empowering-Transformed-Future-in-Ever-Evolving-World.html"
+        },
+        {
             title: "Evolution: a Law or a Theory?",
             subtitle: "",
             author: "Mina Akın",
