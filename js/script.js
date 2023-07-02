@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "Understanding Keto Dieting for Vegetarians?",
+            subtitle: "",
+            author: "Vyasa Hari",
+            author_contact: "", // I personally dunno why does it even exists...
+            publish_date: "July 2, 2023",
+            image_source: "Understanding_Keto_Dieting_for_Vegetarians.jpg",
+            post_destination: "/Posts/Understanding_Keto_Dieting_for_Vegetarians.html"
+        },
+        {
             title: "STEM Education: Empowering a Transformed Future in an Ever-Evolving World",
             subtitle: "",
             author: "Afreen Hossain",
@@ -141,7 +150,7 @@ const Post_List = {
             image_source: "rewiring_resilience.jpg",
             post_destination: "/Posts/Rewiring-Resilience.html"
         },
-         {
+        {
             title: "Designer Babies: Creating a Better Generation, Or Not?",
             subtitle: "",
             author: "Emel Çırakoğlu",
