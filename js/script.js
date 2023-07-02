@@ -106,9 +106,36 @@ const Post_List = {
             post_destination: "/Posts/Designer_Babies-_Creating_A_Better_Generation_Or_Not"
         },
         {
+            title: "The Etiology and Treatment of Preeclampsia Among Pregnant Women",
+            subtitle: "Together let’s explore the complex biological mechanisms and treatments of one of the most notorious pathologies in the field of maternal-fetal medicine.",
+            author: "Jared Ortiz-Luis",
+            author_contact: "",
+            publish_date: "June 14, 2023",
+            image_source: "the_ethiology_and_treatment_of_preeclampsia.jpg",
+            post_destination: "/Posts/The-Ethiology-and-Treatment-of-Preeclampsia-among-pregnant-women.html"
+        },
+        {
+            title: "Music as Informational Art: Debunking the Myth of 'Informative Garbage'",
+            subtitle: "",
+            author: "Anel Mukatova",
+            author_contact: "", // I personally dunno why does it even exists...
+            publish_date: "June 13, 2023",
+            image_source: "Music-Informational-Art.jpg",
+            post_destination: "/Posts/Music-Informational-Art.html"
+        },
+        {
+            title: "Honey Water and Fertilizer Effect on Plant Growth",
+            subtitle: "",
+            author: "Chloe LaForge",
+            author_contact: "", // I personally dunno why does it even exists...
+            publish_date: "June 9, 2023",
+            image_source: "Honey-Water-Fertilizer-Effect.jpg",
+            post_destination: "/Posts/Honey-Water-and-Fertilizer-Effect-on-Plant-Growth.html"
+        },
+        {
             title: "The Silent Threat: Unveiling the Connection Between Air Pollution and Mental Health",
             subtitle: "",
-            author: "Ashley Lim ",
+            author: "Ashley Lim",
             author_contact: "", // I personally dunno why does it even exists...
             publish_date: "June 7, 2023",
             image_source: "air_pollution_mental_health.png",
@@ -1043,6 +1070,24 @@ const Post_List = {
         }
     ],
     "tech": [
+        {
+            title: "The Power of APIs in Modern Software Development",
+            subtitle: "Code Connectors: Harnessing the Potential of APIs for Advanced Software Development.",
+            author: "Aurum Mandal",
+            author_contact: "",
+            publish_date: "June 12, 2023",
+            image_source: "the_power_of_apis_in_modern_software_development.jpg",
+            post_destination: "/Posts/The-power-of-APIs-Modern-Software-Development.html"
+        },
+        {
+            title: "Virtual Reality in Education",
+            subtitle: "Navigating the Challenges and Unlocking the Potential",
+            author: "Treasure Mayowa",
+            author_contact: "https://linkedin.com/in/treasure-mayowa", // Finally!
+            publish_date: "June 11, 2023",
+            image_source: "virtual_reality_in_education.jpg",
+            post_destination: "/Posts/Virtual-reality-in-education-navigating-the-challenges-and-unlocking-the-potential.html"
+        },
         {
             title: "The Synergy of AI and Design: Unleashing the Power of Innovation",
             subtitle: "",
