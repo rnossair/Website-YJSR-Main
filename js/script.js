@@ -97,6 +97,60 @@ const Post_List = {
             post_destination: "/Posts/Understanding_Keto_Dieting_for_Vegetarians.html"
         },
         {
+            title: "STEM Education: Empowering a Transformed Future in an Ever-Evolving World",
+            subtitle: "",
+            author: "Afreen Hossain",
+            author_contact: "",
+            publish_date: "June 30, 2023",
+            image_source: "Empowering-Transformed-Future-in-Ever-Evolving-World.png",
+            post_destination: "/Posts/Empowering-Transformed-Future-in-Ever-Evolving-World.html"
+        },
+        {
+            title: "Evolution: a Law or a Theory?",
+            subtitle: "",
+            author: "Mina Akın",
+            author_contact: "",
+            publish_date: "June 26, 2023",
+            image_source: "Evolution-Law-or-Theory.png",
+            post_destination: "/Posts/Evolution-Law-or-Theory.html"
+        },
+        {
+            title: "The Adderall Problem: A Therapeutic Dilemma",
+            subtitle: "Balancing Focus and Consequences: Exploring the Complexities of Adderall Use in Therapeutic Contexts.",
+            author: "Kate Rutter",
+            author_contact: "",
+            publish_date: "June 25, 2023",
+            image_source: "the_adderall_problem.jpg",
+            post_destination: "/Posts/The-adderall-problem.html"
+        },
+        {
+            title: "Global Warming And Its Impact On The Phenology Of Birds And Other Wildlife",
+            subtitle: "Shifting Rhythms of Life: Investigating the Influence of Global Warming on Wildlife Phenology and Ecosystem Dynamics.",
+            author: "Xyrene Amansec",
+            author_contact: "", 
+            publish_date: "June 25, 2023",
+            image_source: "global_warming_and_its_impact_on_the_phenology_of_birds_and_other_wildlife.jpg",
+            post_destination: "/Posts/Global-warming-and-its-impact-on-the-phenology-of-birds-and-other-wildlife.html"
+        },
+        {
+            title: "Anthropogenic Habitat Alteration and the Demographic Decline of Scantius Aegyptius",
+            subtitle: "The Human Footprint on Scantius Aegyptius: Investigating the Ecological Consequences of Anthropogenic Habitat Alteration.",
+            author: "Rithvik Sabnekar",
+            author_contact: "https://www.linkedin.com/in/rithvik-sabnekar-1971a3266/", // (👉ﾟヮﾟ)👉👈(ﾟヮﾟ👈)
+            publish_date: "June 19, 2023",
+            image_source: "anthropogenic_habitat_alteration_and_the_demographic_decline_of_scantius_aegyptius.png",
+            post_destination: "/Posts/Anthropogenic-habitat-alteration-and-the-demographic-decline-of-scantius-aegyptius.html"
+        },
+        {
+            title: "Rewiring Resilience",
+            subtitle: "How Neuroplasticity Helps the Brain Heal from PTSD",
+            author: "Aadrika Maurya",
+            author_contact: "",
+            publish_date: "June 18, 2023",
+            image_source: "rewiring_resilience.jpg",
+            post_destination: "/Posts/Rewiring-Resilience.html"
+        },
+        {
             title: "Designer Babies: Creating a Better Generation, Or Not?",
             subtitle: "",
             author: "Emel Çırakoğlu",
@@ -1070,6 +1124,33 @@ const Post_List = {
         }
     ],
     "tech": [
+        {
+            title: "How is Technology Changing the Face of the Banking Sector?",
+            subtitle: "Exploring Technological Innovations Redefining the Banking Landscape.",
+            author: "Ritika Tyagi",
+            author_contact: "",
+            publish_date: "June 22, 2023",
+            image_source: "how_technology_is_changing_the_face_of_the_banking_sector.jpg",
+            post_destination: "/Posts/How-is-technology-changing-the-face-of-banking-sector.html"
+        },
+        {
+            title: "The Swift and Surprising AI Revolution",
+            subtitle: "Unraveling the Unpredictable Future",
+            author: "Afreen Hossain",
+            author_contact: "",
+            publish_date: "June 19, 2023",
+            image_source: "the_swift_and_surprising_AI_revolution.jpg",
+            post_destination: "/Posts/The-swift-and-surprising-AI-revolution.html"
+        },
+        {
+            title: "Quantum Computing: Unlocking the Power of Quantum Mechanics",
+            subtitle: "",
+            author: "Aadesh Taneja",
+            author_contact: "",
+            publish_date: "June 17, 2023",
+            image_source: "Quantum-Computing-Unlocking-Power-Quantum-Mechanics.jpg",
+            post_destination: "/Posts/Quantum-Computing-Unlocking-Power-Quantum-Mechanics.html"
+        },
         {
             title: "The Power of APIs in Modern Software Development",
             subtitle: "Code Connectors: Harnessing the Potential of APIs for Advanced Software Development.",
