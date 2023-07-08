@@ -88,15 +88,6 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
-            title: "The Power of Machine Learning in Mathematics: Transforming STEM",
-            subtitle: "",
-            author: "Aadesh Taneja",
-            author_contact: "", // I personally dunno why does it even exists...
-            publish_date: "July 7, 2023",
-            image_source: "The_Power_of_Machine_Learning_in_Mathematics-_Transforming_STEM.jpg",
-            post_destination: "/Posts/The_Power_of_Machine_Learning_in_Mathematics-_Transforming_STEM.html"
-        },
-        {
             title: "Understanding Keto Dieting for Vegetarians?",
             subtitle: "",
             author: "Vyasa Hari",
@@ -1425,6 +1416,15 @@ const Post_List = {
         },
     ],
     "math": [
+        {
+            title: "The Power of Machine Learning in Mathematics: Transforming STEM",
+            subtitle: "",
+            author: "Aadesh Taneja",
+            author_contact: "", // I personally dunno why does it even exists...
+            publish_date: "July 7, 2023",
+            image_source: "The_Power_of_Machine_Learning_in_Mathematics-_Transforming_STEM.jpg",
+            post_destination: "/Posts/The_Power_of_Machine_Learning_in_Mathematics-_Transforming_STEM.html"
+        },
         {
             title: "Statistics and their Relevance in Grading",
             subtitle: "",
