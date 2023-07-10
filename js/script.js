@@ -1125,6 +1125,15 @@ const Post_List = {
     ],
     "tech": [
         {
+            title: "The future of artificial intelligence: Advancements and Implications",
+            subtitle: "",
+            author: "Aiyana Verma",
+            author_contact: "",
+            publish_date: "July 10, 2023",
+            image_source: "THE_FUTURE_OF_ARTIFICIAL_INTELLIGENCE___ADVANCEMENTS_AND_IMPLICATIONS_.jpg",
+            post_destination: "/Posts/THE_FUTURE_OF_ARTIFICIAL_INTELLIGENCE___ADVANCEMENTS_AND_IMPLICATIONS_.html"
+        },
+        {
             title: "How is Technology Changing the Face of the Banking Sector?",
             subtitle: "Exploring Technological Innovations Redefining the Banking Landscape.",
             author: "Ritika Tyagi",
