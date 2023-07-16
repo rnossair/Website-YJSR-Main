@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "Impacts of second hand smoking on household plants",
+            subtitle: "",
+            author: "Fareeha Rehman",
+            author_contact: "", // I personally dunno why does it even exists...
+            publish_date: "July 16, 2023",
+            image_source: "Impacts_of_second_hand_smoking_on_household_plants.jpg",
+            post_destination: "/Posts/Impacts_of_second_hand_smoking_on_household_plants.html"
+        },
+        {
             title: "Understanding Keto Dieting for Vegetarians?",
             subtitle: "",
             author: "Vyasa Hari",
