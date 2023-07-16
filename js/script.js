@@ -1134,13 +1134,13 @@ const Post_List = {
     ],
     "tech": [
         {
-            title: "The future of artificial intelligence: Advancements and Implications",
+            title: "THE FUTURE OF ARTIFICIAL INTELLIGENCE : ADVANCEMENTS AND IMPLICATIONS",
             subtitle: "",
             author: "Aiyana Verma",
             author_contact: "",
-            publish_date: "July 10, 2023",
-            image_source: "THE_FUTURE_OF_ARTIFICIAL_INTELLIGENCE___ADVANCEMENTS_AND_IMPLICATIONS_.jpg",
-            post_destination: "/Posts/THE_FUTURE_OF_ARTIFICIAL_INTELLIGENCE___ADVANCEMENTS_AND_IMPLICATIONS_.html"
+            publish_date: "July 9, 2023",
+            image_source: "THE-FUTURE-OF-ARTIFICIAL-INTELLIGENCE-ADVANCEMENTS-AND-IMPLICATIONS.jpg",
+            post_destination: "/Posts/THE-FUTURE-OF-ARTIFICIAL-INTELLIGENCE-ADVANCEMENTS-AND-IMPLICATIONS.html"
         },
         {
             title: "How is Technology Changing the Face of the Banking Sector?",
@@ -1360,6 +1360,15 @@ const Post_List = {
         },
     ],
     "eng": [ 
+        {
+            title: "What is engineering and what do engineers do in each field?",
+            subtitle: "",
+            author: "Afreen Hossain",
+            author_contact: "",
+            publish_date: "July 4, 2023",
+            image_source: "What-is-engineering-and-what-do-engineers-do.jpg",
+            post_destination: "/Posts/What-is-engineering-and-what-do-engineers-do.html"
+        },
         {
             title: "An Insight To Rocket Propulsion",
             subtitle: "",
