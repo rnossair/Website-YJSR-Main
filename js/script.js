@@ -88,6 +88,24 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "Ethics vs Advancement",
+            subtitle: "A Delicate Balance Between Progress and Responsibility",
+            author: "Jan Zanne Chua",
+            author_contact: "",
+            publish_date: "July 23, 2023",
+            image_source: "ethics_vs-advencements.jpg",
+            post_destination: "/Posts/Ethics-vs-Advancements.html"
+        },
+        {
+            title: "Stem cells: The Answer To Cancer?",
+            subtitle: "The Answer to Cancer We’ve Been Waiting For? A Deep Dive into the Latest Breakthroughs",
+            author: "Tamera Simon",
+            author_contact: "",
+            publish_date: "July 23, 2023",
+            image_source: "stem_cells_answer_to_cancer.jpg",
+            post_destination: "/Posts/Stem-Cells-the-answer-to-cancer.html"
+        },
+        {
             title: "Impacts of second hand smoking on household plants",
             subtitle: "",
             author: "Fareeha Rehman",
@@ -1443,6 +1461,24 @@ const Post_List = {
         },
     ],
     "math": [
+        {
+            title: "Unsolvable Simplicity: The Collatz Conjecture",
+            subtitle: "A look into a Mathematical Puzzle that has stumped Experts for Decades",
+            author: "Gülin Gürbüz",
+            author_contact: "",
+            publish_date: "July 23, 2023",
+            image_source: "unsolvable-simplicities.jpg",
+            post_destination: "/Posts/Unsolvable-Simplicity-the-Collatz-Conjecture.html"
+        },
+        {
+            title: "The Concept of Numbers",
+            subtitle: "The Key to Unlocking the Mysteries of the Universe",
+            author: "Ashley Lim",
+            author_contact: "", 
+            publish_date: "July 23, 2023",
+            image_source: "the_concepts_of_numbers.jpg",
+            post_destination: "/Posts/The-Concept-Of-Numbers.html"
+        },
         {
             title: "The Power of Machine Learning in Mathematics: Transforming STEM",
             subtitle: "",
