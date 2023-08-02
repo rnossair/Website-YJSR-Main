@@ -105,17 +105,7 @@ A format for the post list array items.
 
 const Post_List = {
   sci: [
-    {
-      title: "Photocells",
-      subtitle: "",
-      author: "Afreen Hossain",
-      author_contact: "https://www.linkedin.com/in/afreen-hossain/",
-      publish_date: "August 1, 2023",
-      image_source:
-        "photocell.jpg",
-      post_destination: "/Posts/Photocells.html",
-    },
-    {
+     {
       title: "Ethics vs Advancement",
       subtitle: "A Delicate Balance Between Progress and Responsibility",
       author: "Jan Zanne Chua",
