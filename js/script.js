@@ -112,7 +112,7 @@ const Post_List = {
       author_contact: "https://www.linkedin.com/in/afreen-hossain/",
       publish_date: "August 1, 2023",
       image_source:
-        "https://cdn-learn.adafruit.com/guides/images/000/000/026/medium800/photocell.jpg?1473012319",
+        "photocell.jpg",
       post_destination: "/Posts/Photocells.html",
     },
     {
