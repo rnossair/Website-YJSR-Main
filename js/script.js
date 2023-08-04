@@ -104,7 +104,15 @@ A format for the post list array items.
 // Array responsible for storing post information and details.
 
 const Post_List = {
-  sci: [
+  sci: [    {
+      title: "Photocells",
+      subtitle: "",
+      author: "Afreen Hossain",
+      author_contact: "https://www.linkedin.com/in/afreen-hossain/",
+      publish_date: "August 4, 2023",
+      image_source: "photocell.jpg",
+      post_destination: "/Posts/Photocells.html",
+    },
      {
       title: "Ethics vs Advancement",
       subtitle: "A Delicate Balance Between Progress and Responsibility",
