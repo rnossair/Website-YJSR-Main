@@ -104,7 +104,18 @@ A format for the post list array items.
 // Array responsible for storing post information and details.
 
 const Post_List = {
-  sci: [    {
+  sci: [ 
+
+    {
+      title: "Stars",
+      subtitle: "",
+      author: "Nour Al Imane TOUFIQ",
+      author_contact: "",
+      publish_date: "August 5, 2023",
+      image_source: "stars.jpeg",
+      post_destination: "/Posts/The-death-and-birth-of-stars.html",
+    },
+   {
       title: "Photocells",
       subtitle: "",
       author: "Afreen Hossain",
