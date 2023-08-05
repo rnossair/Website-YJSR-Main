@@ -105,6 +105,15 @@ A format for the post list array items.
 
 const Post_List = {
   sci: [ 
+    {
+      title: "Rewilding the Earth",
+      subtitle: "A necessary path to a better tomorrow",
+      author: "Xyrene Amansec",
+      author_contact: "",
+      publish_date: "August 5, 2023",
+      image_source: "path-for-better-tomorrow.jpeg",
+      post_destination: "/Posts/A-necessary-path-to-better-tomorrow.html",
+    },
 
     {
       title: "Stars",
