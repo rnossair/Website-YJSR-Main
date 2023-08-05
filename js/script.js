@@ -1265,6 +1265,16 @@ const Post_List = {
     },
   ],
   tech: [
+        {
+      title: "A New Age for Minimally Invasive Surgeries",
+      subtitle: "",
+      author: "Lisara Gunawardana",
+      author_contact: "",
+      publish_date: "August 5, 2023",
+      image_source: "Surgical-Robot.webp",
+      post_destination:
+        "/Posts/A-New-Age-for-Minimally-Invasive-Surgeries.html",
+    },
     {
       title:
         "THE FUTURE OF ARTIFICIAL INTELLIGENCE : ADVANCEMENTS AND IMPLICATIONS",
