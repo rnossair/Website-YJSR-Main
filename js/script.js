@@ -1296,6 +1296,15 @@ const Post_List = {
     },
   ],
   tech: [
+ {
+      title: "Ethical Hacking",
+      subtitle: "",
+      author: "Afreen Hossain",
+      author_contact: "https://www.linkedin.com/in/afreen-hossain/",
+      publish_date: "August 6, 2023",
+      image_source: "hack.webp",
+      post_destination: "/Posts/ethical-hacking-afreen.html",
+    },
     {
       title: "TECHNOLOGY AND COMMUNICATION IN TODAY’S WORLD",
       subtitle: "",
