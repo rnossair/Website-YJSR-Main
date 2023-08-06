@@ -1651,6 +1651,15 @@ const Post_List = {
   ],
   math: [
     {
+      title: "The Marvels of Number Theory and Prime Numbers",
+      subtitle: "",
+      author: "Aadesh Taneja",
+      author_contact: "",
+      image_source: "marvels-of-number-theory.webp",
+      post_destination:
+        "/Posts/The-Marvels-of-Number-Theory-and-Prime-Numbers.html",
+    },
+    {
       title: "Unsolvable Simplicity: The Collatz Conjecture",
       subtitle:
         "A look into a Mathematical Puzzle that has stumped Experts for Decades",
