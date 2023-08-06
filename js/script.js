@@ -871,7 +871,7 @@ const Post_List = {
       author: "Anna Pham",
       author_contact: "",
       publish_date: "July 6, 2022",
-      image_source: "biotech-hormone.jpeg",
+      image_source: "bio-hormone.jpeg",
       post_destination:
         "/Posts/Biotechnology-in-the-Recombinant-Production-of-Synthetic-Human-Growth-Hormone",
     },
@@ -1285,6 +1285,15 @@ const Post_List = {
     },
   ],
   tech: [
+    {
+      title: "TECHNOLOGY AND COMMUNICATION IN TODAY’S WORLD",
+      subtitle: "",
+      author: "Ritika Tyagi",
+      author_contact: "",
+      publish_date: "August 6, 2023",
+      image_source: "technology.webp",
+      post_destination: "/Posts/Technology.html",
+    },
         {
       title: "A New Age for Minimally Invasive Surgeries",
       subtitle: "",
