@@ -106,6 +106,17 @@ A format for the post list array items.
 const Post_List = {
   sci: [ 
     {
+      title:
+        "The Relationship Between Environmental Toxins and Parkinson’s Disease",
+      subtitle: "",
+      author: "Vyasa Hari",
+      author_contact: "",
+      publish_date: "August 6, 2023",
+      image_source: "parkinsons-disease.webp",
+      post_destination:
+        "/Posts/Environmental-Toxins-and-Parkinson’s-Disease.html",
+    },
+    {
       title: "Rewilding the Earth",
       subtitle: "A necessary path to a better tomorrow",
       author: "Xyrene Amansec",
