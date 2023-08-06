@@ -105,6 +105,15 @@ A format for the post list array items.
 
 const Post_List = {
   sci: [ 
+ {
+      title: "History of Quantum Mechanics",
+      subtitle: "",
+      author: "Mohammed Ayaan",
+      author_contact: "",
+      publish_date: "August 6, 2023",
+      image_source: "quantum-mech-history.webp",
+      post_destination: "/Posts/history-quantum-mech.html",
+    },
     {
       title:
         "The Relationship Between Environmental Toxins and Parkinson’s Disease",
