@@ -107,7 +107,7 @@ const Post_List = {
   sci: [ 
  {
       title: "History of Quantum Mechanics",
-      subtitle: "",
+      subtitle: "Exploring the Fascinating History of Quantum Mechanics",
       author: "Mohammed Ayaan",
       author_contact: "",
       publish_date: "August 6, 2023",
@@ -117,7 +117,7 @@ const Post_List = {
     {
       title:
         "The Relationship Between Environmental Toxins and Parkinson’s Disease",
-      subtitle: "",
+      subtitle: "Unmasking the Hidden Threat about Parkinson's disease",
       author: "Vyasa Hari",
       author_contact: "",
       publish_date: "August 6, 2023",
@@ -137,7 +137,7 @@ const Post_List = {
 
     {
       title: "Stars",
-      subtitle: "",
+      subtitle: "The death and birth of stars",
       author: "Nour Al Imane TOUFIQ",
       author_contact: "",
       publish_date: "August 5, 2023",
