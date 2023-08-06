@@ -1655,6 +1655,7 @@ const Post_List = {
       subtitle: "",
       author: "Aadesh Taneja",
       author_contact: "",
+publish_date: "August 6, 2023",
       image_source: "marvels-of-number-theory.webp",
       post_destination:
         "/Posts/The-Marvels-of-Number-Theory-and-Prime-Numbers.html",
