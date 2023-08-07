@@ -105,7 +105,16 @@ A format for the post list array items.
 
 const Post_List = {
   sci: [ 
- {
+    {
+      title: "Exploring the Enigma of Wave-Particle Duality in Quantum Mechanics",
+      subtitle: "Journey into Quantum Mechanics' Wave-Particle Enigma",
+      author: "Mohammed Ayaan",
+      author_contact: "", // I personally very well know why does it even exists... ANSH!!
+      publish_date: "August 7, 2023",
+      image_source: "cocled.png",
+      post_destination: "Posts/Exploring the Enigma of Wave-Particle Duality in Quantum Mechanics.html"
+    },
+    {
       title: "History of Quantum Mechanics",
       subtitle: "Exploring the Fascinating History of Quantum Mechanics",
       author: "Mohammed Ayaan",
