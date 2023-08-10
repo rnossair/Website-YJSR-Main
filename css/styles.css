@@ -11356,3 +11356,11 @@ header.masthead .site-heading .h1 {
 #mainNav {
   position: fixed;
 }
+
+.preview-image, .res-preview-image {
+    border-radius: 18px;
+    background-size: cover;
+    position: relative; 
+    left: 0;
+    background-position: center;
+}
