@@ -96,6 +96,15 @@ A format for the post list array items.
 const Post_List = {
 	"sci": [
 		{
+			title: "Exploring the Racial Health Disparities in the United States",
+			subtitle: "Can race determine your health?",
+			author: "Jared Ortiz-Luis",
+			author_contact: "", 
+			publish_date: "August 11, 2023", 
+			image_source: "https://images.unsplash.com/photo-1554734867-bf3c00a49371?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+			post_destination: "/Posts/Exploring-the-racial-health-disparities-in-the-United-States.html"
+		},
+		{
 			title: "Use It Or Lose It Strategy - How Neurons Work",
 			subtitle: "Unraveling the Intricacies of Cognitive Function and Neural Adaptation",
 			author: "Emel Çırakoğlu",
