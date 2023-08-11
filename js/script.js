@@ -1477,6 +1477,15 @@ const Post_List = {
 	],
 	"eng": [
 		{
+			title: "Superposition and Entanglement",
+			subtitle: "Quantum States Beyond the Ordinary: Delving into the Enigmatic Behavior of Interconnected Particles.",
+			author: "Mohammed Ayaan",
+			author_contact: "",
+			publish_date: "August 11, 2023",
+			image_source: "https://images.unsplash.com/photo-1666112835156-c65bb806ac73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1760&q=80",
+			post_destination: "/Posts/Superposition-and-entanglement.html"
+		},
+		{
 			"title": "What is engineering and what do engineers do in each field?",
 			"subtitle": "",
 			"author": "Afreen Hossain",
