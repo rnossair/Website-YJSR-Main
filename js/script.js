@@ -159,15 +159,6 @@ const Post_List = {
 			"post_destination": "/Posts/The-death-and-birth-of-stars.html"
 		},
 		{
-			"title": "Photocells",
-			"subtitle": "",
-			"author": "Afreen Hossain",
-			"author_contact": "https://www.linkedin.com/in/afreen-hossain/",
-			"publish_date": "August 4, 2023",
-			"image_source": "https://cdn-learn.adafruit.com/guides/images/000/000/026/medium800/photocell.jpg?1473012319",
-			"post_destination": "/Posts/Photocells.html"
-		},
-		{
 			"title": "Ethics vs Advancement",
 			"subtitle": "A Delicate Balance Between Progress and Responsibility",
 			"author": "Jan Zanne Chua",
@@ -1511,6 +1502,15 @@ const Post_List = {
 			publish_date: "August 11, 2023",
 			image_source: "https://images.unsplash.com/photo-1666112835156-c65bb806ac73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1760&q=80",
 			post_destination: "/Posts/Superposition-and-entanglement.html"
+		},
+		{
+			"title": "Photocells",
+			"subtitle": "Illuminating Insights into Light Sensing and Energy Conversion Mechanisms.",
+			"author": "Afreen Hossain",
+			"author_contact": "https://www.linkedin.com/in/afreen-hossain/",
+			"publish_date": "August 4, 2023",
+			"image_source": "https://cdn-learn.adafruit.com/guides/images/000/000/026/medium800/photocell.jpg?1473012319",
+			"post_destination": "/Posts/Photocells.html"
 		},
 		{
 			"title": "What is engineering and what do engineers do in each field?",
