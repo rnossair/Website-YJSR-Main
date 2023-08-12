@@ -31,7 +31,7 @@ function resizeHandler(event) {
         postContainer.getElementsByClassName("image-holder")[i].style =
           "display: table-row";
 		postContainer.getElementsByClassName("preview-image")[i].style.width = "100%";
-		postContainer.getElementsByClassName("preview-image")[i].style.height = "360px";
+		postContainer.getElementsByClassName("preview-image")[i].style.height = "270px";
         postContainer.getElementsByClassName("post-preview-holder")[i].style =
           "display: table-row";
       }
@@ -43,7 +43,7 @@ function resizeHandler(event) {
       resultsContainer.getElementsByClassName("res-image-holder")[i].style =
         "display: table-row";
 	  resultsContainer.getElementsByClassName("res-preview-image")[i].style.width = "100%";
-	  resultsContainer.getElementsByClassName("res-preview-image")[i].style.height = "360px";
+	  resultsContainer.getElementsByClassName("res-preview-image")[i].style.height = "270px";
       resultsContainer.getElementsByClassName("res-post-preview-holder")[
         i
       ].style = "display: table-row";
@@ -1231,6 +1231,15 @@ const Post_List = {
 		}
 	],
 	"tech": [
+		{
+			title: "Are We too Dependent on Technology?",
+			subtitle: "Exploring the Impact of Technology on Society.",
+			author: "Ritika Tyagi",
+			author_contact: "", // I personally dunno why does it even exists...
+			publish_date: "August 12, 2023",
+			image_source: "https://images.unsplash.com/photo-1614624532983-4ce03382d63d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1331&q=80",
+			post_destination: "/Posts/Are-we-too-dependant-on-technology.html"
+		},
 		{
 			"title": "Ethical Hacking",
 			"subtitle": "",
