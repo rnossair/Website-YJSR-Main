@@ -96,15 +96,6 @@ A format for the post list array items.
 const Post_List = {
 	"sci": [
 		{
-			title: "Using the Elements of Architecture to Tackle Scarcity",
-			subtitle: "Harmonizing Design and Resource Challenges: Applying Architectural Elements to Address Scarcity.",
-			author: "Kashvee Gandhi",
-			author_contact: "", 
-			publish_date: "August 12, 2023",
-			image_source: "https://images.unsplash.com/photo-1467533003447-e295ff1b0435?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-			post_destination: "/Posts/Using-the-elements-of-architecture-to-tackle-scarcity.html"
-		},
-		{
 			title: "Exploring the Racial Health Disparities in the United States",
 			subtitle: "Can race determine your health?",
 			author: "Jared Ortiz-Luis",
@@ -1494,6 +1485,15 @@ const Post_List = {
 		}
 	],
 	"eng": [
+		{
+			title: "Using the Elements of Architecture to Tackle Scarcity",
+			subtitle: "Harmonizing Design and Resource Challenges: Applying Architectural Elements to Address Scarcity.",
+			author: "Kashvee Gandhi",
+			author_contact: "", 
+			publish_date: "August 12, 2023",
+			image_source: "https://images.unsplash.com/photo-1467533003447-e295ff1b0435?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+			post_destination: "/Posts/Using-the-elements-of-architecture-to-tackle-scarcity.html"
+		},
 		{
 			title: "Superposition and Entanglement",
 			subtitle: "Quantum States Beyond the Ordinary: Delving into the Enigmatic Behavior of Interconnected Particles.",
