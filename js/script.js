@@ -96,6 +96,15 @@ A format for the post list array items.
 const Post_List = {
 	"sci": [
 		{
+			title: "Emergence of Artificial Photosynthesis",
+			subtitle: "An Environmentally Sustainable and Efficient Method for Energy Production",
+			author: "Ryan Parsaee & Nikhil Kotikalapudi",
+			author_contact: "",
+			publish_date: "August 12, 2023",
+			image_source: "https://images.unsplash.com/photo-1544465259-ac6ecd37db70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+			post_destination: "/Posts/Emergence-of-artificial-photosynthesis.html"
+		},
+		{
 			title: "Exploring the Racial Health Disparities in the United States",
 			subtitle: "Can race determine your health?",
 			author: "Jared Ortiz-Luis",
