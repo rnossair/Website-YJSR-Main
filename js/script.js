@@ -1495,6 +1495,15 @@ const Post_List = {
 	],
 	"eng": [
 		{
+			title: "Qubits, Kinderjoy, and the Human Brain: An Insight on Quantum Cognition",
+			subtitle: "Exploring Quantum Phenomena's Impact on Human Cognition: A Journey into Brain-Particle Dynamics.",
+			author: "Kavya Bhanushali",
+			author_contact: "",
+			publish_date: "August 13, 2023",
+			image_source: "https://images.unsplash.com/photo-1454779132693-e5cd0a216ed3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80",
+			post_destination: "/Posts/Qubits-Kinderjoy-and-the-Human-Brain.html"
+		},
+		{
 			title: "Using the Elements of Architecture to Tackle Scarcity",
 			subtitle: "Harmonizing Design and Resource Challenges: Applying Architectural Elements to Address Scarcity.",
 			author: "Kashvee Gandhi",
