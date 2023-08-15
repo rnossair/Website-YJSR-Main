@@ -95,6 +95,16 @@ A format for the post list array items.
 
 const Post_List = {
 	"sci": [
+		    {
+      title: "Lessons Learned From Covid-19",
+      subtitle: "A Global Crisis, A Global Response",
+      author: "Kamal Korrapati ",
+      author_contact: "",
+      publish_date: "August 15, 2023",
+      image_source:
+        "https://www.paho.org/sites/default/files/styles/flexslider_full/public/2020-02/coronavirus-creativeneko-shutterstock-com.jpg?h=111de37a&itok=rKlnOnPt",
+      post_destination: "/Posts/Lessons-learnt-from-covid.html",
+    },
 		 {
       title: "Biomimicry",
       subtitle: "From Inspiration To Innovation",
