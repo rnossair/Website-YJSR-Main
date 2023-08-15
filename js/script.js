@@ -95,6 +95,16 @@ A format for the post list array items.
 
 const Post_List = {
 	"sci": [
+		 {
+      title: "Biomimicry",
+      subtitle: "From Inspiration To Innovation",
+      author: "Swarne Sre",
+      author_contact: "",
+      publish_date: "August 15, 2023",
+      image_source:
+        "https://d2vvqscadf4c1f.cloudfront.net/fEhLoqQBSbi6rWwmOTlQ_nautilus-cutaway-shell.jpg",
+      post_destination: "/Posts/Biomimicry-From-Inspiration-To-Innovation.html",
+    },
 		{
 			title: "Emergence of Artificial Photosynthesis",
 			subtitle: "An Environmentally Sustainable and Efficient Method for Energy Production",
