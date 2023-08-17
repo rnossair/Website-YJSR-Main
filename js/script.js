@@ -95,6 +95,15 @@ A format for the post list array items.
 
 const Post_List = {
 	"sci": [
+		{
+        title: "Psychology behind Helping behavior",
+        subtitle: "",
+        author: "Jiji Subhan",
+        author_contact: "",
+        publish_date: "August 16, 2023", 
+        image_source: "https://psychology.iresearchnet.com/wp-content/uploads/2016/01/Helping-Behavior.jpg",
+        post_destination: "/Posts/Psychology-behind-Helping-behavior.html"
+    },
 		    {
       title: "Lessons Learned From Covid-19",
       subtitle: "A Global Crisis, A Global Response",
