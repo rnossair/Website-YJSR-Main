@@ -1308,6 +1308,15 @@ const Post_List = {
 	],
 	"tech": [
 		{
+			title: "AI: The Future of Cyber Security?",
+			subtitle: "Cybersecurity's Evolution: Navigating the Intersection of Artificial Intelligence and Digital Defense.",
+			author: "Saad Amin",
+			author_contact: "",
+			publish_date: "August 21, 2023",
+			image_source: "https://cdn.pixabay.com/photo/2020/04/25/12/14/circle-5090539_1280.jpg",
+			post_destination: "/Posts/AI-the-future-of-cyber-security.html"
+		},
+		{
 			title: "Are We too Dependent on Technology?",
 			subtitle: "Exploring the Impact of Technology on Society.",
 			author: "Ritika Tyagi",
