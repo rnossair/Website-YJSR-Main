@@ -95,6 +95,15 @@ A format for the post list array items.
 
 const Post_List = {
 	"sci": [
+		{
+			title: "Stem Cell Therapy As An Effective Treatment For Chronic Obstructive Pulmonary Disease",
+			subtitle: "",
+			author: "Laura Diaz-Oviedo, Halimat Houandje, Tamkeen Ashraf, Varshini Sudhakar, Opemipo Banwo & Faizah Z. Mosharraf",
+			author_contact: "",
+			publish_date: "August 20, 2023",
+			image_source: "https://images.unsplash.com/photo-1555708982-8645ec9ce3cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1331&q=80",
+			post_destination: "/Posts/Stem-cell-therapy-as-an-effective-treatment-for-COPD.html"
+		},
 		 {
       title: "The Principles of Quantum Mechanics",
       subtitle: "Unveiling the Subatomic World",
