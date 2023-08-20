@@ -96,6 +96,15 @@ A format for the post list array items.
 const Post_List = {
 	"sci": [
 		{
+        title: "Leptin: the obesity gene",
+        subtitle: "",
+        author: "Aditya Singh",
+        author_contact: "",
+        publish_date: "August 20, 2023", 
+        image_source: "https://cdn1.sinobiological.com/styles/default/images/protein-structure/LEP-protein-structure.jpg",
+        post_destination: "/Posts/Leptin-the-obesity-gene.html"
+    },
+		{
         title: "Psychology behind Helping behavior",
         subtitle: "",
         author: "Jiji Subhan",
