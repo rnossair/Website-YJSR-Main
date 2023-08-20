@@ -96,6 +96,15 @@ A format for the post list array items.
 const Post_List = {
 	"sci": [
 		{
+			title: "The Overlooked Battle",
+			subtitle: "Addressing the Harsh Reality of Mental Health in Morocco",
+			author: "Yousra Oualiyouddine",
+			author_contact: "", 
+			publish_date: "August 20, 2023",
+			image_source: "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+			post_destination: "/Posts/The-Overlooked-Battle.html"
+		},
+		{
         title: "Leptin: the obesity gene",
         subtitle: "",
         author: "Aditya Singh",
