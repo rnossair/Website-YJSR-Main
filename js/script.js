@@ -95,6 +95,16 @@ A format for the post list array items.
 
 const Post_List = {
 	"sci": [
+		 {
+      title: "The Principles of Quantum Mechanics",
+      subtitle: "Unveiling the Subatomic World",
+      author: "Afreen Hossain",
+      author_contact: "https://www.linkedin.com/in/afreen-hossain/",
+      publish_date: "August 20, 2023",
+      image_source:
+        "https://th.bing.com/th/id/R.50268f85e67ab5166fbc11ff95fc153b?rik=O1r2YixKJRzWeA&riu=http%3a%2f%2fwww.lehman.edu%2ffaculty%2fanchordoqui%2f300.jpg&ehk=FTZGlU%2fCjTR1SGBBn%2bSTYQXnEf5dec2OIXBzldxQRv4%3d&risl=&pid=ImgRaw&r=0",
+      post_destination: "/Posts/Quantum-Mech.html",
+    },
 		{
 			title: "The Overlooked Battle",
 			subtitle: "Addressing the Harsh Reality of Mental Health in Morocco",
