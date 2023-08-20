@@ -95,6 +95,16 @@ A format for the post list array items.
 
 const Post_List = {
 	"sci": [
+  {
+      title: "The Many Worlds Interpretation",
+      subtitle: "",
+      author: "Ishika Sinha",
+      author_contact: "",
+      publish_date: "August 20, 2023",
+      image_source:
+        "https://i.pinimg.com/originals/9c/29/04/9c29041058484ff2061653fcaf81fd7f.jpg",
+      post_destination: "/Posts/Many-worlds.html",
+    },
 		{
 			title: "Stem Cell Therapy As An Effective Treatment For Chronic Obstructive Pulmonary Disease",
 			subtitle: "",
