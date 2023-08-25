@@ -96,6 +96,17 @@ A format for the post list array items.
 const Post_List = {
 	"sci": [
 		 {
+      title: "THE MATHEMATICS OF CHESS",
+      subtitle: "",
+      author: "Gülin Gürbüz ",
+      author_contact: "",
+      publish_date: "August 25, 2023",
+
+      image_source:
+        "https://th.bing.com/th/id/OIP.B1s8hA4weVyFqDD7yYVb4QHaE8?pid=ImgDet&rs=1",
+      post_destination: "/Posts/The-Mathematics-Of-Chess.html",
+    },
+		 {
       title: "Exoplanets",
       subtitle: "Hidden Worlds Beyond the Solar System",
       author: "Shreya Bose",
