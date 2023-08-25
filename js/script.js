@@ -1730,7 +1730,6 @@ const Post_List = {
 		}
 	],
 	"math": [
-		{
 			{
       title: "THE MATHEMATICS OF CHESS",
       subtitle: "",
@@ -1742,6 +1741,7 @@ const Post_List = {
         "https://th.bing.com/th/id/OIP.B1s8hA4weVyFqDD7yYVb4QHaE8?pid=ImgDet&rs=1",
       post_destination: "/Posts/The-Mathematics-Of-Chess.html",
     },
+		{
 			"title": "The Marvels of Number Theory and Prime Numbers",
 			"subtitle": "",
 			"author": "Aadesh Taneja",
