@@ -95,6 +95,17 @@ A format for the post list array items.
 
 const Post_List = {
 	"sci": [
+		{
+      title: "The Mind: A Complex Interplay of Biology and Computing",
+      subtitle: "",
+      author: "Ashley Lim",
+      author_contact: "",
+      publish_date: "August 24, 2023",
+      image_source:
+        "https://media.licdn.com/dms/image/D4E12AQEQ8mA50x96dQ/article-cover_image-shrink_720_1280/0/1687852679542?e=2147483647&v=beta&t=TRUp3gbf3dK-Vna-plZwk0gRKvQxAEHkFodYxHgWXp0",
+      post_destination: "/Posts/The-Mind-A-Complex-Interplay.html
+",
+    },
 		 {
       title: "CLI-TIDE CHANGE",
       subtitle: "",
