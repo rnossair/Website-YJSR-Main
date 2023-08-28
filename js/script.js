@@ -95,7 +95,17 @@ A format for the post list array items.
 
 const Post_List = {
 	"sci": [
-		 
+		 {
+      title: "AOH 1996: A Potential Cure for Cancer?",
+      subtitle: "",
+      author: "Mridul Yadav",
+      author_contact: "",
+      publish_date: "August 27, 2023",
+      image_source:
+        "https://metro.co.uk/wp-content/uploads/2023/08/GettyImages-1477214805.jpg?quality=90&strip=all&crop=0px%2C21px%2C777px%2C408px&resize=1200%2C630",
+      post_destination:
+        "/Posts/AOH -1996-Cure-for-Cancer.html",
+    },
 		 {
       title: "Exoplanets",
       subtitle: "Hidden Worlds Beyond the Solar System",
