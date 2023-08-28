@@ -1362,7 +1362,7 @@ const Post_List = {
 		   {
       title: "Technology & Climate",
       subtitle: "The Rise of CCS",
-      author: "Zhuri Beuchenson",
+      author: "Zhuri Burchenson",
       author_contact: "",
       publish_date: "August 28, 2023",
       image_source:
