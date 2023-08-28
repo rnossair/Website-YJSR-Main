@@ -961,13 +961,13 @@ const Post_List = {
 			"post_destination": "/Posts/naked-singularities.html"
 		},
 		{
-			"title": "Biotechnology in the Recombinant Production of Synthetic Human Growth Hormone",
+			"title": "Bionology in the Recombinant Production of Synthetic Human Growth Hormone",
 			"subtitle": "",
 			"author": "Anna Pham",
 			"author_contact": "",
 			"publish_date": "July 6, 2022",
 			"image_source": "https://static8.depositphotos.com/1504385/973/i/600/depositphotos_9736868-stock-photo-researcher-holding-up-a-gmo.jpg",
-			"post_destination": "/Posts/Biotechnology-in-the-Recombinant-Production-of-Synthetic-Human-Growth-Hormone"
+			"post_destination": "/Posts/Bionology-in-the-Recombinant-Production-of-Synthetic-Human-Growth-Hormone"
 		},
 		{
 			"title": "&OpenCurlyDoubleQuote;From Our Perspective&CloseCurlyDoubleQuote;: The Impact of Recent School Shootings on Mental Health",
@@ -1349,6 +1349,16 @@ const Post_List = {
 		}
 	],
 	"tech": [
+		   {
+      title: "Technology & Climate",
+      subtitle: "The Rise of CCS",
+      author: "Zhuri Beuchenson",
+      author_contact: "",
+      publish_date: "August 28, 2023",
+      image_source:
+        "https://images.pexels.com/photos/16905006/pexels-photo-16905006/free-photo-of-temperature-alert-sensor-and-thermostat-in-a-flower-glasshouse.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      post_destination: "/Posts/Tech-and-climate.html",
+    },
 		{
 			title: "AI: The Future of Cyber Security?",
 			subtitle: "Cybersecurity's Evolution: Navigating the Intersection of Artificial Intelligence and Digital Defense.",
