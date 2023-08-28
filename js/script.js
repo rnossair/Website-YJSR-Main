@@ -95,6 +95,16 @@ A format for the post list array items.
 
 const Post_List = {
 	"sci": [
+		{
+      title: "   HOW DOES BLOOD CLOT",
+      subtitle: " HOW DO BLOOD COAGULATION TESTS WORK?",
+      author: " Zehra Polat",
+      author_contact: "",
+      publish_date: "August 28, 2023",
+      image_source:
+        "https://images.pexels.com/photos/6643064/pexels-photo-6643064.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      post_destination: "/Posts/How-does-blood-clot.html",
+    },
 		 {
       title: "AOH 1996: A Potential Cure for Cancer?",
       subtitle: "",
