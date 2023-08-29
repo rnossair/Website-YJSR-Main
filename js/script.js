@@ -95,6 +95,16 @@ A format for the post list array items.
 
 const Post_List = {
 	"sci": [
+		 {
+      title: "Precision Oncology",
+      subtitle: "Target Therapy For Cancer",
+      author: "Niki Zafar Heidari",
+      author_contact: "",
+      publish_date: "August 29, 2023",
+      image_source:
+        "https://images.pexels.com/photos/3652097/pexels-photo-3652097.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      post_destination: "/Posts/Precision-Oncology.html",
+    },
 		{
       title: "   HOW DOES BLOOD CLOT",
       subtitle: " HOW DO BLOOD COAGULATION TESTS WORK?",
