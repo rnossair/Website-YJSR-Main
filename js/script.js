@@ -1760,6 +1760,17 @@ const Post_List = {
 		}
 	],
 	"math": [
+		  {
+      title: "The Significance of Integration and Differentiation",
+      subtitle: "Unveiling the Pillars of Calculus",
+      author: "Afreen Hossain",
+      author_contact: "https://www.linkedin.com/in/afreen-hossain/",
+      publish_date: "August 29, 2023",
+      image_source:
+        "https://images.pexels.com/photos/3781338/pexels-photo-3781338.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      post_destination:
+        "/Posts/The-Significance-of-Integration-and-Differentiation.html",
+    },
 			{
       title: "THE MATHEMATICS OF CHESS",
       subtitle: "",
