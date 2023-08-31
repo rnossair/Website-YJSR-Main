@@ -88,6 +88,15 @@ A format for the post list array items.
 const Post_List = {
     "sci": [
         {
+            title: "Transforming Skin Cells into Pluripotent Marvels",
+            subtitle: "",
+            author: "Aadesh Taneja",
+            author_contact: "", // I personally dunno why does it even exists...
+            publish_date: "August 31, 2023",
+            image_source: "https://images.unsplash.com/photo-1576086213369-97a306d36557?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80",
+            post_destination: "/Posts/Transforming_Skin_Cells_into_Pluripotent_Marvels.html"
+        },
+        {
             title: "Impacts of second hand smoking on household plants",
             subtitle: "",
             author: "Fareeha Rehman",
