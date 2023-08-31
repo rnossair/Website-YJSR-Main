@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZH82SXNCBR%22%3E"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-ZH82SXNCBR');
+        </script>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>YJSR</title>
+        <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../css/styles.css" rel="stylesheet" />
+        <style>
+            .ref > li, .cont-list > li {
+                margin: 18px 0;
+            }
+            .ref > li > a {
+                text-decoration: underline;
+            }
+            .cont :hover {
+                color: #0085A1;
+            }
+            .illus-img {
+                width: 100%;
+                border-radius: 9px;
+            }
+            .img-cap {
+                font-style: italic;
+                text-align: center;
+                font-size: 18px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="../">YJSR</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../">Home</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../about">About</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../publish">Publish</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../join">Join</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('https://images.unsplash.com/photo-1611329857570-f02f340e7378?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="post-heading">
+                            <h1>Unsolvable Simplicity: The Collatz Conjecture</h1> 
+                            <h2 class="subheading">A look into a Mathematical Puzzle that has stumped Experts for Decades</h2> 
+                            <span class="meta">
+                                Posted by 
+                                <a href="">Gülin Gürbüz</a> <!-- Author Contact, if present in the `href` string. -->
+                                on July 23, 2023
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Post Content-->
+        <article class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <!-- Main Content/ Article Body -->
+                        <p>Have you ever heard of unsolved mathematical problems that have stumped even the brightest minds? Well, let me introduce you to one of the most basic math problems that no one has “yet” solved. The problem is all about numbers that go up and down before eventually reaching one. It may sound simple at first, but don’t take the bait!</p>
+                        <h2 class="section-heading">How It Works</h2>
+                        <p>I want you to pick a number you want, I chose 7. If the number is odd, we multiply by three and add one. In that case; 7 x 3 = 21, 21 + 1 = 22. If the number is even, we divide by two. So, 22 / 2 = 11. Now, keep applying these two rules. As a result, the following graphical representation emerges:</p>
+                        <img class="illus-img" src="../assets/others/unsolvable_simplicities_gulin.png">
+                        <p class="img-cap">Figure 1</p>
+                        <p>As you may have noticed, after several more steps, we find ourselves back at the number 4. From here, the sequence enters a loop, endlessly cycling between 4, 2, and 1. What’s truly captivating is that regardless of the initial starting point, we eventually find ourselves trapped within the enchanting loop of 4, 2, and 1. For instance, for n=5, it will follow the sequence: 5, 16, 8, 4, 2, 1, 4, 2, 1. Similarly, for n=11, it will follow the sequence: 11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1, 4, 2, 1. It’s as if the sequence, with its twists and turns, eventually succumbs to this repetitive cycle. The question that arises is why? Why does this particular loop become an inevitable destination, regardless of the number we begin with? This enigma lies at the heart of the Collatz Conjecture. It was named after German mathematician, Lothar Collatz. We’ll take a closer look at his life in a moment.</p>
+                        <p>Alongside its primary title, it is also referred to as the 3n+1 Conjecture, Syracuse Problem, Thwaites’ Sequence Problem, Ulam’s Problem, Kakutani’s Problem, and more. Each name reflects the efforts and opinions of several mathematicians who have worked on this unsolvable problem.</p>
+                        <h2 class="section-heading">Who is Lothar Collatz?</h2>
+                        <p>He was born on July 6, 1910, in Arnsberg, Westphalia. His journey in mathematics began with a thirst for knowledge and a desire to solve its secrets. He pursued his studies at various reputable universities in Germany, including the University of Berlin, where he studied under the tutelage of Alfred Klose. In 1935, Collatz obtained his doctorate with a pioneering dissertation titled “Das Differenzenverfahren mit höherer Approximation fur lineare Differentialgleichungen” (The finite difference method with higher approximation for linear differential equations).</p>
+                        <p>He made important contributions to mathematics throughout his distinguished career which left an everlasting mark on the field. Some of his most notable works are the Collatz-Wielandt Formula, the 3n+1 Conjecture and Funktionalanalysis und Numerische Mathematik (Functional Analysis and Numerical Mathematics).</p>
+                        <p>There is no doubt that his talent as a mathematician has strengthened his position as one of mathematics’ prominent figures. His legacy is a testament to the altering abilities of the human brain and the limitless possibilities that mathematics offers.</p>
+                        <h2 class="section-heading">Is It Possible to Solve the Collatz Conjecture?</h2>
+                        <p>Now that we know more about Collatz, we may continue to talk about the problem. Is the 3n+1 problem really solvable? Unless you generate a proof for every positive integer “n” that covers all numbers indefinitely, this assumption cannot be turned into a theorem! Several attempts have been made with graphical examples to verify this assumption. The ultimate goal was to create a suitable model instead of considering all starting numbers sequentially. However, the challenge lies in the presence of both order and randomness. It is certainly not random, yet it cannot be expressed as a definite pattern.</p>
+                        <p>The number 27 takes the longest path to reach the number 1 among the first 50 numbers, requiring a total of 112 steps. As seen in the diagram below, it reaches a height of 7288 at the 67th step, and 9232 at the 77th step, but then undergoes a sudden descent and eventually returns to the number 1 after a few oscillations.</p>
+                        <img class="illus-img" src="../assets/others/unsolvable_simplicities_gulin2.png">
+                        <p>There are a few records among these numbers as well. As an example, if we start with the number 703, the sequence goes through 170 stages before peaking at 250,504. Another record-holder is 26,623, which ascends 10,358,020 steps overall and reaches its peak. However, after reaching the peak, their inevitable fate is to return to the number 1.</p>
+                        <p>So, does that mean it is unsolvable? The prolific mathematician, Paul Erdős, in speaking of the Collatz Conjecture, once said, “Mathematics is not ready for such problems.” Despite this word of warning, mathematicians have been working on finding a solution to this issue for many years. (Perhaps you are one of them?) As a result, The Collatz problem remains unsolved. Furthermore, it’s also probable that we won’t ever be able to prove the veracity or falsity of this assumption.</p>
+                        <h2 class="section-heading">References</h2>
+                        <p>“Lothar Collatz - Wikipedia”, June, 2023. [Online] <br>Available: <a href="https://en.wikipedia.org/wiki/Lothar_Collatz">https://en.wikipedia.org/wiki/Lothar_Collatz</a>. [Accessed: 5 July 2023]</p>
+                        <p>“3n+1 Diğer Adıyla Collatz Problemi: Kimsenin Çözemeyeceği En Basit Matematik Problemi”, January, 2023.[Online] <br> Available: <a href="https://www.matematiksel.org/dolu-tanesi-sayisi-diger-adiyla-collatz-problemi/">https://www.matematiksel.org/dolu-tanesi-sayisi-diger-adiyla-collatz-problemi/</a>. [Accessed: 5 July 2023]</p>
+                        <p>“The Collatz Conjecture”, August, 2013. [Online] <br>Available: <a href="https://blogs.ams.org/mathgradblog/2013/08/01/collatz-conjecture/">https://blogs.ams.org/mathgradblog/2013/08/01/collatz-conjecture/</a>. [Accessed: 5 July 2023]</p>
+                        <p>Veritasium, “The Simplest Math Problem No One Can Solve - Collatz Conjecture”, July, 2021. [Online Video] <br>Available: <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">https://www.youtube.com/watch?v=094y1Z2wpJg</a>. [Accessed: 4 July 2023]</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+<!-- Footer-->
+        <footer class="border-top">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <ul class="list-inline text-center">
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-reddit-alien fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/yjsr.tech/">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/company/youth-journal-of-stem-research">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="small text-center text-muted fst-italic">Copyright &copy; YJSR 2022</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
