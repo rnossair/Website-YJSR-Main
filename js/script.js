@@ -1379,6 +1379,16 @@ const Post_List = {
 		}
 	],
 	"tech": [
+		{
+      title: "Green Coding",
+      subtitle: "",
+      author: "Zhuri Burchenson",
+      author_contact: "",
+      publish_date: "August 31, 2023",
+      image_source:
+        "https://media.istockphoto.com/id/1310150441/photo/green-computing-green-technology-green-it-csr-and-it-ethics-concept.jpg?s=170667a&w=0&k=20&c=3Xc9yKtUAB6rrlIeJSeL-kETR8W5RipotJPs_DMTC-4=",
+      post_destination: "/Posts/Green-Coding.html",
+    },
 		   {
       title: "Technology & Climate",
       subtitle: "The Rise of CCS",
