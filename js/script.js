@@ -1672,6 +1672,16 @@ const Post_List = {
 		}
 	],
 	"eng": [
+		 {
+      title: "Superconductors",
+      subtitle: " Unlocking the Marvels of Zero-Resistance Power Transmission",
+      author: "Afreen Hossain",
+      author_contact: "https://www.linkedin.com/in/afreen-hossain/",
+      publish_date: "September 2, 2023",
+      image_source:
+        "https://images.pexels.com/photos/189524/pexels-photo-189524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      post_destination: "/Posts/Superconductors.html",
+    },
 		{
 			title: "Qubits, Kinderjoy, and the Human Brain: An Insight on Quantum Cognition",
 			subtitle: "Exploring Quantum Phenomena's Impact on Human Cognition: A Journey into Brain-Particle Dynamics.",
