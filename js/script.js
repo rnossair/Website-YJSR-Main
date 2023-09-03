@@ -96,16 +96,7 @@ A format for the post list array items.
 const Post_List = {
 
 	"sci": [
-		 {
-      title: "Superconductors",
-      subtitle: " Unlocking the Marvels of Zero-Resistance Power Transmission",
-      author: "Afreen Hossain",
-      author_contact: "https://www.linkedin.com/in/afreen-hossain/",
-      publish_date: "September 2, 2023",
-      image_source:
-        "https://images.pexels.com/photos/189524/pexels-photo-189524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      post_destination: "/Posts/Superconductors.html",
-    },
+		
       {
             title: "Transforming Skin Cells into Pluripotent Marvels",
             subtitle: "",
