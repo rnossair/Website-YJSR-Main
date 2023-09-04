@@ -1381,6 +1381,15 @@ const Post_List = {
 	],
 	"tech": [
 		{
+		      title: "The Promise Made To The Quantum Horizons by Graphene Nanoribbons",
+		      subtitle: "",
+		      author: "Isha Roy",
+		      author_contact: "",
+		      publish_date: "September 4, 2023",
+		      image_source: "https://www.innovationnewsnetwork.com/wp-content/uploads/2020/10/graphene-nanoribbons.jpg",
+		      post_destination: "/Posts/Quantum-Horizon-by-Graphene-Nanoribbons.html",
+    		},
+		{
       title: "Green Coding",
       subtitle: "",
       author: "Zhuri Burchenson",
