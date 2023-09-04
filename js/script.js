@@ -96,6 +96,16 @@ A format for the post list array items.
 const Post_List = {
 
 	"sci": [
+		{
+      title: "Hycean Planets",
+      subtitle: "The Cosmic Oceans, Exploring Alien life in worlds of water",
+      author: "Aditya Singh",
+      author_contact: "",
+      publish_date: "September 4, 2023",
+      image_source:
+        "https://images.pexels.com/photos/2694037/pexels-photo-2694037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      post_destination: "/Posts/Hycean-Planets.html",
+    },
 		
       {
             title: "Transforming Skin Cells into Pluripotent Marvels",
