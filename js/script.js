@@ -97,6 +97,15 @@ const Post_List = {
 
 	"sci": [
 		{
+			title: "Adolescent Female Genital Mutilation",
+			subtitle: "Cutting Through Taboos: Examining Adolescent Female Genital Mutilation from a Scientific Perspective.",
+			author: "Patricia Zhang",
+			author_contact: "", 
+			publish_date: "September 6, 2023",
+			image_source: "https://images.unsplash.com/photo-1621097211242-118d6c63e4fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+			post_destination: "/Posts/adolescent-female-genital-mutilation.html"
+		},
+		{
       title: "Hycean Planets",
       subtitle: "The Cosmic Oceans, Exploring Alien life in worlds of water",
       author: "Aditya Singh",
