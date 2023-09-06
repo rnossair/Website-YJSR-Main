@@ -895,7 +895,7 @@ const Post_List = {
 		},
 		{
 			"title": "Wolbachia Vector Control",
-			"subtitle": "An impactful and successful technique to lower disease spread hidden in the shadows",
+			"subtitle": "An impactful and successful nique to lower disease spread hidden in the shadows",
 			"author": "Tran Bui",
 			"author_contact": "",
 			"publish_date": "August 11, 2022",
@@ -1399,6 +1399,16 @@ const Post_List = {
 		}
 	],
 	"tech": [
+		{
+      title: "Where can we find 2D/3D animation in our daily lives?",
+      subtitle: "",
+      author: "Anel Mukatova",
+      author_contact: "",
+      publish_date: "September 7, 2023",
+      image_source:
+        "https://images.pexels.com/photos/5011647/pexels-photo-5011647.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      post_destination: "/Posts/3D-animation-in-our-lives.html",
+    },
 		{
 		      title: "The Promise Made To The Quantum Horizons by Graphene Nanoribbons",
 		      subtitle: "",
