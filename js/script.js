@@ -96,6 +96,15 @@ A format for the post list array items.
 const Post_List = {
 
 	"sci": [
+		{
+			title: "Luxury Brand Marketing and Psychology",
+			subtitle: "A Look at Symbiosis Between Consumer and Firm Benefit",
+			author: "Avni Munjal",
+			author_contact: "", 
+			publish_date: "September 11, 2023",
+			image_source: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1776&q=80",
+			post_destination: "/Posts/Luxury-brand-marketing-and-psychology.html"
+		},
 		    {
       title: "The Debate on Universal Free Healthcare",
       subtitle: "",
