@@ -1868,6 +1868,15 @@ const Post_List = {
 		}
 	],
 	"math": [
+        {
+            title: "Theoretical Physics - Boring Maths Or An Interesting Story?",
+            subtitle: "",
+            author: "Pranay Gupta",
+            author_contact: "", 
+            publish_date: "September 11, 2023",
+            image_source: "https://images.unsplash.com/photo-1634139265382-5e4ff1f7b6a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1031&q=80",
+            post_destination: "/Posts/theoretical-physics.html"
+        },
 		  {
       title: "The Significance of Integration and Differentiation",
       subtitle: "Unveiling the Pillars of Calculus",
