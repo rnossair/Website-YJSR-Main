@@ -96,6 +96,15 @@ A format for the post list array items.
 const Post_List = {
 
 	"sci": [
+		{
+            title: "String Theory’s Influence on Modern Physics",
+            subtitle: "",
+            author: "Shreya Bose",
+            author_contact: "", // I personally dunno why does it even exists...
+            publish_date: "September 16, 2023",
+            image_source: "https://media.istockphoto.com/id/1305282522/photo/3d-render-abstract-background-with-colorful-spectrum-bright-pink-yellow-neon-rays-and-glowing.jpg?s=612x612&w=0&k=20&c=Xl0Ou3iYKojtEZG4bOwAstB-RYqn9UUzG6y1X36BVjs=",
+            post_destination: "/Posts/string_theory_influence_physics.html"
+        },
       {
             title: "Transforming Skin Cells into Pluripotent Marvels",
             subtitle: "",
