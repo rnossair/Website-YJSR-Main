@@ -105,6 +105,63 @@ const Post_List = {
             image_source: "https://media.istockphoto.com/id/1305282522/photo/3d-render-abstract-background-with-colorful-spectrum-bright-pink-yellow-neon-rays-and-glowing.jpg?s=612x612&w=0&k=20&c=Xl0Ou3iYKojtEZG4bOwAstB-RYqn9UUzG6y1X36BVjs=",
             post_destination: "/Posts/string_theory_influence_physics.html"
         },
+        {
+            title: "Theoretical Physics - Boring Maths Or An Interesting Story?",
+            subtitle: "",
+            author: "Pranay Gupta",
+            author_contact: "", 
+            publish_date: "September 11, 2023",
+            image_source: "https://images.unsplash.com/photo-1634139265382-5e4ff1f7b6a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1031&q=80",
+            post_destination: "/Posts/theoretical-physics.html"
+        },
+		{
+			title: "Luxury Brand Marketing and Psychology",
+			subtitle: "A Look at Symbiosis Between Consumer and Firm Benefit",
+			author: "Avni Munjal",
+			author_contact: "", 
+			publish_date: "September 11, 2023",
+			image_source: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1776&q=80",
+			post_destination: "/Posts/Luxury-brand-marketing-and-psychology.html"
+		},
+		    {
+      title: "The Debate on Universal Free Healthcare",
+      subtitle: "",
+      author: "Ashley Lim",
+      author_contact: "",
+      publish_date: "September 11, 2023",
+      image_source:
+        "https://images.pexels.com/photos/305568/pexels-photo-305568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      post_destination: "/Posts/The-Debate-on-Universal-Free-Healthcare.html",
+    },
+		 {
+      title: "Quantum Chemistry",
+      subtitle: "",
+      author: "Mohammed Ayaan",
+      author_contact: "",
+      publish_date: "September 9, 2023",
+      image_source:
+        "https://images.pexels.com/photos/3938022/pexels-photo-3938022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      post_destination: "/Posts/Quantum-Chemistry.html",
+    },
+		{
+			title: "Adolescent Female Genital Mutilation",
+			subtitle: "Cutting Through Taboos: Examining Adolescent Female Genital Mutilation from a Scientific Perspective.",
+			author: "Patricia Zhang",
+			author_contact: "", 
+			publish_date: "September 6, 2023",
+			image_source: "https://images.unsplash.com/photo-1621097211242-118d6c63e4fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+			post_destination: "/Posts/adolescent-female-genital-mutilation.html"
+		},
+		{
+      title: "Hycean Planets",
+      subtitle: "The Cosmic Oceans, Exploring Alien life in worlds of water",
+      author: "Aditya Singh",
+      author_contact: "",
+      publish_date: "September 4, 2023",
+      image_source:
+        "https://images.pexels.com/photos/2694037/pexels-photo-2694037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      post_destination: "/Posts/Hycean-Planets.html",
+    },
       {
             title: "Transforming Skin Cells into Pluripotent Marvels",
             subtitle: "",
@@ -125,7 +182,7 @@ const Post_List = {
       post_destination: "/Posts/Precision-Oncology.html",
     },
 		{
-      title: "   HOW DOES BLOOD CLOT",
+      title: "HOW DOES BLOOD CLOT",
       subtitle: " HOW DO BLOOD COAGULATION TESTS WORK?",
       author: " Zehra Polat",
       author_contact: "",
@@ -395,15 +452,6 @@ const Post_List = {
 			"publish_date": "June 25, 2023",
 			"image_source": "https://images.unsplash.com/photo-1480044965905-02098d419e96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
 			"post_destination": "/Posts/Global-warming-and-its-impact-on-the-phenology-of-birds-and-other-wildlife.html"
-		},
-		{
-			"title": "Anthropogenic Habitat Alteration and the Demographic Decline of Scantius Aegyptius",
-			"subtitle": "The Human Footprint on Scantius Aegyptius: Investigating the Ecological Consequences of Anthropogenic Habitat Alteration.",
-			"author": "Rithvik Sabnekar",
-			"author_contact": "https://www.linkedin.com/in/rithvik-sabnekar-1971a3266/",
-			"publish_date": "June 19, 2023",
-			"image_source": "../assets/thumbnails/anthropogenic_habitat_alteration_and_the_demographic_decline_of_scantius_aegyptius.png",
-			"post_destination": "/Posts/Anthropogenic-habitat-alteration-and-the-demographic-decline-of-scantius-aegyptius.html"
 		},
 		{
 			"title": "Rewiring Resilience",
@@ -884,7 +932,7 @@ const Post_List = {
 		},
 		{
 			"title": "Wolbachia Vector Control",
-			"subtitle": "An impactful and successful technique to lower disease spread hidden in the shadows",
+			"subtitle": "An impactful and successful nique to lower disease spread hidden in the shadows",
 			"author": "Tran Bui",
 			"author_contact": "",
 			"publish_date": "August 11, 2022",
@@ -1388,6 +1436,35 @@ const Post_List = {
 		}
 	],
 	"tech": [
+		{
+      title: "Where can we find 2D/3D animation in our daily lives?",
+      subtitle: "",
+      author: "Anel Mukatova",
+      author_contact: "",
+      publish_date: "September 7, 2023",
+      image_source:
+        "https://images.pexels.com/photos/5011647/pexels-photo-5011647.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      post_destination: "/Posts/3D-animation-in-our-lives.html",
+    },
+		{
+		      title: "The Promise Made To The Quantum Horizons by Graphene Nanoribbons",
+		      subtitle: "",
+		      author: "Isha Roy",
+		      author_contact: "",
+		      publish_date: "September 4, 2023",
+		      image_source: "https://www.innovationnewsnetwork.com/wp-content/uploads/2020/10/graphene-nanoribbons.jpg",
+		      post_destination: "/Posts/Quantum-Horizon-by-Graphene-Nanoribbons.html",
+    		},
+		{
+      title: "Green Coding",
+      subtitle: "",
+      author: "Zhuri Burchenson",
+      author_contact: "",
+      publish_date: "August 31, 2023",
+      image_source:
+        "https://media.istockphoto.com/id/1310150441/photo/green-computing-green-technology-green-it-csr-and-it-ethics-concept.jpg?s=170667a&w=0&k=20&c=3Xc9yKtUAB6rrlIeJSeL-kETR8W5RipotJPs_DMTC-4=",
+      post_destination: "/Posts/Green-Coding.html",
+    },
 		   {
       title: "Technology & Climate",
       subtitle: "The Rise of CCS",
@@ -1670,6 +1747,16 @@ const Post_List = {
 		}
 	],
 	"eng": [
+		 {
+      title: "Superconductors",
+      subtitle: " Unlocking the Marvels of Zero-Resistance Power Transmission",
+      author: "Afreen Hossain",
+      author_contact: "https://www.linkedin.com/in/afreen-hossain/",
+      publish_date: "September 2, 2023",
+      image_source:
+        "https://images.pexels.com/photos/189524/pexels-photo-189524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      post_destination: "/Posts/Superconductors.html",
+    },
 		{
 			title: "Qubits, Kinderjoy, and the Human Brain: An Insight on Quantum Cognition",
 			subtitle: "Exploring Quantum Phenomena's Impact on Human Cognition: A Journey into Brain-Particle Dynamics.",
@@ -1789,15 +1876,6 @@ const Post_List = {
 		}
 	],
 	"math": [
-        {
-            title: "Theoretical Physics - Boring Maths Or An Interesting Story?",
-            subtitle: "",
-            author: "Pranay Gupta",
-            author_contact: "", // I personally dunno why does it even exists...
-            publish_date: "September 11, 2023",
-            image_source: "https://images.unsplash.com/photo-1634139265382-5e4ff1f7b6a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1031&q=80",
-            post_destination: "/Posts/theoretical_physics.html"
-        },
 		  {
       title: "The Significance of Integration and Differentiation",
       subtitle: "Unveiling the Pillars of Calculus",
