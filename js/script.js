@@ -1437,6 +1437,16 @@ const Post_List = {
 	],
 	"tech": [
 		{
+      title: "IBM’s Project Debater: A Breakthrough in Artificial Intelligence and Natural Language Processing",
+      subtitle: "",
+      author: "Mridul Yadav",
+      author_contact: "",
+      publish_date: "September 16, 2023",
+      image_source:
+        "https://ts2.space/wp-content/uploads/2023/04/mfrack_Revolutionizing_Healthcare_with_AI_f162f73c-431c-479d-b361-499d1d968031.jpeg",
+      post_destination: "/Posts/IBM-Project-Breakthrough-in-Artificial-Intelligence.html",
+    },
+		{
       title: "Where can we find 2D/3D animation in our daily lives?",
       subtitle: "",
       author: "Anel Mukatova",
