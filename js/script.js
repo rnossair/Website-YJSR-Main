@@ -97,6 +97,15 @@ const Post_List = {
 
 	"sci": [
 		{
+            title: "Deciphering the Enigmas of Particle Physics: The Higgs Boson",
+            subtitle: "",
+            author: "Edbert Victor Fandy",
+            author_contact: "", // I personally dunno why does it even exists...
+            publish_date: "September 18, 2023",
+            image_source: "../assets/thumbnails/hoggsboson.png",
+            post_destination: "/Posts/The_Higgs_Boson.html"
+        },
+		{
             title: "String Theory’s Influence on Modern Physics",
             subtitle: "",
             author: "Shreya Bose",
