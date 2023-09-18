@@ -1437,6 +1437,16 @@ const Post_List = {
 	],
 	"tech": [
 		{
+      title: "ATHLETIC METRICS",
+      subtitle: "Debating The Usability of Sports Performance Mapping",
+      author: "Avni Munjal",
+      author_contact: "",
+      publish_date: "September 17, 2023",
+      image_source:
+        "https://wpassets.trainingpeaks.com/wp-content/uploads/2019/06/20131256/19125-morning-metrics-blog-1200x675.jpg",
+      post_destination: "/Posts/ATHLETIC-METRICS.html",
+    },
+		{
       title: "IBM’s Project Debater: A Breakthrough in Artificial Intelligence and Natural Language Processing",
       subtitle: "",
       author: "Mridul Yadav",
