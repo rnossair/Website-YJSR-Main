@@ -11364,3 +11364,35 @@ header.masthead .site-heading .h1 {
     left: 0;
     background-position: center;
 }
+table, th, td {
+  border: 1px  black;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+table thead tr {   
+  border-radius: 9px;
+  background-color: #1c2020;
+  color:rgb(255, 255, 255);
+  text-align: left;
+}
+table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+table tbody tr:last-of-type {
+  border-bottom: 2px solid #1a1d1c;
+}
+table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+table th,
+table td {
+  padding: 15px 15px;
+  font-size: 18px;
+}

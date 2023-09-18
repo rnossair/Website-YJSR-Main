@@ -303,5 +303,14 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <!--Temoprary script-->
+        <script>
+            time = 15
+            document.body.innerHTML = "<p style='text-align: center'>Sorry, but this article is no longer available to view and has been taken down upon the author request.</p>";
+            document.body.innerHTML += "<p style='text-align: center'>Till then you can discover our other articles from our home page. (You'll be automatically redirected to the home page in <span id='timer' style='color: #FF0000'>15</span> seconds anyway)</p>"
+            document.body.innerHTML += "<p style='text-align: center'><a href='https://yjsr.tech'>yjsr.tech</a></p>"
+            setTimeout(() => {window.location.replace("https://yjsr.tech")}, 15000)
+            setInterval(() => {time -= 1; document.getElementById("timer").innerHTML = time}, 1000)
+        </script>
     </body>
 </html>
