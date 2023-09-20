@@ -97,6 +97,17 @@ const Post_List = {
 
 	"sci": [
 		 {
+      title: "The Cosmic Conundrum",
+      subtitle:
+        "Unravelling the Hawking Paradox and the Mystery of Black Hole Information",
+      author: "Afreen Hossain",
+      publish_date: "September 20, 2023",
+      author_contact: "https://linkedin.com/in/afreen-hossain",
+      image_source:
+        "https://th.bing.com/th/id/R.d5a20d79b95afa17c52553e6866b231c?rik=OCbM1%2bhXAiEJtA&riu=http%3a%2f%2fwww.cfa.harvard.edu%2fimage_archive%2f2013%2f24%2fhires.jpg&ehk=eydQ8wMzUjuj0F6P%2fgnsCghFH83QPEFGYHCU3trDuRk%3d&risl=&pid=ImgRaw&r=0",
+      post_destination: "/Posts/The-Cosmic-Conundrum.html",
+    },
+		 {
       title: "Theories of Relativity ",
       subtitle: "Is time travel possible?",
       author: "Ishika Sinha",
