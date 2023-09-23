@@ -1476,6 +1476,15 @@ const Post_List = {
 	],
 	"tech": [
 		{
+			title: "Future Technology: Is It Closer Than We Think?",
+			subtitle: "The Technological Horizon: A Glimpse into the Future of Innovation",
+			author: "Asiye Baran",
+			author_contact: "", 
+			publish_date: "September 23, 2023", 
+			image_source: "https://images.unsplash.com/photo-1579567761406-4684ee0c75b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
+			post_destination: "/Posts/Future-technology-is-it-closer-than-we-think.html"
+		},
+		{
 			title: "Impact of Virtual Reality Technology",
 			subtitle: "The Virtual Revolution: Unveiling the Metamorphosis of Reality",
 			author: "Ritika Tyagi",
