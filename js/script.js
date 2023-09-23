@@ -1467,6 +1467,15 @@ const Post_List = {
 	],
 	"tech": [
 		{
+			title: "Impact of Virtual Reality Technology",
+			subtitle: "The Virtual Revolution: Unveiling the Metamorphosis of Reality",
+			author: "Ritika Tyagi",
+			author_contact: "", 
+			publish_date: "September 23, 2023", 
+			image_source: "https://images.unsplash.com/photo-1626379953822-baec19c3accd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+			post_destination: "/Posts/Impact-of-Virtual-Reality-Technology.html"
+		},
+		{
       title: "ATHLETIC METRICS",
       subtitle: "Debating The Usability of Sports Performance Mapping",
       author: "Avni Munjal",
