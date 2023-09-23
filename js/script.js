@@ -96,6 +96,15 @@ A format for the post list array items.
 const Post_List = {
 
 	"sci": [
+		{
+			title: "Unveiling the Mysteries: How Are Northern Lights Formed?",
+			subtitle: "The Enigmatic Dance of Electrons: Decoding the Celestial Light Show",
+			author: "Edbert Victor Fandy",
+			author_contact: "", 
+			publish_date: "September 23, 2023", 
+			image_source: "https://images.unsplash.com/photo-1568607689150-17e625c1586e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+			post_destination: "/Posts/How-are-northern-lights-formed.html"
+		},
 		 {
       title: "The Cosmic Conundrum",
       subtitle:
