@@ -97,6 +97,15 @@ const Post_List = {
 
 	"sci": [
 		{
+			title: "The Search for Einstein-Rosen Bridges: An Analysis of Observational Evidence",
+			subtitle: "Exploring Celestial Connections: Analyzing Observational Clues in the Search for Cosmic Tunnels.",
+			author: "Salma Gad Elbeheri",
+			author_contact: "",
+			publish_date: "October 1, 2023",
+			image_source: "../assets/thumbnails/the_search_for_einstein_rosen_bridges.png",
+			post_destination: "http://127.0.0.1:5500/Posts/The-search-for-Eintein-Rosen-bridges.html"
+		},
+		{
             title: "The Evolutionary Psychology of Competition: Why Teens Love Challenges",
             subtitle: "",
             author: "Dhruthi M.R",
