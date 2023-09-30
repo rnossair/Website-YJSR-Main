@@ -1485,6 +1485,16 @@ const Post_List = {
 		}
 	],
 	"tech": [
+		 {
+      title: "The Evolution of Connectivity",
+      subtitle: "Unveiling the Wonders of 5G Introduction",
+      author: "Afreen Hossain",
+      author_contact: "https://linkedin.com/in/afreen-hossain/",
+      publish_date: "September 30, 2023",
+      image_source:
+        "https://images.pexels.com/photos/18372332/pexels-photo-18372332/free-photo-of-close-up-of-computer-motherboard.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      post_destination: "/Posts/Unveiling-the-Wonders-of-5G-Introduction.html",
+    },
 		{
 			title: "Future Technology: Is It Closer Than We Think?",
 			subtitle: "The Technological Horizon: A Glimpse into the Future of Innovation",
