@@ -1982,6 +1982,17 @@ const Post_List = {
 		}
 	],
 	"math": [
+		{
+      title: "The Bridge Between Derivatives and Integrals: The Fundamental Theorem of Calculus",
+      subtitle: "",
+      author: "Bhaumik Tyagi",
+      author_contact: "",
+      publish_date: "September 30, 2023",
+      image_source:
+        "https://img.myloview.com/posters/math-lesson-sine-and-cosine-functions-graphics-graphics-drawn-on-the-board-400-142451196.jpg",
+      post_destination:
+        "/Posts/Bridge-Between-Derivatives-and-Integrals.html",
+    },
 		  {
       title: "The Significance of Integration and Differentiation",
       subtitle: "Unveiling the Pillars of Calculus",
