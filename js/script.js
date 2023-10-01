@@ -103,7 +103,7 @@ const Post_List = {
 			author_contact: "",
 			publish_date: "October 1, 2023",
 			image_source: "../assets/thumbnails/the_search_for_einstein_rosen_bridges.png",
-			post_destination: "http://127.0.0.1:5500/Posts/The-search-for-Eintein-Rosen-bridges.html"
+			post_destination: "/Posts/The-search-for-Eintein-Rosen-bridges.html"
 		},
 		{
             title: "The Evolutionary Psychology of Competition: Why Teens Love Challenges",
