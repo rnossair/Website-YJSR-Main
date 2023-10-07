@@ -1495,6 +1495,15 @@ const Post_List = {
 	],
 	"tech": [
 		 {
+      title: "Nikola Tesla and the Mystique of 3-6-9",
+      subtitle: "Unraveling the Enigma",
+      author: "Gülşah Tosun",
+      publish_date: "October 8, 2023",
+      image_source:
+        "https://images.pexels.com/photos/2635595/pexels-photo-2635595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      post_destination: "/Posts/Nikola-Tesla-and-the-Mystique-of-3-6-9.html",
+    },
+		 {
       title: "The Evolution of Connectivity",
       subtitle: "Unveiling the Wonders of 5G Introduction",
       author: "Afreen Hossain",
