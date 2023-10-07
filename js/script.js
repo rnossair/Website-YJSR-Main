@@ -94,8 +94,16 @@ A format for the post list array items.
 // Array responsible for storing post information and details.
 
 const Post_List = {
-
 	"sci": [
+		{
+			title: "Beck’s Cognitive Triad: Self-Schemas, Cognitive Bias and Negative Triad",
+			subtitle: "A cognitive-therapeutic view of depression.",
+			author: "Jiji Subhan",
+			author_contact: "", 
+			publish_date: "October 8, 2023",
+			image_source: "https://media.istockphoto.com/id/1371160492/photo/brain-scan-headache-medicine.webp?b=1&s=170667a&w=0&k=20&c=eoEYwL8QC_GbQTd6ecxFS9Yo58xN67geWn8fQH2x2Lk=",
+			post_destination: "/Posts/Becks_cognitive_triad.html"
+		},
 		{
 			title: "The Search for Einstein-Rosen Bridges: An Analysis of Observational Evidence",
 			subtitle: "Exploring Celestial Connections: Analyzing Observational Clues in the Search for Cosmic Tunnels.",
