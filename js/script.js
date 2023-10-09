@@ -96,6 +96,15 @@ A format for the post list array items.
 const Post_List = {
 	"sci": [
 		{
+			title: "Negative Effects of Pyrophosphate on Dinoflagellates",
+			subtitle: "",
+			author: "Chloe LaForge",
+			author_contact: "", 
+			publish_date: "October 8, 2023",
+			image_source: "https://urbz.io/cdn/shop/products/pyrocystis-bioluminescence_1400x.jpg?v=1653245279",
+			post_destination: "/Posts/Negative-Effects-Pyrophosphate-Dinoflagellates.html"
+		},
+		{
 			title: "Beck’s Cognitive Triad: Self-Schemas, Cognitive Bias and Negative Triad",
 			subtitle: "A cognitive-therapeutic view of depression.",
 			author: "Jiji Subhan",
