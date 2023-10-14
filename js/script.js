@@ -85,7 +85,7 @@ A format for the post list array items.
         subtitle: "",
         author: "",
         author_contact: "", // I personally dunno why does it even exists...
-        publish_date: "", // Use online link or for offline link, place the image file at '../assets/thumbnails/'
+        publish_date: "", 
         image_source: "",
         post_destination: ""
     },
@@ -1502,6 +1502,15 @@ const Post_List = {
 		}
 	],
 	"tech": [
+		{
+			title: "Artificial Intelligence and Human Emotions: A Step Towards Emotional Intelligence",
+			subtitle: "Advancing the Frontier of Emotional Intelligence through Science.",
+			author: "Asiye Baran",
+			author_contact: "", 
+			publish_date: "October 15, 2023",
+			image_source: "https://images.unsplash.com/photo-1678491449021-762a7b999862?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1228&q=80",
+			post_destination: "/Posts/Artificial-intelligence-and-human-emotions.html"
+		},
 		 {
       title: "Nikola Tesla and the Mystique of 3-6-9",
       subtitle: "Unraveling the Enigma",
