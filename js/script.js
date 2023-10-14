@@ -96,6 +96,15 @@ A format for the post list array items.
 const Post_List = {
 	"sci": [
 		{
+			title: "The Cold Weather Paradox",
+			subtitle: "How Cold Weather Impacts Your Immune System and Makes You Prone to Sickness",
+			author: "Lorel Gonzales",
+			author_contact: "",
+			publish_date: "October 15, 2023", 
+			image_source: "https://images.unsplash.com/photo-1685122003845-96289873614b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1876&q=80",
+			post_destination: "/Posts/The-cold-weather-paradoc.html"
+		},
+		{
 			title: "Negative Effects of Pyrophosphate on Dinoflagellates",
 			subtitle: "",
 			author: "Chloe LaForge",
