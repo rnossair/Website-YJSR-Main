@@ -1521,6 +1521,15 @@ const Post_List = {
 	],
 	"tech": [
 		{
+			title: "Quantum Computing's Curveball and Nucleus Transformations: A Dual Scientific Odyssey",
+			subtitle: "How Quantum Computing and Atomic Physics Challenge Conventional Wisdom",
+			author: "Bhaumik Tyagi",
+			author_contact: "",
+			publish_date: "October 15, 2023", 
+			image_source: "https://images.unsplash.com/photo-1678957949479-b1e876bee3f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1930&q=80",
+			post_destination: "/Posts/Quantum-Computings-Curveball-and-Nucleus-Transformations.html"
+		},
+		{
 			title: "Artificial Intelligence and Human Emotions: A Step Towards Emotional Intelligence",
 			subtitle: "Advancing the Frontier of Emotional Intelligence through Science.",
 			author: "Asiye Baran",
