@@ -96,6 +96,15 @@ A format for the post list array items.
 const Post_List = {
 	"sci": [
 		{
+			title: "Degenerate Matter in Stellar Remnants",
+			subtitle: "The Fate of Stars: How Degenerate Matter Supports White Dwarfs and Neutron Stars Against Gravity",
+			author: "Poulomi Dam",
+			author_contact: "",
+			publish_date: "October 15, 2023", 
+			image_source: "https://images.unsplash.com/photo-1608178398319-48f814d0750c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1779&q=80",
+			post_destination: "/Posts/Degenerate-matter-in-stellar-remnants.html"
+		},
+		{
 			title: "The Cold Weather Paradox",
 			subtitle: "How Cold Weather Impacts Your Immune System and Makes You Prone to Sickness",
 			author: "Lorel Gonzales",
