@@ -1521,6 +1521,15 @@ const Post_List = {
 	],
 	"tech": [
 		{
+			title: "Enhancing Security in Internet of Things (IoT) Devices through Blockchain Technology",
+			subtitle: "",
+			author: "Aditya Dhinakaran Thirukonda",
+			author_contact: "", 
+			publish_date: "October 15, 2023",
+			image_source: "https://tdan.com/wp-content/uploads/2023/09/ART01x-feature-image-edited.jpg",
+			post_destination: "/Posts/Enhancing-Security-IoT-Devices-through-Blockchain.html"
+		},
+		{
 			title: "Artificial Intelligence and Human Emotions: A Step Towards Emotional Intelligence",
 			subtitle: "Advancing the Frontier of Emotional Intelligence through Science.",
 			author: "Asiye Baran",
