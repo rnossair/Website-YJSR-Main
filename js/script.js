@@ -96,6 +96,15 @@ A format for the post list array items.
 const Post_List = {
 	"sci": [
 		{
+			title: "What Multicellularity Has Brought to Organisms",
+			subtitle: "How It Shaped Immune Systems and Cancer Development",
+			author: "Nicita Raamkumar",
+			author_contact: "", 
+			publish_date: "October 15, 2023", 
+			image_source: "https://images.unsplash.com/photo-1607073621010-d88383bce30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1874&q=80",
+			post_destination: "/Posts/What-multicellularity-has-brought-to-organisms.html"
+		},
+		{
 			title: "Degenerate Matter in Stellar Remnants",
 			subtitle: "The Fate of Stars: How Degenerate Matter Supports White Dwarfs and Neutron Stars Against Gravity",
 			author: "Poulomi Dam",
