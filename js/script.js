@@ -96,6 +96,15 @@ A format for the post list array items.
 const Post_List = {
 	"sci": [
 		{
+			title: "The Case of Peroxidase",
+			subtitle: "A Study of Peroxidase Catalysis: Temperature, Concentration, and Spectrophotometry",
+			author: "Chloe Laforge",
+			author_contact: "",
+			publish_date: "October 17, 2023", 
+			image_source: "https://images.unsplash.com/photo-1628863353691-0071c8c1874c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+			post_destination: "/Posts/The-case-of-peroxidase.html"
+		},
+		{
 			title: "What Multicellularity Has Brought to Organisms",
 			subtitle: "How It Shaped Immune Systems and Cancer Development",
 			author: "Nicita Raamkumar",
