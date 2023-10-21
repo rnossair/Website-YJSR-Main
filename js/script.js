@@ -95,6 +95,16 @@ A format for the post list array items.
 
 const Post_List = {
 	"sci": [
+		{
+      title: "Space Debris",
+      subtitle: "",
+      author: "Kashish Agrawal",
+      publish_date: "October 21, 2023",
+      image_source:
+        "https://news.miami.edu/_assets/images-stories/2019/04/hero-spacedebris_940x529.jpg",
+      post_destination:
+        "/Posts/Space-Debris.html",
+    },
 		 {
       title: "Social media and teenage interpersonal relationships",
       subtitle: "",
