@@ -30,7 +30,7 @@
             .ref > li > a {
                 text-decoration: underline;
             }
-            .cont li:hover {
+            .cont :hover {
                 color: #0085A1;
             }
             .illus-img {
@@ -64,21 +64,21 @@
             </div>
         </nav>
         <!-- Page Header-->
-        <header class="masthead" style="background-image: url('')">
+        <header class="masthead" style="background-image: url('https://news.miami.edu/_assets/images-stories/2019/04/hero-spacedebris_940x529.jpg')">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <div class="post-heading">
-                            <h1><!-- Article Name --></h1> 
+                            <h1>Space Debris</h1> 
                             <h2 class="subheading"><!-- Article Subtitle --></h2> 
                             <span class="meta">
                                 Posted by 
-                                <a href=""><!-- Author Name --></a> <!-- Author Contact, if present in the `href` string. -->
-                                on <!-- Publish Date (in format: Month DD, YYYY) -->
+                                <a href="">Kashish Agrawal</a> <!-- Author Contact, if present in the `href` string. -->
+                                on October 21, 2023
                             </span>
                             <span class="meta">
                                 Edited by 
-                                <a href=""><!-- Editor Name --></a> <!-- Editor Contact, if present in the `href` string. -->
+                                <a href="">Arnav Goel</a>
                             </span>
                         </div>
                     </div>
@@ -91,7 +91,23 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <!-- Main Content/ Article Body -->
+                        <p>Ever imagined what happens to satellites after they stop working? Do they keep orbiting the Earth or do they retrace their path back to Earth? If they keep floating in space, do they cause harm to other space crafts?<br><br>
 
+Satellites serve a predominant purpose for us on Earth. Telecommunication, Internet, GPS, and Weather forecasts are just a few of the countless functions of these space crafts. The first satellite was launched in 1957 but it was only until the 1990s that we started realizing the dangers of “Space debris”. As defined by NASA, “Space junk, or space debris, is any piece of machinery or debris left by humans in space” This includes failed satellites, rockets used for launching them, and small pieces of destroyed space crafts. Out of the approximately 6,000 satellites in space, only 2666 are functional, the rest are just orbiting Earth along with an estimated 100 million pieces of useless space debris. Much more debris – which is too small to be tracked – exists in the lower orbital of the earth.<br><br>
+
+This space junk poses a hazardous threat to the functional satellites as well as to all future space missions. Even the tiniest of particles can cause massive damage as they orbit the Earth at rapid speeds of 15,700 miles per hour (25,250 km/hr) due to a lack of friction in space. One such disastrous event occurred in 1994, wherein a fleck of paint created a pit in the front window of the Space Shuttle Challenger’s second flight causing chaos in the spacecraft. [1] Another such event happened on January 11, 2007, when Fengyun-1C, a weather satellite launched by China, was destroyed by the military in a test of an anti-satellite system, creating more than 3,000 fragments of space debris. Within two years those fragments had spread out from Fengyun-1C’s original orbit to form a cloud of debris that completely encircled Earth and that would not reenter the atmosphere for decades. On January 22, 2013, the Russian laser-ranging satellite BLITZ (Ball Lens in Space) experienced a sudden change in its orbit and its spin, which caused scientists to abandon the mission. The cause was believed to have been a collision with a piece of Fengyun-1C debris.<br><br>
+
+These collisions can generate more debris in a cascading effect, increasing the collision risk. Further on, the threat will keep accelerating and various accidents will occur contributing to the drastic increase of debris. Donald Kessler, a NASA scientist, imagined what is now known as “Kessler Syndrome” in which he theorized that continuous collisions of man-made objects in space will potentially destroy telecommunications and keep humanity trapped on Earth.<br><br>
+
+This was just a glimpse of the menaces it possesses in space. Though space debris rarely ever enters the Earth and burns up in the atmosphere, it is still possible that larger pieces of debris reach the ground. It has been observed that 200-240 pieces of debris manage to enter our earth and collide with the surface. But due to the vast expanse of water, it rarely harms human habitations.<br><br>
+
+In essence, any expedition that might take man somewhere is going to be a huge problem. All missions to find life anywhere else will be remote. Therefore, before planning for the colonization of other celestial bodies - we should work towards vacuuming the path for such space missions. The problem of space debris is a complex and ongoing challenge that requires international cooperation, innovative technologies, and responsible space practices to ensure the long-term sustainability of space activities. It is not long before satellites become stars for us and space debris becomes a barricade - possibly trapping humans on planet Earth forever.
+</p>
+                        <h2 class="section-heading">References</h2>
+                        <ol class="ref">
+                            <li>Gregersen, Erik. "space debris". Encyclopedia Britannica, 23 Sep. 2023, <a href="https://www.britannica.com/technology/space-debris">https://www.britannica.com/technology/space-debris.</a> Accessed 1 October 2023.</li>
+                        </ol>
+                        
                     </div>
                 </div>
             </div>
@@ -138,31 +154,3 @@
         <script src="js/scripts.js"></script>
     </body>
 </html>
-
-<!-- Webpage Format: Code (excluding this statement and instructions) to be copied and pasted in the article webpage -->
-
-<!--
-    Instructions:
-        #1 Article Info: 
-            For article info, you need to fill the following details:
-                I: Article Name (line 63)- Title of the article.
-                II: Article Subtitle *optional* (line 64)- If present, article subtitle or the description.
-                III: Author Name: (line 66): Name of the Author.
-                IV: Publish Date (line )- Fill it in the format 'Month DD, YYYY', Example: June 29, 2022.
-                V: Editor Name (line ): Name of the Editor.
-                V: Thumbnail (line ): You may fill the string in the `url()` function with a link of an unliscenced, royalty-free image from websites like https://www.unsplash.com or https://www.pixabay.com.
-                VI: Author Contact *optional*: If present, fill it with a link to social media page of the author, for eg. Facebook, Instagram or any other such platforms (It's mostly empty so no need to fill it up).
-        #2 Article Body <From line 85):
-            I. Main titles: Use `<h2 class="section-heading"></h2>` tag.
-            II. Other titles: Use `<h2>` to `<h6>` tags depending on the type of the title.
-            III. Paragraphs: Use simple `<p>` tags.
-            IV. Images: Use `<img src="" class="illus-img">` tag. Where src string contains the local imag source or the link to the image.
-            V. Image description: If present, use `<p class="img-cap">` tag below the img tag.
-            VI. Lists:
-                Numbered Lists: Use `<ol class="cont-list"></ol>`, with `<li>` tags (containing list item) inside the ol tags.
-                Bulleted/Non-Numbered Lists: Use `<ul class="cont-list"></ul>`, with `<li>` tags (containing list item) inside the ul tags.
-            VII. References:
-                For references, use `<ol class="ref"></ol>`, with `<li>` tags (containing refernces) inside the ol tags.
-            VIII. Links:
-                For links, use `<a href=""></a>`, with href string containing the link to the webpage to be redirected.
--->
