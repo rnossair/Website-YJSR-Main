@@ -113,7 +113,38 @@ const Post_List = {
             publish_date: "September 23, 2023",
             image_source: "https://images.unsplash.com/photo-1578269174936-2709b6aeb913?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
             post_destination: "/Posts/The_Evolutionary_Psychology_of_Competition.html"
-        },
+    },
+    }
+			title: "Unveiling the Mysteries: How Are Northern Lights Formed?",
+			subtitle: "The Enigmatic Dance of Electrons: Decoding the Celestial Light Show",
+			author: "Edbert Victor Fandy",
+			author_contact: "", 
+			publish_date: "September 23, 2023", 
+			image_source: "https://images.unsplash.com/photo-1568607689150-17e625c1586e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+			post_destination: "/Posts/How-are-northern-lights-formed.html"
+		},
+		 {
+      title: "The Cosmic Conundrum",
+      subtitle:
+        "Unravelling the Hawking Paradox and the Mystery of Black Hole Information",
+      author: "Afreen Hossain",
+      publish_date: "September 20, 2023",
+      author_contact: "https://linkedin.com/in/afreen-hossain",
+      image_source:
+        "https://th.bing.com/th/id/R.d5a20d79b95afa17c52553e6866b231c?rik=OCbM1%2bhXAiEJtA&riu=http%3a%2f%2fwww.cfa.harvard.edu%2fimage_archive%2f2013%2f24%2fhires.jpg&ehk=eydQ8wMzUjuj0F6P%2fgnsCghFH83QPEFGYHCU3trDuRk%3d&risl=&pid=ImgRaw&r=0",
+      post_destination: "/Posts/The-Cosmic-Conundrum.html",
+    },
+		 {
+      title: "Theories of Relativity ",
+      subtitle: "Is time travel possible?",
+      author: "Ishika Sinha",
+      author_contact: "",
+      publish_date: "September 18, 2023",
+      image_source:
+        "https://images.pexels.com/photos/5138939/pexels-photo-5138939.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      post_destination: " /Posts/Theories-of-Relativity.html",
+    },
+
 		{
             title: "Deciphering the Enigmas of Particle Physics: The Higgs Boson",
             subtitle: "",
@@ -1463,6 +1494,35 @@ const Post_List = {
 		}
 	],
 	"tech": [
+		{
+			title: "Impact of Virtual Reality Technology",
+			subtitle: "The Virtual Revolution: Unveiling the Metamorphosis of Reality",
+			author: "Ritika Tyagi",
+			author_contact: "", 
+			publish_date: "September 23, 2023", 
+			image_source: "https://images.unsplash.com/photo-1626379953822-baec19c3accd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+			post_destination: "/Posts/Impact-of-Virtual-Reality-Technology.html"
+		},
+		{
+      title: "ATHLETIC METRICS",
+      subtitle: "Debating The Usability of Sports Performance Mapping",
+      author: "Avni Munjal",
+      author_contact: "",
+      publish_date: "September 17, 2023",
+      image_source:
+        "https://wpassets.trainingpeaks.com/wp-content/uploads/2019/06/20131256/19125-morning-metrics-blog-1200x675.jpg",
+      post_destination: "/Posts/ATHLETIC-METRICS.html",
+    },
+		{
+      title: "IBM’s Project Debater: A Breakthrough in Artificial Intelligence and Natural Language Processing",
+      subtitle: "",
+      author: "Mridul Yadav",
+      author_contact: "",
+      publish_date: "September 16, 2023",
+      image_source:
+        "https://ts2.space/wp-content/uploads/2023/04/mfrack_Revolutionizing_Healthcare_with_AI_f162f73c-431c-479d-b361-499d1d968031.jpeg",
+      post_destination: "/Posts/IBM-Project-Breakthrough-in-Artificial-Intelligence.html",
+    },
 		{
       title: "Where can we find 2D/3D animation in our daily lives?",
       subtitle: "",
