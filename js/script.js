@@ -97,6 +97,15 @@ const Post_List = {
 
 	"sci": [
 		{
+            title: "Chemical Coding",
+            subtitle: "",
+            author: "Saad Amin",
+            author_contact: "", // I personally dunno why does it even exists...
+            publish_date: "October 22, 2023",
+            image_source: "https://images.unsplash.com/photo-1581093577421-f561a654a353?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            post_destination: "/Posts/[FILE NAME]"
+        },
+		{
             title: "The Evolutionary Psychology of Competition: Why Teens Love Challenges",
             subtitle: "",
             author: "Dhruthi M.R",
