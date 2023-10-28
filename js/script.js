@@ -97,13 +97,22 @@ const Post_List = {
 
 	"sci": [
 		{
+            title: "Ebola Virus Disease: Demystifying Africa's grim reaper",
+            subtitle: "",
+            author: "Paul Ihekwaba",
+            author_contact: "", // I personally dunno why does it even exists...
+            publish_date: "October 28, 2023",
+            image_source: "https://images.unsplash.com/photo-1580378156095-317d986123f8?auto=format&fit=crop&q=80&w=1997&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            post_destination: "/Posts/Ebola_Virus_Disease__Demystifying_Africas_grim_reaper.html"
+        },
+		{
             title: "Chemical Coding",
             subtitle: "",
             author: "Saad Amin",
             author_contact: "", // I personally dunno why does it even exists...
             publish_date: "October 22, 2023",
             image_source: "https://images.unsplash.com/photo-1581093577421-f561a654a353?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            post_destination: "/Posts/[FILE NAME]"
+            post_destination: "/Posts/Chemical_Coding.html"
         },
 		{
             title: "The Evolutionary Psychology of Competition: Why Teens Love Challenges",
@@ -114,7 +123,7 @@ const Post_List = {
             image_source: "https://images.unsplash.com/photo-1578269174936-2709b6aeb913?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
             post_destination: "/Posts/The_Evolutionary_Psychology_of_Competition.html"
     },
-    }
+    {
 			title: "Unveiling the Mysteries: How Are Northern Lights Formed?",
 			subtitle: "The Enigmatic Dance of Electrons: Decoding the Celestial Light Show",
 			author: "Edbert Victor Fandy",
