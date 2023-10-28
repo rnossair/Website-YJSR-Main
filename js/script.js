@@ -96,6 +96,15 @@ A format for the post list array items.
 const Post_List = {
 	"sci": [
 		{
+			title: "The Man Without Memory: Henry Molaison",
+			subtitle: "The Case of HM: How a Radical Surgery Created a Living Experiment for Neuroscience",
+			author: "Mia Garcia",
+			author_contact: "", 
+			publish_date: "October 28, 2023", 
+			image_source: "https://images.unsplash.com/photo-1664447972779-316251bd8bd7?auto=format&fit=crop&q=80&w=1332&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			post_destination: "/Posts/The-man-without-memory-henry-molaison.html"
+		},
+		{
 
             title: "Ebola Virus Disease: Demystifying Africa's grim reaper",
             subtitle: "",
