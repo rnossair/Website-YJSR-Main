@@ -85,7 +85,7 @@ A format for the post list array items.
         subtitle: "",
         author: "",
         author_contact: "", // I personally dunno why does it even exists...
-        publish_date: "", // Use online link or for offline link, place the image file at '../assets/thumbnails/'
+        publish_date: "", 
         image_source: "",
         post_destination: ""
     },
@@ -94,9 +94,9 @@ A format for the post list array items.
 // Array responsible for storing post information and details.
 
 const Post_List = {
-
 	"sci": [
 		{
+
             title: "Ebola Virus Disease: Demystifying Africa's grim reaper",
             subtitle: "",
             author: "Paul Ihekwaba",
@@ -114,6 +114,91 @@ const Post_List = {
             image_source: "https://images.unsplash.com/photo-1581093577421-f561a654a353?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             post_destination: "/Posts/Chemical_Coding.html"
         },
+    {
+      title: "Space Debris",
+      subtitle: "",
+      author: "Kashish Agrawal",
+      publish_date: "October 21, 2023",
+      image_source:
+        "https://news.miami.edu/_assets/images-stories/2019/04/hero-spacedebris_940x529.jpg",
+      post_destination:
+        "/Posts/Space-Debris.html",
+    },
+		 {
+      title: "Social media and teenage interpersonal relationships",
+      subtitle: "",
+      author: "Mohammed Ehsan Ullah Shareef & Grayson Mndeme",
+      publish_date: "October 20, 2023",
+      image_source:
+        "https://images.pexels.com/photos/2818118/pexels-photo-2818118.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      post_destination:
+        "/Posts/Social-media-and-teenage-interpersonal-relationships.html",
+    },
+		{
+			title: "The Case of Peroxidase",
+			subtitle: "A Study of Peroxidase Catalysis: Temperature, Concentration, and Spectrophotometry",
+			author: "Chloe Laforge",
+			author_contact: "",
+			publish_date: "October 17, 2023", 
+			image_source: "https://images.unsplash.com/photo-1628863353691-0071c8c1874c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+			post_destination: "/Posts/The-case-of-peroxidase.html"
+		},
+		{
+			title: "What Multicellularity Has Brought to Organisms",
+			subtitle: "How It Shaped Immune Systems and Cancer Development",
+			author: "Nicita Raamkumar",
+			author_contact: "", 
+			publish_date: "October 15, 2023", 
+			image_source: "https://images.unsplash.com/photo-1607073621010-d88383bce30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1874&q=80",
+			post_destination: "/Posts/What-multicellularity-has-brought-to-organisms.html"
+		},
+		{
+			title: "Degenerate Matter in Stellar Remnants",
+			subtitle: "The Fate of Stars: How Degenerate Matter Supports White Dwarfs and Neutron Stars Against Gravity",
+			author: "Poulomi Dam",
+			author_contact: "",
+			publish_date: "October 15, 2023", 
+			image_source: "https://images.unsplash.com/photo-1608178398319-48f814d0750c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1779&q=80",
+			post_destination: "/Posts/Degenerate-matter-in-stellar-remnants.html"
+		},
+		{
+			title: "The Cold Weather Paradox",
+			subtitle: "How Cold Weather Impacts Your Immune System and Makes You Prone to Sickness",
+			author: "Lorel Gonzales",
+			author_contact: "",
+			publish_date: "October 15, 2023", 
+			image_source: "https://images.unsplash.com/photo-1685122003845-96289873614b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1876&q=80",
+			post_destination: "/Posts/The-cold-weather-paradoc.html"
+		},
+		{
+			title: "Negative Effects of Pyrophosphate on Dinoflagellates",
+			subtitle: "",
+			author: "Chloe LaForge",
+			author_contact: "", 
+			publish_date: "October 8, 2023",
+			image_source: "https://urbz.io/cdn/shop/products/pyrocystis-bioluminescence_1400x.jpg?v=1653245279",
+			post_destination: "/Posts/Negative-Effects-Pyrophosphate-Dinoflagellates.html"
+		},
+		{
+			title: "Beck’s Cognitive Triad: Self-Schemas, Cognitive Bias and Negative Triad",
+			subtitle: "A cognitive-therapeutic view of depression.",
+			author: "Jiji Subhan",
+			author_contact: "", 
+			publish_date: "October 8, 2023",
+			image_source: "https://media.istockphoto.com/id/1371160492/photo/brain-scan-headache-medicine.webp?b=1&s=170667a&w=0&k=20&c=eoEYwL8QC_GbQTd6ecxFS9Yo58xN67geWn8fQH2x2Lk=",
+			post_destination: "/Posts/Becks_cognitive_triad.html"
+		},
+		{
+			title: "The Search for Einstein-Rosen Bridges: An Analysis of Observational Evidence",
+			subtitle: "Exploring Celestial Connections: Analyzing Observational Clues in the Search for Cosmic Tunnels.",
+			author: "Salma Gad Elbeheri",
+			author_contact: "",
+			publish_date: "October 1, 2023",
+			image_source: "../assets/thumbnails/the_search_for_einstein_rosen_bridges.png",
+			post_destination: "/Posts/The-search-for-Eintein-Rosen-bridges.html"
+		},
+
+
 		{
             title: "The Evolutionary Psychology of Competition: Why Teens Love Challenges",
             subtitle: "",
@@ -140,7 +225,7 @@ const Post_List = {
       publish_date: "September 20, 2023",
       author_contact: "https://linkedin.com/in/afreen-hossain",
       image_source:
-        "https://th.bing.com/th/id/R.d5a20d79b95afa17c52553e6866b231c?rik=OCbM1%2bhXAiEJtA&riu=http%3a%2f%2fwww.cfa.harvard.edu%2fimage_archive%2f2013%2f24%2fhires.jpg&ehk=eydQ8wMzUjuj0F6P%2fgnsCghFH83QPEFGYHCU3trDuRk%3d&risl=&pid=ImgRaw&r=0",
+        "../assets/thumbnails/the_cosmic_conundrum.jpeg",
       post_destination: "/Posts/The-Cosmic-Conundrum.html",
     },
 		 {
@@ -1504,6 +1589,61 @@ const Post_List = {
 	],
 	"tech": [
 		{
+			title: "Quantum Computing's Curveball and Nucleus Transformations: A Dual Scientific Odyssey",
+			subtitle: "How Quantum Computing and Atomic Physics Challenge Conventional Wisdom",
+			author: "Bhaumik Tyagi",
+			author_contact: "",
+			publish_date: "October 15, 2023", 
+			image_source: "https://images.unsplash.com/photo-1678957949479-b1e876bee3f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1930&q=80",
+			post_destination: "/Posts/Quantum-Computings-Curveball-and-Nucleus-Transformations.html"
+		},
+		{
+			title: "Enhancing Security in Internet of Things (IoT) Devices through Blockchain Technology",
+			subtitle: "",
+			author: "Aditya Dhinakaran Thirukonda",
+			author_contact: "", 
+			publish_date: "October 15, 2023",
+			image_source: "https://tdan.com/wp-content/uploads/2023/09/ART01x-feature-image-edited.jpg",
+			post_destination: "/Posts/Enhancing-Security-IoT-Devices-through-Blockchain.html"
+		},
+		{
+			title: "Artificial Intelligence and Human Emotions: A Step Towards Emotional Intelligence",
+			subtitle: "Advancing the Frontier of Emotional Intelligence through Science.",
+			author: "Asiye Baran",
+			author_contact: "", 
+			publish_date: "October 15, 2023",
+			image_source: "https://images.unsplash.com/photo-1678491449021-762a7b999862?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1228&q=80",
+			post_destination: "/Posts/Artificial-intelligence-and-human-emotions.html"
+		},
+		 {
+      title: "Nikola Tesla and the Mystique of 3-6-9",
+      subtitle: "Unraveling the Enigma",
+      author: "Gülşah Tosun",
+      publish_date: "October 8, 2023",
+      image_source:
+        "https://images.pexels.com/photos/2635595/pexels-photo-2635595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      post_destination: "/Posts/Nikola-Tesla-and-the-Mystique-of-3-6-9.html",
+    },
+		 {
+      title: "The Evolution of Connectivity",
+      subtitle: "Unveiling the Wonders of 5G Introduction",
+      author: "Afreen Hossain",
+      author_contact: "https://linkedin.com/in/afreen-hossain/",
+      publish_date: "September 30, 2023",
+      image_source:
+        "https://images.pexels.com/photos/18372332/pexels-photo-18372332/free-photo-of-close-up-of-computer-motherboard.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      post_destination: "/Posts/Unveiling-the-Wonders-of-5G-Introduction.html",
+    },
+		{
+			title: "Future Technology: Is It Closer Than We Think?",
+			subtitle: "The Technological Horizon: A Glimpse into the Future of Innovation",
+			author: "Asiye Baran",
+			author_contact: "", 
+			publish_date: "September 23, 2023", 
+			image_source: "https://images.unsplash.com/photo-1579567761406-4684ee0c75b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
+			post_destination: "/Posts/Future-technology-is-it-closer-than-we-think.html"
+		},
+		{
 			title: "Impact of Virtual Reality Technology",
 			subtitle: "The Virtual Revolution: Unveiling the Metamorphosis of Reality",
 			author: "Ritika Tyagi",
@@ -1972,6 +2112,17 @@ const Post_List = {
 		}
 	],
 	"math": [
+		{
+      title: "The Bridge Between Derivatives and Integrals: The Fundamental Theorem of Calculus",
+      subtitle: "",
+      author: "Bhaumik Tyagi",
+      author_contact: "",
+      publish_date: "September 30, 2023",
+      image_source:
+        "https://img.myloview.com/posters/math-lesson-sine-and-cosine-functions-graphics-graphics-drawn-on-the-board-400-142451196.jpg",
+      post_destination:
+        "/Posts/Bridge-Between-Derivatives-and-Integrals.html",
+    },
 		  {
       title: "The Significance of Integration and Differentiation",
       subtitle: "Unveiling the Pillars of Calculus",
