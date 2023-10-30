@@ -96,6 +96,15 @@ A format for the post list array items.
 const Post_List = {
 	"sci": [
 		{
+			title: "Negative Effects of Pyrophosphate on Dinoflagellates",
+			subtitle: "",
+			author: "Chloe LaForge",
+			author_contact: "", 
+			publish_date: "October 30, 2023",
+			image_source: "https://urbz.io/cdn/shop/products/pyrocystis-bioluminescence_1400x.jpg?v=1653245279",
+			post_destination: "/Posts/Negative-Effects-Pyrophosphate-Dinoflagellates.html"
+		},
+		{
 			title: "The Man Without Memory: Henry Molaison",
 			subtitle: "The Case of HM: How a Radical Surgery Created a Living Experiment for Neuroscience",
 			author: "Mia Garcia",
@@ -179,15 +188,6 @@ const Post_List = {
 			publish_date: "October 15, 2023", 
 			image_source: "https://images.unsplash.com/photo-1685122003845-96289873614b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1876&q=80",
 			post_destination: "/Posts/The-cold-weather-paradoc.html"
-		},
-		{
-			title: "Negative Effects of Pyrophosphate on Dinoflagellates",
-			subtitle: "",
-			author: "Chloe LaForge",
-			author_contact: "", 
-			publish_date: "October 8, 2023",
-			image_source: "https://urbz.io/cdn/shop/products/pyrocystis-bioluminescence_1400x.jpg?v=1653245279",
-			post_destination: "/Posts/Negative-Effects-Pyrophosphate-Dinoflagellates.html"
 		},
 		{
 			title: "Beck’s Cognitive Triad: Self-Schemas, Cognitive Bias and Negative Triad",
