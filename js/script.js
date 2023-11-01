@@ -103,7 +103,7 @@ const Post_List = {
       image_source:
         "https://images.pexels.com/photos/4983247/pexels-photo-4983247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
-      post_destination: "Infinity-Paradoxes.html",
+      post_destination: "/Posts/Infinity-Paradoxes.html",
     },
 		{
 			title: "Negative Effects of Pyrophosphate on Dinoflagellates",
