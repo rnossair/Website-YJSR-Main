@@ -96,6 +96,15 @@ A format for the post list array items.
 const Post_List = {
 	"sci": [
 		{
+            title: "The Monty Hall problem:  The game-show tactic that polarised the world.",
+            subtitle: "",
+            author: "Aditya Singh",
+            author_contact: "", // I personally dunno why does it even exists...
+            publish_date: "November 4th, 2023",
+            image_source: "https://images.unsplash.com/photo-1517490232338-06b912a786b5?auto=format&fit=crop&q=80&w=2071&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            post_destination: "/Posts/Monty_Hall_Problem.html"
+        },
+		{
 
             title: "Ebola Virus Disease: Demystifying Africa's grim reaper",
             subtitle: "",
