@@ -96,6 +96,15 @@ A format for the post list array items.
 const Post_List = {
 	"sci": [
 		{
+            title: "How Bacteria Can Help Us Fight Cancer",
+            subtitle: "",
+            author: "Neelabh Datta",
+            author_contact: "", // I personally dunno why does it even exists...
+            publish_date: "November 6th, 2023",
+            image_source: "https://wp.technologyreview.com/wp-content/uploads/2023/04/C0435848-Staphylococcus_epidermidis_SEM.jpeg?resize=854,569",
+            post_destination: "/Posts/How-Bacteria-Can-Fight-Cancer.html"
+        },
+		{
             title: "The Monty Hall problem:  The game-show tactic that polarised the world.",
             subtitle: "",
             author: "Aditya Singh",
