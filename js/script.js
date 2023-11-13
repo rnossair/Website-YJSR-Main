@@ -1632,7 +1632,7 @@ const Post_List = {
       author: "Avni Munjal",
       publish_date: "November 13, 2023",
       image_source:
-        "https://plus.unsplash.com/premium_photo-1678727212341-eb0a264a6800?q=80&w=2036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.pexels.com/photos/691046/pexels-photo-691046.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       post_destination: "/Posts/A-diamond-is-forever.html",
     },
 		{
