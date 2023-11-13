@@ -1626,6 +1626,15 @@ const Post_List = {
 		}
 	],
 	"tech": [
+		    {
+      title: "A Diamond is forver",
+      subtitle: "Choosing The Artificial Way Over Natural to Create These Gems",
+      author: "Avni Munjal",
+      publish_date: "November 13, 2023",
+      image_source:
+        "https://plus.unsplash.com/premium_photo-1678727212341-eb0a264a6800?q=80&w=2036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      post_destination: "/Posts/A-diamond-is-forever.html",
+    },
 		{
 			title: "Quantum Computing's Curveball and Nucleus Transformations: A Dual Scientific Odyssey",
 			subtitle: "How Quantum Computing and Atomic Physics Challenge Conventional Wisdom",
