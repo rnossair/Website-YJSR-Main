@@ -2030,6 +2030,16 @@ const Post_List = {
 		}
 	],
 	"eng": [
+		{
+      title: "Creating a Cutting-Edge Rover to Uncover the Secrets of our Mysterious Planetary Twin: Venus",
+      subtitle: "",
+      author: "Aryaveer Anand",
+      author_contact: "",
+      publish_date: "November 13, 2023",
+      image_source:
+        "https://miro.medium.com/v2/resize:fit:996/1*2n6YYsq-BDhJ2-gwEnnfNw.png",
+      post_destination: "/Posts/Creating a Cutting-Edge Rover to Uncover the Secrets of our Mysterious Planetary.html",
+    },
 		 {
       title: "Superconductors",
       subtitle: " Unlocking the Marvels of Zero-Resistance Power Transmission",
