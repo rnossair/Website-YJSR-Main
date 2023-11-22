@@ -1635,6 +1635,15 @@ const Post_List = {
 		}
 	],
 	"tech": [
+		{
+			title: "Correlation of Semiconductors with Geopolitics and Economy",
+			subtitle: "Semiconductors: The New Oil and its Geopolitical and Economic Consequences",
+			author: "Aanjaney Kumar & Shauryaa Arora",
+			author_contact: "", 
+			publish_date: "October 23, 2023", 
+			image_source: "https://images.unsplash.com/photo-1592664474496-8f2c35acd655?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			post_destination: "/Posts/Corellation-of-semiconductors-with-geopolitics-and-economy.html"
+		},
 		    {
       title: "A Diamond is forver",
       subtitle: "Choosing The Artificial Way Over Natural to Create These Gems",
