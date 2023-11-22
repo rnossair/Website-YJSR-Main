@@ -96,6 +96,15 @@ A format for the post list array items.
 const Post_List = {
 	"sci": [
 		 {
+      title: "The Anatomy of Investigation",
+      subtitle: "Bridging The Gap Between Science and Justice",
+      author: "Lorel Gonzales",
+      publish_date: "November 22, 2023",
+      image_source:
+        "https://images.pexels.com/photos/3825539/pexels-photo-3825539.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      post_destination: "/Posts/The-Anatomy-of-Investigation.html",
+    },
+		 {
       title: "Viruses",
       subtitle: "The Elusive Borderline of Life",
       author: "Ashley Lim",
