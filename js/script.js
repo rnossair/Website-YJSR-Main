@@ -95,6 +95,15 @@ A format for the post list array items.
 
 const Post_List = {
 	"sci": [
+		{
+        title: "The Phenomenon of Time's Unidirectional Flow",
+        subtitle: "",
+        author: "Ashley Lim",
+        author_contact: "",
+        publish_date: "November 22, 2023", 
+        image_source: "https://i.gadgets360cdn.com/large/time_aron_visuals_unsplash_1661296695401.jpg",
+        post_destination: "/Posts/Phenomenon-Times-Unidirectional-Flow.html"
+    },
 		 {
       title: "The Anatomy of Investigation",
       subtitle: "Bridging The Gap Between Science and Justice",
