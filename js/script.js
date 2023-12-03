@@ -96,6 +96,15 @@ A format for the post list array items.
 const Post_List = {
 	"sci": [
 		{
+			title: "The Effects of Music on Spendings",
+			subtitle: "Music and Money: A Survey of Customer Preferences and Spending Patterns in Different Music Conditions",
+			author: "JiJi Subhan, Aila Malik Awan, Isra Abrar, Aaisha Javedv, Mehartab Rabica, Saman Kashif, Eman Noor Zia, Subhanah Fatima, Faria Haroon, Farah Hamza & Reyan Qureshi",
+			author_contact: "",
+			publish_date: "December 3, 2023", 
+			image_source: "https://images.unsplash.com/photo-1477233534935-f5e6fe7c1159?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			post_destination: "/Posts/Effects-of-music-on-Spending.html"
+		},
+		{
         title: "The Phenomenon of Time's Unidirectional Flow",
         subtitle: "",
         author: "Ashley Lim",
