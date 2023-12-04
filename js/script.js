@@ -103,6 +103,50 @@ const Post_List = {
             publish_date: "December 4th, 2023",
             image_source: "https://images.unsplash.com/photo-1559757175-5700dde675bc?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             post_destination: "/Posts/[FILE NAME]"
+    }
+			title: "The Effects of Music on Spendings",
+			subtitle: "Music and Money: A Survey of Customer Preferences and Spending Patterns in Different Music Conditions",
+			author: "JiJi Subhan, Aila Malik Awan, Isra Abrar, Aaisha Javedv, Mehartab Rabica, Saman Kashif, Eman Noor Zia, Subhanah Fatima, Faria Haroon, Farah Hamza & Reyan Qureshi",
+			author_contact: "",
+			publish_date: "December 3, 2023", 
+			image_source: "https://images.unsplash.com/photo-1477233534935-f5e6fe7c1159?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			post_destination: "/Posts/Effects-of-music-on-Spending.html"
+		},
+		{
+        title: "The Phenomenon of Time's Unidirectional Flow",
+        subtitle: "",
+        author: "Ashley Lim",
+        author_contact: "",
+        publish_date: "November 22, 2023", 
+        image_source: "https://i.gadgets360cdn.com/large/time_aron_visuals_unsplash_1661296695401.jpg",
+        post_destination: "/Posts/Phenomenon-Times-Unidirectional-Flow.html"
+    },
+		 {
+      title: "The Anatomy of Investigation",
+      subtitle: "Bridging The Gap Between Science and Justice",
+      author: "Lorel Gonzales",
+      publish_date: "November 22, 2023",
+      image_source:
+        "https://images.pexels.com/photos/3825539/pexels-photo-3825539.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      post_destination: "/Posts/The-Anatomy-of-Investigation.html",
+    },
+		 {
+      title: "Viruses",
+      subtitle: "The Elusive Borderline of Life",
+      author: "Ashley Lim",
+      publish_date: "November 20, 2023",
+      image_source:
+        "https://images.pexels.com/photos/3993212/pexels-photo-3993212.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      post_destination: "/Posts/Viruses-The-Elusive-Borderline-of-Life.html",
+    },
+		{
+            title: "How Bacteria Can Help Us Fight Cancer",
+            subtitle: "",
+            author: "Neelabh Datta",
+            author_contact: "", // I personally dunno why does it even exists...
+            publish_date: "November 6th, 2023",
+            image_source: "https://wp.technologyreview.com/wp-content/uploads/2023/04/C0435848-Staphylococcus_epidermidis_SEM.jpeg?resize=854,569",
+            post_destination: "/Posts/How-Bacteria-Can-Fight-Cancer.html"
         },
 		{
             title: "The Monty Hall problem:  The game-show tactic that polarised the world.",
@@ -113,6 +157,34 @@ const Post_List = {
             image_source: "https://images.unsplash.com/photo-1517490232338-06b912a786b5?auto=format&fit=crop&q=80&w=2071&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             post_destination: "/Posts/Monty_Hall_Problem.html"
         },
+		 {
+      title: "Infinity Paradoxes",
+      subtitle: "",
+      author: "Gülin Gürbüz",
+      publish_date: "November 1, 2023",
+      image_source:
+        "https://images.pexels.com/photos/4983247/pexels-photo-4983247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+
+      post_destination: "/Posts/Infinity-Paradoxes.html",
+    },
+		{
+			title: "Negative Effects of Pyrophosphate on Dinoflagellates",
+			subtitle: "",
+			author: "Chloe LaForge",
+			author_contact: "", 
+			publish_date: "October 30, 2023",
+			image_source: "https://urbz.io/cdn/shop/products/pyrocystis-bioluminescence_1400x.jpg?v=1653245279",
+			post_destination: "/Posts/Negative-Effects-Pyrophosphate-Dinoflagellates.html"
+		},
+		{
+			title: "The Man Without Memory: Henry Molaison",
+			subtitle: "The Case of HM: How a Radical Surgery Created a Living Experiment for Neuroscience",
+			author: "Mia Garcia",
+			author_contact: "", 
+			publish_date: "October 28, 2023", 
+			image_source: "https://images.unsplash.com/photo-1664447972779-316251bd8bd7?auto=format&fit=crop&q=80&w=1332&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			post_destination: "/Posts/The-man-without-memory-henry-molaison.html"
+		},
 		{
 
             title: "Ebola Virus Disease: Demystifying Africa's grim reaper",
@@ -188,15 +260,6 @@ const Post_List = {
 			publish_date: "October 15, 2023", 
 			image_source: "https://images.unsplash.com/photo-1685122003845-96289873614b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1876&q=80",
 			post_destination: "/Posts/The-cold-weather-paradoc.html"
-		},
-		{
-			title: "Negative Effects of Pyrophosphate on Dinoflagellates",
-			subtitle: "",
-			author: "Chloe LaForge",
-			author_contact: "", 
-			publish_date: "October 8, 2023",
-			image_source: "https://urbz.io/cdn/shop/products/pyrocystis-bioluminescence_1400x.jpg?v=1653245279",
-			post_destination: "/Posts/Negative-Effects-Pyrophosphate-Dinoflagellates.html"
 		},
 		{
 			title: "Beck’s Cognitive Triad: Self-Schemas, Cognitive Bias and Negative Triad",
@@ -1608,6 +1671,24 @@ const Post_List = {
 	],
 	"tech": [
 		{
+			title: "Correlation of Semiconductors with Geopolitics and Economy",
+			subtitle: "Semiconductors: The New Oil and its Geopolitical and Economic Consequences",
+			author: "Shauryaa Arora",
+			author_contact: "", 
+			publish_date: "October 23, 2023", 
+			image_source: "https://images.unsplash.com/photo-1592664474496-8f2c35acd655?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			post_destination: "/Posts/Corellation-of-semiconductors-with-geopolitics-and-economy.html"
+		},
+		    {
+      title: "A Diamond is forver",
+      subtitle: "Choosing The Artificial Way Over Natural to Create These Gems",
+      author: "Avni Munjal",
+      publish_date: "November 13, 2023",
+      image_source:
+        "https://images.pexels.com/photos/691046/pexels-photo-691046.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      post_destination: "/Posts/A-diamond-is-forever.html",
+    },
+		{
 			title: "Quantum Computing's Curveball and Nucleus Transformations: A Dual Scientific Odyssey",
 			subtitle: "How Quantum Computing and Atomic Physics Challenge Conventional Wisdom",
 			author: "Bhaumik Tyagi",
@@ -2002,6 +2083,16 @@ const Post_List = {
 		}
 	],
 	"eng": [
+		{
+      title: "Creating a Cutting-Edge Rover to Uncover the Secrets of our Mysterious Planetary Twin: Venus",
+      subtitle: "",
+      author: "Aryaveer Anand",
+      author_contact: "",
+      publish_date: "November 13, 2023",
+      image_source:
+        "https://miro.medium.com/v2/resize:fit:996/1*2n6YYsq-BDhJ2-gwEnnfNw.png",
+      post_destination: "/Posts/Creating a Cutting-Edge Rover to Uncover the Secrets of our Mysterious Planetary.html",
+    },
 		 {
       title: "Superconductors",
       subtitle: " Unlocking the Marvels of Zero-Resistance Power Transmission",
