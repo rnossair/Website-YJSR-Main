@@ -96,6 +96,15 @@ A format for the post list array items.
 const Post_List = {
 	"sci": [
 		{
+        title: "James Webb Space Telescope: Humanity's Eye on the Universe",
+        subtitle: "",
+        author: "Aslı Ceran",
+        author_contact: "", // I personally dunno why does it even exists...
+        publish_date: "December 4, 2023", 
+        image_source: "https://www.te.com/content/dam/te-com/images/aerospace-defense-and-marine/aerospace/global/story-hero-rendition/adm-the-james-webb-telescope-1024x400.jpg/jcr:content/renditions/hero-story.jpg",
+        post_destination: "/Posts/James-Webb-Space-Telescope-Humanity-Eye-on-Universe.html"
+    },
+		{
             title: "High Triglyceride Levels Linked to Lower Risk of Dementia",
             subtitle: "",
             author: "Mia Garcia",
