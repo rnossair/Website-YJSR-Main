@@ -25,12 +25,13 @@
         <link href="css/styles.css" rel="stylesheet" />
         <style> 
             .tab-bar {
-                font-size: 21px;
+                width: 772px;
+                font-size: 19px;
                 display: flex;
-                width: 720px;
                 margin: auto;
                 margin-bottom: 36px;
                 font-weight: bold;
+                color: #313131
             }
             .tab {
                 margin-bottom: 12px;
@@ -49,10 +50,10 @@
                 z-index: -1;
                 position: absolute;
                 height: 3px;
-                width: 180px;
+                width: 154px;
                 margin-top: 36px;
                 background-color: #00b8dd;
-                transition: left 450ms;
+                transition: left 450ms, background-color 450ms;
                 /*height: 36px;
                 width: 180px;
                 border-radius: 12px 12px 0 0;
@@ -78,6 +79,15 @@
             }
             .tab-bar > .active {
                 color:#0085A1;
+            }
+            .tab-bar > .tab-news.active {
+                color: #155e6d;
+            }
+            .tab-news.active ~ .indicator {
+                background-color: #155e6d;
+            }
+            .tab-news:hover {
+                color: #155e6d;
             }
             @media (max-width: 992px) {
                 .tab {
@@ -133,6 +143,7 @@
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about">About</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="publish">Publish</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="join">Join</a></li>
+                        <!--li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="">Newsletter</a></li-->
                     </ul>
                 </div>
             </div>
@@ -176,6 +187,9 @@
                             <div class="tab tab-math">
                                 <i class="fa fa-infinity"></i> Mathematics
                             </div>
+                            <div class="tab tab-news">
+                                <i class="fa-solid fa-newspaper"></i> Newsletter
+                            </div>
                             <div class="indicator"></div>
                         </div>
                         <div class="tab-body">
@@ -194,6 +208,9 @@
                             <div class="tb math-body">
                                 <div class="post-body"></div>
                                 <button class="bob" onclick="postRender('math', 5)" id="math-load-more">Load More</button>
+                            </div>
+                            <div class="tb news-body">
+                                <div class="post-body"></div><button class="bob" onclick="postRender('news', 5)" id="news-load-more">Load More</button>
                             </div>
                         </div>
                     </div>

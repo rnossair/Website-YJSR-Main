@@ -6,11 +6,9 @@ matches_found = [];
 
 for (let i = 0; i < tabsPane.length - 1; i++) {
   tabsPane[i].addEventListener("click", function () {
-    tabHeader.getElementsByClassName("active")[0].style = "color: #313131";
     tabHeader.getElementsByClassName("active")[0].classList.remove("active");
-    tabIndicator.style = `left: calc(50% - 360px + (180px * ${i}));`;
+    tabIndicator.style = `left: calc(50% - 386px + ${i}*154px);`;
     tabsPane[i].classList.add("active");
-    tabsPane[i].style = "color: #0085A1";
     tabBody.getElementsByClassName("active")[0].classList.remove("active");
     tabBody.getElementsByClassName("tb")[i].classList.add("active");
   });
@@ -2337,17 +2335,28 @@ const Post_List = {
 			"image_source": "https://images.unsplash.com/photo-1509228468518-180dd4864904?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bWF0aHMlMjB0cmlnb25vbWV0cnl8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60",
 			"post_destination": "/Posts/Proof-of-Fermats-Last-Theorem"
 		}
+	],
+	"news": [
+		{
+			title: "Temporary Hiatus Announcement",
+			subtitle: "YJSR’s Brief Pause for University Applications",
+			author: "Ansh Malviya",
+			author_contact: "", // I personally dunno why does it even exists...
+			publish_date: "December 19, 2023", 
+			image_source: "https://images.unsplash.com/photo-1512856246663-647a81ef198e?q=80&w=1234&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			post_destination: "/Newsletters/Temporary-halt-announcement.html"
+		},
 	]
-
 }
 
 /* A chunk of random stuffs... */
-const group_list = ["sci", "tech", "eng", "math"];
+const group_list = ["sci", "tech", "eng", "math", "news"];
 const corresp_post_cont_dict = {
   sci: document.getElementsByClassName("sci-body")[0],
   tech: document.getElementsByClassName("tech-body")[0],
   eng: document.getElementsByClassName("eng-body")[0],
   math: document.getElementsByClassName("math-body")[0],
+  news: document.getElementsByClassName('news-body')[0]
 };
 const default_post_number = 6;
 const Number_of_Posts = Post_List.length;
