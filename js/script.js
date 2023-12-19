@@ -94,6 +94,24 @@ A format for the post list array items.
 const Post_List = {
 	"sci": [
 		{
+        title: "James Webb Space Telescope: Humanity's Eye on the Universe",
+        subtitle: "",
+        author: "Aslı Ceran",
+        author_contact: "", // I personally dunno why does it even exists...
+        publish_date: "December 4, 2023", 
+        image_source: "https://www.te.com/content/dam/te-com/images/aerospace-defense-and-marine/aerospace/global/story-hero-rendition/adm-the-james-webb-telescope-1024x400.jpg/jcr:content/renditions/hero-story.jpg",
+        post_destination: "/Posts/James-Webb-Space-Telescope-Humanity-Eye-on-Universe.html"
+    },
+		{
+            title: "High Triglyceride Levels Linked to Lower Risk of Dementia",
+            subtitle: "",
+            author: "Mia Garcia",
+            author_contact: "", // I personally dunno why does it even exists...
+            publish_date: "December 4th, 2023",
+            image_source: "https://images.unsplash.com/photo-1559757175-5700dde675bc?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            post_destination: "/Posts/High_Triglyceride_Levels_Linked_to_Lower_Risk_of_Dementia.docx.html"
+              },
+		{
 			title: "The Effects of Music on Spendings",
 			subtitle: "Music and Money: A Survey of Customer Preferences and Spending Patterns in Different Music Conditions",
 			author: "JiJi Subhan, Aila Malik Awan, Isra Abrar, Aaisha Javedv, Mehartab Rabica, Saman Kashif, Eman Noor Zia, Subhanah Fatima, Faria Haroon, Farah Hamza & Reyan Qureshi",
