@@ -2357,7 +2357,7 @@ const Post_List = {
 	"news": [
 		{
 			title: "Temporary Hiatus Announcement",
-			subtitle: "YJSR’s Brief Pause for University Applications",
+			subtitle: "YJSR’s Brief Pause for till Mid-2024",
 			author: "Ansh Malviya",
 			author_contact: "", // I personally dunno why does it even exists...
 			publish_date: "December 19, 2023", 
