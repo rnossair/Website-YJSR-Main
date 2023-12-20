@@ -94,6 +94,15 @@ A format for the post list array items.
 const Post_List = {
 	"sci": [
 		{
+        title: "What Is Light",
+        subtitle: "",
+        author: "Nour Al Imane Toufiq",
+        author_contact: "", // I personally dunno why does it even exists...
+        publish_date: "December 19, 2023", 
+        image_source: "https://d12oja0ew7x0i8.cloudfront.net/images/Article_Images/ImageForArticle_14979_446012667286699144.jpg",
+        post_destination: "/Posts/What-Is-Light.html"
+    },
+		{
         title: "James Webb Space Telescope: Humanity's Eye on the Universe",
         subtitle: "",
         author: "Aslı Ceran",
