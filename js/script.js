@@ -94,6 +94,15 @@ A format for the post list array items.
 const Post_List = {
 	"sci": [
 		{
+        title: "The Discovery and Applications of Dulaglutide for Type 2 Diabetes and Other Potential Uses",
+        subtitle: "",
+        author: "Carol Zhang",
+        author_contact: "", 
+        publish_date: "January 3, 2024", 
+        image_source: "https://images.everydayhealth.com/images/diabetes/type-2-diabetes/diabetes-medication-prevents-cardiovascular-events-in-lower-risk-patients-rm-722x406.jpg",
+        post_destination: "/Posts/The-Discovery-and-Applications-of-Dulaglutide-for-Type-2-Diabetes.html"
+    },
+		{
         title: "What Is Light",
         subtitle: "",
         author: "Nour Al Imane Toufiq",
